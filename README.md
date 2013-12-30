@@ -24,3 +24,9 @@ Snapshots
 This will give you some visual appearance of the Campus and its Activities.
 Note::
 Please be patient while using maps for the first time. It takes some time on the first load and from then it loads faster when compared to initial loading time. Please do remember that the Route Map module depends on your INTERNET SPEED.
+
+
+Please visit the play store to install "Its My Amrita" App
+link : https://play.google.com/store/apps/details?id=out.in
+
+It works on devices running Android 2.2 or above.
