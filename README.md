@@ -30,3 +30,14 @@ Please visit the play store to install "Its My Amrita" App
 link : https://play.google.com/store/apps/details?id=out.in
 
 It works on devices running Android 2.2 or above.
+
+
+
+Help, bugs, feedback
+
+Users can mail their queries, feedback at itsmyamrita@gmail.com
+
+Developers 
+M Santhosh Reddy
+Dhanush 
+Monisha L Pathi
