@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#3b3b3b"
+    
+>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:background="#3b3b3b"
+  android:weightSum="1" android:layout_height="426dp">
+
+        
+	    <TextView android:layout_height="wrap_content" 
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:text=" Ingineum 2012 Events " android:layout_width="wrap_content" 
+    android:id="@+id/textView1" android:layout_alignParentTop="true"
+    android:textSize="30dp"
+    
+     android:layout_marginTop="20dip"
+     android:background="#FFFFFF"
+		android:layout_gravity="center"
+		
+    
+    android:textColor="#0050EF"
+
+     >
+    </TextView>
+      
+      <TextView android:layout_height="wrap_content" 
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:text=" 1.	Siddhastha  " android:layout_width="wrap_content" 
+    android:id="@+id/textView1" android:layout_marginLeft="22dp"  android:layout_alignParentTop="true"
+    android:textSize="20dp"
+    
+     android:layout_marginTop="30dip"
+     android:background="#FFFFFF"
+		
+    android:textColor="#0050EF"
+
+     >
+    </TextView>
+      <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" android:layout_marginLeft="22dp"
+      android:textColor="#ffffff"
+      android:layout_weight="0.36" android:textSize="18sp"
+           android:layout_marginTop="18dip"
+       android:layout_width="wrap_content" 
+       android:text="  	   		Siddhastha was the hobby project competition where students had to give a presentation and a report on a particular technical idea or topic.">
+       </TextView>
+      
+      
+      <TextView android:layout_height="wrap_content" 
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:text="2.	Aavishkara" android:id="@+id/textView1" android:layout_alignParentTop="true"
+    android:textSize="20dp"
+    
+     android:layout_marginTop="20dip"
+     android:background="#FFFFFF"
+		android:layout_marginLeft="22dp"
+    android:textColor="#0050EF"
+
+     android:layout_width="188dp">
+    </TextView>
+      
+  
+  <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" 
+      android:textColor="#ffffff"
+      android:layout_weight="0.36" android:layout_marginLeft="22dp"
+           android:layout_marginTop="15dip"
+       android:layout_width="wrap_content"  android:textSize="18sp"
+       android:text="	       Aavishkara was the fun experiment competition where students had to give a presentation on a modification of an already existing invention or on a new idea.">
+       </TextView>
+  
+<TextView android:layout_height="wrap_content" android:layout_marginLeft="22dp"
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:text="3.	Seminar on Color Coding " android:id="@+id/textView1" android:layout_alignParentTop="true"
+    android:textSize="20dp"
+    
+     android:layout_marginTop="20dip"
+     android:background="#FFFFFF"
+		
+    android:textColor="#0050EF"
+
+     android:layout_weight="0.04" android:layout_width="274dp">
+    </TextView>
+       <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" 
+      android:textColor="#ffffff"
+      android:layout_weight="0.36" android:layout_marginLeft="22dp"
+           android:layout_marginTop="15dip" android:textSize="18sp"
+       android:layout_width="wrap_content" 
+       android:text="	       In today’s world the importance of the machines and their representation is aptly done by colors. In this seminar a dignitary from HAL had talked about the importance of color schemes which are used in the industry today.">
+       </TextView>
+  
+  
+  
+
+<TextView android:layout_height="wrap_content" 
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:text="4.	Seminar on Finite Element 		Analysis" android:id="@+id/textView1" android:layout_alignParentTop="true"
+    android:textSize="20dp"
+    
+     android:layout_marginTop="20dip"
+     android:background="#FFFFFF"
+		android:layout_marginLeft="22dp"
+    android:textColor="#0050EF" android:layout_weight="0.07" android:layout_width="276dp">
+    </TextView>
+      
+      
+        <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" 
+      android:textColor="#ffffff"
+      android:layout_weight="0.36" android:layout_marginLeft="22dp"
+           android:layout_marginTop="15dip" android:textSize="18sp"
+       android:layout_width="wrap_content" 
+       android:text="	       In the modern world, while designing a particular structure many factors come into prominence. These include aesthetic value, user friendliness and most importantly public safety. Finite Element Analysis is the tool which used by engineers for analyzing the properties of a product or a structure so as to check its properties. This seminar was conducted by GE.">
+       </TextView>
+  
+  
+  
+
+<TextView android:layout_height="wrap_content" 
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:text="5.	Glider Design Workshop" android:layout_width="wrap_content" 
+    android:id="@+id/textView1" android:layout_alignParentTop="true"
+    android:textSize="20dp"
+    
+     android:layout_marginTop="20dip"
+     android:background="#FFFFFF"
+		android:layout_marginLeft="22dp"
+    android:textColor="#0050EF"
+
+     >
+    </TextView>
+      
+  
+  <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" android:layout_marginLeft="22dp"
+      android:textColor="#ffffff"
+      android:layout_weight="0.36" android:textSize="18sp"
+           android:layout_marginTop="15dip"
+       android:layout_width="wrap_content" 
+       android:text="	       Man’s thirst for flight was fulfilled when the GLIDER was invented. In this workshop concept about the construction, testing and flight of a glider were explained with the help of a presentation. After the workshop a competition was held where the participants had to use the knowledge gained during the workshop to build a scale model of a glider.">
+       </TextView>
+
+
+
+<TextView android:layout_height="wrap_content" 
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:text="6.	IMTEX" android:layout_width="wrap_content" 
+    android:id="@+id/textView1" android:layout_alignParentTop="true"
+    android:textSize="20dp"
+    
+     android:layout_marginTop="20dip"
+     android:background="#FFFFFF" 
+		android:layout_marginLeft="22dp"
+    android:textColor="#0050EF"
+
+     >
+    </TextView>
+      
+  
+  <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" android:layout_marginLeft="22dp"
+      android:textColor="#ffffff"
+      android:layout_weight="0.36"
+           android:layout_marginTop="15dip" android:textSize="18sp"
+       android:layout_width="wrap_content" 
+       android:text="	       As a field visit students were taken to IMTEX - Indian Metal-cutting Machine Tool Exhibition.">
+       </TextView>
+<TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" android:layout_marginLeft="22dp"
+      android:textColor="#ffffff"
+      android:layout_weight="0.36"
+           android:layout_marginTop="15dip"
+       android:layout_width="wrap_content" 
+       android:text="	       ">
+       </TextView>
+
+
+
+
+
+
+
+  
+</LinearLayout>
+
+
+</ScrollView>

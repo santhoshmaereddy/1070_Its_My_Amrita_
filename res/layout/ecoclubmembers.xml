@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#3b3b3b"
+    
+>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:background="#3b3b3b"
+  android:weightSum="1" android:layout_height="421dp">
+
+        
+	    <TextView android:layout_height="wrap_content" 
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:text=" Members " android:layout_width="wrap_content" 
+    android:id="@+id/textView1" android:layout_alignParentTop="true"
+    android:textSize="25dp"
+    
+     android:layout_marginTop="20dip"
+     android:background="#FFFFFF"
+		android:layout_gravity="center"
+    android:textColor="#0050EF"
+
+     >
+    </TextView>
+	    <TextView android:text="	  " 
+	    android:id="@+id/textView2"
+	    android:textColor="#ffffff"
+	     android:layout_width="wrap_content" 
+	     android:layout_height="wrap_content">
+	     </TextView>
+
+<TextView android:text="		Mentor " 
+  android:textSize="20dp"
+	    android:id="@+id/t1"
+	    
+	    android:textColor="#AA40FF"
+	     android:layout_height="wrap_content" android:layout_weight="0.54" android:layout_width="272dp">
+	     </TextView>
+
+  
+  <TextView android:text="		Mrs.Smita Singh" 
+  android:textSize="20dp"
+	    android:id="@+id/t2"
+	    android:textColor="#ffffff"
+	     android:layout_height="wrap_content" android:layout_weight="0.54" android:layout_width="272dp">
+	     </TextView>
+	     
+	     <TextView android:text="	 	 ASST. PROFESSOR  " 
+  android:textSize="20dp"
+	    android:id="@+id/t3"
+	    android:textColor="#ffffff"
+	     android:layout_height="wrap_content" android:layout_weight="0.54" android:layout_width="272dp">
+	     </TextView>
+	     <TextView android:text="	 	 Civil Department " android:id="@+id/t6" android:textSize="20dp" android:textColor="#ffffff" android:layout_height="wrap_content" android:layout_weight="0.08" android:layout_width="446dp"></TextView>
+
+<TextView android:text="		  " 
+  android:textSize="20dp"
+	    android:id="@+id/t5"
+	    
+	    android:textColor="#ffffff"
+	     android:layout_height="wrap_content" android:layout_width="118dp">
+	     </TextView>
+
+
+      
+  
+  <TextView android:text="		  " 
+  android:textSize="20dp"
+	    android:id="@+id/t11"
+	    
+	    android:textColor="#ffffff"
+	     android:layout_height="wrap_content" android:layout_width="118dp">
+	     </TextView>
+
+
+<TextView android:text="		Secretary  " 
+  android:textSize="20dp"
+	    android:id="@+id/t12"
+	    
+	    android:textColor="#AA40FF"
+	     android:layout_height="wrap_content" android:layout_weight="0.06" android:layout_width="198dp">
+	     </TextView>
+  
+  <TextView android:text="		Siddhardha VI CSE" 
+  android:textSize="20dp"
+	    android:id="@+id/t8"
+	    android:textColor="#ffffff"
+	     android:layout_height="wrap_content" android:layout_weight="0.54" android:layout_width="272dp">
+	     </TextView>
+	     
+	     <TextView android:text="	  Co Secretary  " 
+  android:textSize="20dp"
+	    android:id="@+id/t9"
+	    android:textColor="#AA40FF"
+	     android:layout_height="wrap_content" android:layout_weight="0.54" android:layout_width="272dp">
+	     </TextView>
+	     
+	     
+	     
+	     <TextView android:text="		Shubangi  VI CSE" 
+  android:textSize="20dp"
+	    android:id="@+id/t8"
+	    android:textColor="#ffffff"
+	     android:layout_height="wrap_content" android:layout_weight="0.08" android:layout_width="403dp">
+	     </TextView>
+	     
+  
+	     
+	     <TextView android:text="		  " 
+  android:textSize="20dp"
+	    android:id="@+id/t11"
+	    
+	    android:textColor="#ffffff"
+	     android:layout_height="wrap_content" android:layout_width="118dp">
+	     </TextView>
+	     
+   <TextView android:text="	  Members  " 
+  android:textSize="20dp"
+	    android:id="@+id/t9"
+	    android:textColor="#AA40FF"
+	     android:layout_height="wrap_content" android:layout_width="272dp">
+	     </TextView>
+    
+    <TableLayout android:id="@+id/tableLayout1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="0.39">
+        <TableRow android:id="@+id/tableRow1" android:layout_width="wrap_content" 
+
+        android:layout_height="wrap_content">
+            <TextView android:textSize="21dp" android:text=" Sem" android:textColor="#AA40FF" android:id="@+id/textView1" android:layout_width="80dp" android:layout_height="35dp"></TextView>
+            <TextView android:textSize="21dp" android:text=" Name "  android:textColor="#AA40FF" android:id="@+id/textView2" android:layout_width="165dp" android:layout_height="35dp"></TextView>
+            <TextView android:textSize="21dp" android:text=" Branch" android:textColor="#AA40FF" android:id="@+id/textView3" android:layout_width="fill_parent" android:layout_height="35dp"></TextView>
+        </TableRow>
+      
+ <TableRow android:id="@+id/tableRow1" android:layout_width="wrap_content" 
+
+        android:layout_height="wrap_content">
+            <TextView android:textSize="21dp" android:textColor="#ffffff" android:text=" VI" android:id="@+id/textView1" android:layout_width="80dp" android:layout_height="35dp"></TextView>
+            <TextView android:textSize="21dp" android:textColor="#ffffff" android:text=" Bhargav Sravan " android:id="@+id/textView2" android:layout_width="165dp" android:layout_height="35dp"></TextView>
+            <TextView android:textSize="21dp" android:textColor="#ffffff" android:text=" CSE" android:id="@+id/textView3" android:layout_width="fill_parent" android:layout_height="35dp"></TextView>
+        </TableRow>
+      
+
+
+ <TableRow android:id="@+id/tableRow1" android:layout_width="wrap_content" 
+
+        android:layout_height="wrap_content">
+            <TextView android:textSize="21dp" android:textColor="#ffffff" android:text=" VI" android:id="@+id/textView1" android:layout_width="80dp" android:layout_height="35dp"></TextView>
+            <TextView android:textSize="21dp" android:textColor="#ffffff" android:text=" Chandu " android:id="@+id/textView2" android:layout_width="165dp" android:layout_height="35dp"></TextView>
+            <TextView android:textSize="21dp" android:textColor="#ffffff" android:text="ECE " android:id="@+id/textView3" android:layout_width="fill_parent" android:layout_height="35dp"></TextView>
+        </TableRow>
+      
+
+ <TableRow android:id="@+id/tableRow1" android:layout_width="wrap_content" 
+
+        android:layout_height="wrap_content">
+            <TextView android:textSize="21dp" android:textColor="#ffffff" android:text=" IV" android:id="@+id/textView1" android:layout_width="80dp" android:layout_height="35dp"></TextView>
+            <TextView android:textSize="21dp" android:textColor="#ffffff" android:text="  Sahith" android:id="@+id/textView2" android:layout_width="165dp" android:layout_height="35dp"></TextView>
+            <TextView android:textSize="21dp" android:textColor="#ffffff" android:text=" ECE" android:id="@+id/textView3" android:layout_width="fill_parent" android:layout_height="35dp"></TextView>
+        </TableRow>
+      
+
+ <TableRow android:id="@+id/tableRow1" android:layout_width="wrap_content" 
+
+        android:layout_height="wrap_content">
+            <TextView android:textSize="21dp" android:textColor="#ffffff" android:text=" IV" android:id="@+id/textView1" android:layout_width="80dp" android:layout_height="35dp"></TextView>
+            <TextView android:textSize="21dp" android:textColor="#ffffff" android:text="  Bhargav krishna" android:id="@+id/textView2" android:layout_width="165dp" android:layout_height="35dp"></TextView>
+            <TextView android:textSize="21dp" android:textColor="#ffffff" android:text="ECE" android:id="@+id/textView3" android:layout_width="fill_parent" android:layout_height="35dp"></TextView>
+        </TableRow>
+      
+
+ <TableRow android:id="@+id/tableRow1" android:layout_width="wrap_content" 
+
+        android:layout_height="wrap_content">
+            <TextView android:textSize="21dp" android:textColor="#ffffff" android:text="IV " android:id="@+id/textView1" android:layout_width="80dp" android:layout_height="35dp"></TextView>
+            <TextView android:textSize="21dp" android:textColor="#ffffff" android:text=" Syeeda shabaz" android:id="@+id/textView2" android:layout_width="165dp" android:layout_height="35dp"></TextView>
+            <TextView android:textSize="21dp" android:textColor="#ffffff" android:text="ECE" android:id="@+id/textView3" android:layout_width="fill_parent" android:layout_height="35dp"></TextView>
+        </TableRow>
+      
+<TableRow android:id="@+id/tableRow1" android:layout_width="wrap_content" 
+
+        android:layout_height="wrap_content">
+            <TextView android:textSize="21dp" android:textColor="#ffffff" android:text="IV " android:id="@+id/textView1" android:layout_width="80dp" android:layout_height="35dp"></TextView>
+            <TextView android:textSize="21dp" android:textColor="#ffffff" android:text=" Anjali " android:id="@+id/textView2" android:layout_width="165dp" android:layout_height="35dp"></TextView>
+            <TextView android:textSize="21dp" android:textColor="#ffffff" android:text=" ECE" android:id="@+id/textView3" android:layout_width="fill_parent" android:layout_height="35dp"></TextView>
+        </TableRow>
+
+ <TableRow android:id="@+id/tableRow1" android:layout_width="wrap_content" 
+
+        android:layout_height="wrap_content">
+            <TextView android:textSize="21dp" android:textColor="#ffffff" android:text=" IV" android:id="@+id/textView1" android:layout_width="80dp" android:layout_height="35dp"></TextView>
+            <TextView android:textSize="21dp" android:textColor="#ffffff" android:text="  Siddhartha" android:id="@+id/textView2" android:layout_width="165dp" android:layout_height="35dp"></TextView>
+            <TextView android:textSize="21dp" android:textColor="#ffffff" android:text="CSE" android:id="@+id/textView3" android:layout_width="fill_parent" android:layout_height="35dp"></TextView>
+        </TableRow>
+      
+
+ <TableRow android:id="@+id/tableRow1" android:layout_width="wrap_content" 
+
+        android:layout_height="wrap_content">
+            <TextView android:textSize="21dp" android:textColor="#ffffff" android:text="IV " android:id="@+id/textView1" android:layout_width="80dp" android:layout_height="35dp"></TextView>
+            <TextView android:textSize="21dp" android:textColor="#ffffff" android:text=" Sai Santhosh " android:id="@+id/textView2" android:layout_width="165dp" android:layout_height="35dp"></TextView>
+            <TextView android:textSize="21dp" android:textColor="#ffffff" android:text="ECE" android:id="@+id/textView3" android:layout_width="fill_parent" android:layout_height="35dp"></TextView>
+        </TableRow>
+  
+    
+     </TableLayout>
+	     
+	     
+  
+  
+  <TextView android:text="		  " 
+  android:textSize="20dp"
+	    android:id="@+id/t11"
+	    
+	    android:textColor="#ffffff"
+	     android:layout_height="wrap_content" android:layout_width="118dp">
+	     </TextView>
+	     
+
+
+<TextView android:text="		  " 
+  android:textSize="20dp"
+	    android:id="@+id/t11"
+	    
+	    android:textColor="#ffffff"
+	     android:layout_height="wrap_content" android:layout_width="118dp">
+	     </TextView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+</LinearLayout>
+
+
+</ScrollView>

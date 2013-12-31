@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#3b3b3b"
+    
+>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:background="#3b3b3b"
+  android:weightSum="1" android:layout_height="426dp">
+
+        
+	    <TextView android:layout_height="wrap_content" 
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:text=" VEDANTA 2012 Events " android:layout_width="wrap_content" 
+    android:id="@+id/textView1" android:layout_alignParentTop="true"
+    android:textSize="25dp"
+    
+     android:layout_marginTop="20dip"
+     android:background="#FFFFFF"
+		android:layout_gravity="center"
+    android:textColor="#0050EF"
+
+     >
+    </TextView>
+      
+      
+      
+      
+      
+      
+      <TextView android:textAppearance="?android:attr/textAppearanceLarge" 
+      android:textColor="#0050EF" android:id="@+id/textView1" 
+      android:layout_marginLeft="22dp" android:background="#FFFFFF" 
+      android:text=" 1.	Taichi " 
+      android:layout_height="wrap_content" android:layout_width="wrap_content" 
+      android:layout_marginTop="30dip" android:textSize="20dp"></TextView>
+      
+      
+      <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" android:layout_marginLeft="22dp"
+      android:textColor="#ffffff"
+      android:layout_weight="0.36"
+           android:layout_marginTop="18dip" android:textSize="18dp"
+       android:layout_width="wrap_content" 
+       android:text="  	   		Taichi classes happens everyday 5:30 to 6:30 AM where in students are taught of basic taichi. Tai chi is often described as meditation in motion,Regular practice of Taichi can increase flexibility ,strength and cardiovascular fitness. The art of Taichi is focusing exclusively on performing body movements with grace and poise by which mind achieves peace and calm.">
+       </TextView>
+      
+      
+      <TextView android:layout_height="wrap_content" 
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:text="2.	Vedic Chanting" android:id="@+id/textView1" android:layout_alignParentTop="true"
+    android:textSize="20dp"
+    
+     android:layout_marginTop="20dip"
+     android:background="#FFFFFF"
+		android:layout_marginLeft="22dp"
+    android:textColor="#0050EF"
+
+     android:layout_width="188dp">
+    </TextView>
+      
+  
+  <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" 
+      android:textColor="#ffffff" android:textSize="18dp"
+      android:layout_weight="0.36" android:layout_marginLeft="22dp"
+           android:layout_marginTop="15dip"
+       android:layout_width="wrap_content" 
+       android:text="	      Vedic Chanting classes happens everyday from 6:30 to 7 AM, where students chant vedic hymns. Vedic hymns have positive vibrations that not only benefits the user but also has a positive effect on the surroundings. Students had the experience of getting to know more about sanskrit language and got to learn about the beauty behind our scriptures. ">
+       </TextView>
+  
+<TextView android:layout_height="wrap_content" android:layout_marginLeft="22dp"
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:text="3.	Meditation Classes" android:id="@+id/textView1" android:layout_alignParentTop="true"
+    android:textSize="20dp"
+    
+     android:layout_marginTop="20dip"
+     android:background="#FFFFFF"
+		
+    android:textColor="#0050EF"
+
+     android:layout_weight="0.04" android:layout_width="274dp">
+    </TextView>
+       <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2"  android:textSize="18dp"
+      android:textColor="#ffffff"
+      android:layout_weight="0.36" android:layout_marginLeft="22dp"
+           android:layout_marginTop="15dip"
+       android:layout_width="wrap_content" 
+       android:text="	      lawn meditation classes which happens on Tuesday where students gathered to practice not only conventional meditation but also other forms of meditation like musical meditation ,breathing exercises and ATMAVALOKANA(looking into yourself) etc.">
+       </TextView>
+  
+  
+      
+      
+      
+<TextView android:layout_height="wrap_content" android:layout_marginLeft="22dp"
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:text="4.	Power Yoga" android:id="@+id/textView1" android:layout_alignParentTop="true"
+    android:textSize="20dp"
+    
+     android:layout_marginTop="20dip"
+     android:background="#FFFFFF"
+		
+    android:textColor="#0050EF"
+
+     android:layout_weight="0.04" android:layout_width="274dp">
+    </TextView>
+       <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" 
+      android:textColor="#ffffff" android:textSize="18dp"
+      android:layout_weight="0.36" android:layout_marginLeft="22dp"
+           android:layout_marginTop="15dip"
+       android:layout_width="wrap_content" 
+       android:text="	      .Power yoga classes that was conducted for senior students were in students practiced advance asanas like garbhapindasana, shishirasana etc. Many of our Yoga athletes also  won state level medals. The guide for the event was our MAnikantan Sir of cultural education department.">
+       </TextView>
+  
+  
+      
+      
+      
+      
+      
+      
+<TextView android:layout_height="wrap_content" android:layout_marginLeft="22dp"
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:text="5.	UPSC Aspirants Club" android:id="@+id/textView1" android:layout_alignParentTop="true"
+    android:textSize="20dp"
+    
+     android:layout_marginTop="20dip"
+     android:background="#FFFFFF"
+		
+    android:textColor="#0050EF"
+
+     android:layout_weight="0.04" android:layout_width="274dp">
+    </TextView>
+       <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" 
+      android:textColor="#ffffff" android:textSize="18dp"
+      android:layout_weight="0.36" android:layout_marginLeft="22dp"
+           android:layout_marginTop="15dip"
+       android:layout_width="wrap_content" 
+       android:text="	     . UPSC  aspirants club that functions on Mondays from 5 pm to 7 pm were in student discuss many topics like political Science , history etc. The idea of these classes is each one teach one and senior aspirants guide the juniors on how to prepare themselves. We also had the privilege of inviting many experienced speakers who greeted the students and motivated them for becoming good civil servants.">
+       </TextView>
+  
+  
+      
+      
+      
+      
+      
+      
+<TextView android:layout_height="wrap_content" android:layout_marginLeft="22dp"
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:text="6.	JNANAVANI Poetry" android:id="@+id/textView1" android:layout_alignParentTop="true"
+    android:textSize="20dp"
+    
+     android:layout_marginTop="20dip"
+     android:background="#FFFFFF"
+		
+    android:textColor="#0050EF"
+
+     android:layout_weight="0.04" android:layout_width="274dp">
+    </TextView>
+       <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" 
+      android:textColor="#ffffff" android:textSize="18dp"
+      android:layout_weight="0.36" android:layout_marginLeft="22dp"
+           android:layout_marginTop="15dip"
+       android:layout_width="wrap_content" 
+       android:text="	      lawn meditation classes which happens on Tuesday where students gathered to practice not only conventional meditation but also other forms of meditation like musical meditation ,breathing exercises and ATMAVALOKANA(looking into yourself) etc.">
+       </TextView>
+  
+  
+      
+      
+      
+      
+      
+      <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" 
+      android:textColor="#ffffff"
+      android:layout_weight="0.36" android:layout_marginLeft="22dp"
+           android:layout_marginTop="15dip"
+       android:layout_width="wrap_content" 
+       android:text="	     ">
+       </TextView>
+      
+      
+      
+      
+      
+      
+        
+</LinearLayout>
+
+
+</ScrollView>

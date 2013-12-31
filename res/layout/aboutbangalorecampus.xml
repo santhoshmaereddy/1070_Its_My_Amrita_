@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+ <ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:background="#3b3b3b"
+    android:layout_height="fill_parent" >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:background="#3b3b3b"
+    android:layout_height="fill_parent"
+    android:weightSum="1">
+    
+    
+    
+   
+    <TextView android:layout_width="wrap_content" 
+    android:layout_marginTop="15dp"
+    android:layout_height="wrap_content" android:text="Amrita Vishwa vidyapeetham Bengaluru Campus"
+    android:textColor="#AA40FF" 
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_gravity="center"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+     android:id="@+id/textView1"></TextView>
+     
+     
+     <ImageView android:id="@+id/imageView1" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:src="@drawable/blrcampus" android:layout_width="match_parent"></ImageView>
+    
+    
+     <TextView android:layout_width="wrap_content" android:layout_marginTop="25dp" android:textSize="25dp" android:textColor="#ffffff" android:layout_marginLeft="10dp" android:text="  Dr. Rakesh S.G, " android:id="@+id/textView5" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_height="wrap_content"></TextView>
+    <TextView android:layout_width="wrap_content" android:layout_marginTop="10dp" android:textSize="25dp" android:textColor="#ffffff" android:layout_marginLeft="10dp" android:text="  Associate Dean and Head of the Institute" android:id="@+id/textView5" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_height="wrap_content"></TextView>
+    
+     <ImageView android:id="@+id/imageView2" android:layout_marginTop="15dp" android:layout_marginLeft="15dp" android:src="@drawable/rakesh_sg_dean" android:layout_height="wrap_content" android:layout_width="252dp" android:layout_weight="0.21"></ImageView>
+     
+     
+     <TextView android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:textColor="#FFFFFF" android:layout_marginRight="10dp"
+    android:layout_marginTop="20dp" 
+     android:text="		Our institution is privileged to have a healthy and conducive ambience, the credit for which goes to the blessings of our Chancellor and great Spiritual Master Mata Amritanandamayi Devi. Able guidance and non-interfering approach of the college management coupled with the untiring and diligent efforts put in by learned teachers makes it an incredible place of study. All the students of Amrita are, indeed, fortunate to have the opportunity of being educated at one of the best institutions in the country that has been nurtured by the great Spiritual Master and my firm belief is that all of them would carry the rich values and traditions imbibed here to greater heights." 
+     android:textAppearance="?android:attr/textAppearanceMedium" 
+     android:id="@+id/textView4"></TextView>
+     
+     
+     
+     
+     
+     <TextView android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:textColor="#FFFFFF" android:layout_marginRight="10dp"
+    android:layout_marginTop="20dp" 
+     android:text="		Amrita School of Engineering, Bengaluru traces its roots to Amrita Institute of Technology and Science affiliated to the Visveswaraiah Technological University, Belgaum that was started in 2002 with a vision to produce quality engineers with an attitude of service, for the benefit of the society and nation. " 
+     android:textAppearance="?android:attr/textAppearanceMedium" 
+     android:id="@+id/textView4"></TextView>
+     
+     <TextView android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp" android:layout_marginRight="10dp"
+    android:layout_marginTop="10dp"
+     android:text="		The School offers B.Tech. programmes in five disciplines and M.Tech. programmes in five specializations. The programmes being offered are:" 
+     android:textAppearance="?android:attr/textAppearanceMedium" 
+     android:id="@+id/textView4"></TextView>
+    
+    
+   
+     
+     <TextView android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"  android:layout_marginRight="10dp"
+    android:text="B.TECH PROGRAMME ( FOUR YEAR FULL TIME Programme)" android:layout_marginLeft="25dp" android:textSize="22dp" 
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:layout_marginTop="15dp" android:textColor="#AA40FF"
+    android:id="@+id/textView2"></TextView>
+    
+    
+   
+     
+       
+     <TextView android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp" android:layout_marginRight="10dp"
+     android:text="• Computer Science and Engineering" 
+     android:textAppearance="?android:attr/textAppearanceMedium" 
+     android:id="@+id/textView4"></TextView>
+       
+     <TextView android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp" android:layout_marginRight="10dp"
+     android:text="• Electronics and Communication Engineering" 
+     android:textAppearance="?android:attr/textAppearanceMedium" 
+     android:id="@+id/textView4"></TextView>
+       
+     <TextView android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp" android:layout_marginRight="10dp"
+     android:text="• Electrical and Electronics Engineering" 
+     android:textAppearance="?android:attr/textAppearanceMedium" 
+     android:id="@+id/textView4"></TextView>
+       
+     <TextView android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp" android:layout_marginRight="10dp"
+     android:text="• Electronics and Instrumentation Engineering" 
+     android:textAppearance="?android:attr/textAppearanceMedium" 
+     android:id="@+id/textView4"></TextView>
+       
+     <TextView android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp" android:layout_marginRight="10dp"
+     android:text="• Mechanical Engineering" 
+     android:textAppearance="?android:attr/textAppearanceMedium" 
+     android:id="@+id/textView4"></TextView>
+            
+     
+     <TextView android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"  android:layout_marginRight="10dp"
+    android:text="M. TECH PROGRAMME( TWO YEAR FULL TIME Programme)" android:layout_marginLeft="25dp" android:textSize="22dp" 
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:layout_marginTop="15dp" android:textColor="#AA40FF"
+    android:id="@+id/textView2"></TextView>
+    
+    
+    
+     <TextView android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp" android:layout_marginRight="10dp"
+     android:text="• VLSI Design " 
+     android:textAppearance="?android:attr/textAppearanceMedium" 
+     android:id="@+id/textView4"></TextView>
+     <TextView android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp" android:layout_marginRight="10dp"
+     android:text="• Embedded Systems" 
+     android:textAppearance="?android:attr/textAppearanceMedium" 
+     android:id="@+id/textView4"></TextView>
+   
+    
+     <TextView android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp" android:layout_marginRight="10dp"
+     android:text="• Power Electronics " 
+     android:textAppearance="?android:attr/textAppearanceMedium" 
+     android:id="@+id/textView4"></TextView>
+     <TextView android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp" android:layout_marginRight="10dp"
+     android:text="• Computer Science Engineering" 
+     android:textAppearance="?android:attr/textAppearanceMedium" 
+     android:id="@+id/textView4"></TextView>
+     
+     
+     
+      <TextView android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp" android:layout_marginRight="10dp"
+     android:text="• Thermal Science and Energy Systems " 
+     android:textAppearance="?android:attr/textAppearanceMedium" 
+     android:id="@+id/textView4"></TextView>
+
+     
+     
+     
+     
+     
+     
+    
+     <TextView android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"  android:layout_marginRight="10dp"
+    android:text="MBA-MS PROGRAMME" android:layout_marginLeft="25dp" android:textSize="22dp" 
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:layout_marginTop="15dp" android:textColor="#AA40FF"
+    android:id="@+id/textView2"></TextView>
+    
+    
+     <TextView android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp" android:layout_marginRight="10dp"
+     android:text=" The management programme at the Bangalore campus is an international Masters Dual-Degree Twinning programme called “MBA-MS”. The “MBA-MS” will be a joint collaborative programme between AMRITA School of Business and the School of Management at University at Buffalo, New York.
+
+The main emphasis of the “MBA-MS” will be : Management of Information Technology" 
+     android:textAppearance="?android:attr/textAppearanceMedium" 
+     android:id="@+id/textView4"></TextView>
+   
+   
+     <TextView android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp" android:layout_marginRight="10dp"
+    android:layout_marginTop="10dp"
+     android:text="  The School is equipped with state-of-the-art infrastructural facilities and it has very experienced and learned 150+ faculty drawn from premier Institutions / Universities and Industries across the country. Faculty serve as ‘Class Advisors’ and ‘Mentors’ to the students.     " 
+     android:textAppearance="?android:attr/textAppearanceMedium" 
+     android:id="@+id/textView4"></TextView>
+     
+   
+     
+     <TextView android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text=" Curriculum is framed with extensive industry inputs and all the programmes are credit based. Emphasis is laid on continuous evaluation of students." android:layout_marginLeft="15dp"
+    android:textAppearance="?android:attr/textAppearanceMedium" 
+    android:layout_marginTop="15dp"
+    android:id="@+id/textView2"></TextView>
+    
+    
+    <TextView android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text=" Departments are equipped with modern laboratories, design tools and software packages." android:layout_marginLeft="15dp" 
+    android:textAppearance="?android:attr/textAppearanceMedium" 
+    android:layout_marginTop="15dp"
+    android:id="@+id/textView2"></TextView>
+    
+    
+    <TextView android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text=" The school aims at producing solution mind-set graduates with high degree of ethical standards.  Recruiters from the best of Companies and Institutes in India and abroad seek out these students." android:layout_marginLeft="15dp" 
+    android:textAppearance="?android:attr/textAppearanceMedium" 
+    android:layout_marginTop="15dp"
+    android:id="@+id/textView2"></TextView>
+     
+    <TextView android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text=" Highly qualified and experienced faculty members, state-of-the-art facilities and the extensive industry-academia interaction serve to make engineering education in the School a unique and enriching experience." android:layout_marginLeft="15dp" 
+    android:textAppearance="?android:attr/textAppearanceMedium" 
+    android:layout_marginTop="15dp"
+    android:id="@+id/textView2"></TextView>
+     
+    <TextView android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="  " android:layout_marginLeft="15dp" android:textSize="22dp" 
+    android:textAppearance="?android:attr/textAppearanceMedium" 
+    android:layout_marginTop="15dp"
+    android:id="@+id/textView2"></TextView>
+    
+    
+    
+    <TextView android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="  " android:layout_marginLeft="15dp" android:textSize="22dp" 
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:layout_marginTop="15dp"
+    android:id="@+id/textView2"></TextView>
+    
+    
+    <TextView android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="  " android:layout_marginLeft="15dp" android:textSize="22dp" 
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:layout_marginTop="15dp"
+    android:id="@+id/textView2"></TextView>
+     
+</LinearLayout>
+</ScrollView>

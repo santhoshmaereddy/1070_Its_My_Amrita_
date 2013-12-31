@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/backg1"
+>
+
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+  
+    <TextView android:layout_height="wrap_content" 
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:id="@+id/textView1" android:layout_width="wrap_content" 
+    android:text=" "></TextView>
+
+
+       
+
+    <Button
+        android:id="@+id/facefpbtn"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent" 
+        android:textColor="#ffffff"
+       android:layout_marginTop="50dip"
+       android:layout_gravity="center"
+        android:textSize="25dp"
+         android:text="FACE" android:layout_width="146dp" android:layout_weight="0.47"/>
+        
+    <Button 
+     android:layout_weight="1.0" android:layout_width="150dp" 
+     android:layout_marginTop="20dip"
+     android:background="@android:color/transparent" 
+		android:layout_gravity="center"
+		android:textColor="#ffffff"
+     android:text="ECIF" android:layout_height="wrap_content" 
+     android:id="@+id/ecifbtn" android:textSize="25dp"></Button>
+    
+    
+   <Button 
+     android:layout_weight="1.0" android:layout_width="150dp" 
+     android:layout_marginTop="20dip"
+     android:background="@android:color/transparent" 
+		android:layout_gravity="center"
+		android:textColor="#ffffff"
+     android:text="ACROM" android:layout_height="wrap_content" 
+     android:id="@+id/acrombtn" android:textSize="25dp"></Button>
+
+
+       
+
+    <Button
+        android:id="@+id/vidyuthbtn"
+        android:layout_height="wrap_content"
+ android:layout_marginTop="20dip"
+	android:textColor="#ffffff"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        
+       android:background="@android:color/transparent" 
+         android:text="VIDYUTH" android:layout_width="146dp" android:layout_weight="0.47"/>
+        
+    <Button 
+     android:layout_weight="1.0" android:layout_width="150dp" 
+android:layout_marginTop="20dip"
+android:background="@android:color/transparent" 
+    	android:textColor="#ffffff"
+    	android:layout_gravity="center"
+     android:text="INGINEUM" android:layout_height="wrap_content" 
+     android:id="@+id/ingineumbtn" android:textSize="25dp"></Button>
+    
+    
+
+<LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/linearLayout1" android:weightSum="1">
+    <LinearLayout android:layout_height="match_parent" android:id="@+id/linearLayout2" android:weightSum="1" android:layout_width="318dp">
+       
+
+    
+    
+   
+    </LinearLayout>
+    </LinearLayout>
+
+
+    
+</LinearLayout>
+</ScrollView>

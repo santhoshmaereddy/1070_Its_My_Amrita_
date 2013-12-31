@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    
+>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:weightSum="1" android:layout_height="wrap_content">
+  
+  <TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:textSize="20dp"
+    android:layout_marginRight="4px"
+    android:text="AMRITA SCHOOL OF ENGINEERING"
+    android:layout_weight="0.05"/>
+    
+    <TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:textSize="20dp"
+    android:layout_marginRight="4px"
+    android:text="                  BANGALORE"
+    android:layout_weight="0.05"/>
+    
+    <ImageView android:layout_width="wrap_content" 
+    android:id="@+id/imageView2" 
+    android:src="@drawable/blrcampus" android:layout_height="188dp"></ImageView>
+
+<LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/linearLayout1" android:weightSum="1">
+    <LinearLayout android:layout_height="match_parent" android:id="@+id/linearLayout2" android:weightSum="1" android:layout_width="318dp">
+       
+
+    <Button
+        android:id="@+id/facultybtn"
+        android:layout_height="wrap_content"
+       android:drawableTop="@drawable/icon"
+        android:textSize="25dp"
+         android:text="Faculty" android:layout_width="146dp" android:layout_weight="0.47"/>
+        
+    <Button 
+     android:layout_weight="1.0" android:layout_width="150dp" 
+     android:drawableTop="@drawable/icon"
+     android:text="Courses" android:layout_height="wrap_content" 
+     android:id="@+id/syllabusbtn" android:textSize="25dp"></Button>
+    
+    
+   
+    </LinearLayout>
+    </LinearLayout>
+
+
+<LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/linearLayout1" android:weightSum="1">
+    <LinearLayout android:layout_height="match_parent" android:id="@+id/linearLayout2" android:weightSum="1" android:layout_width="318dp">
+
+
+        <Button
+        android:id="@+id/icon"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/icon"
+        android:textSize="25dp"
+         android:text="Time Tables" 
+         android:layout_width="wrap_content"/>
+    
+    
+	        <Button
+        android:id="@+id/clubsbtn"
+         android:drawableTop="@drawable/icon"
+         
+        android:textSize="25dp"
+         android:text="club Forum" 
+         android:layout_height="wrap_content" android:layout_width="match_parent"/>
+    
+	    
+    
+    
+    
+    </LinearLayout>
+    </LinearLayout>
+    
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/linearLayout1" android:weightSum="1">
+    <LinearLayout android:layout_height="match_parent" android:id="@+id/linearLayout2" android:weightSum="1" android:layout_width="318dp">
+
+
+        <Button
+        android:id="@+id/snapsbtn"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/icon"
+        android:textSize="25dp"
+         android:text=" Snap Shots" android:layout_width="wrap_content"/>
+        
+        
+        <Button 
+        android:text="  Route Map" 
+        android:drawableTop="@drawable/icon"
+        android:layout_height="wrap_content" android:id="@+id/routebtn" 
+        android:textSize="25dp" android:layout_width="match_parent"></Button>
+    
+	    
+    
+    
+    
+    </LinearLayout>
+    </LinearLayout>
+  
+    
+    
+</LinearLayout>
+
+
+
+</ScrollView>

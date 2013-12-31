@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#3b3b3b"
+    
+>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:background="@drawable/bg3"
+  
+  android:weightSum="1" android:layout_height="wrap_content">
+  
+  <TextView android:text="Amrita School Of Engineering"
+    android:layout_gravity="center"
+    android:textSize="22dp" android:textColor="#ffffff"
+    android:layout_marginTop="30dp"
+   
+     android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    
+    <TextView  
+    android:layout_height="wrap_content" 
+    
+    android:layout_gravity="center"
+    android:textSize="20dip"
+        android:textColor="#ffffff"
+    android:layout_marginRight="4px"
+    android:text="                  BANGALORE" android:layout_width="149dp"/>
+    
+    
+    
+    <ImageView
+        android:layout_height="fill_parent"
+        android:clickable="false"
+        
+        
+        
+        android:src="@drawable/blrcampus" android:layout_width="match_parent"/>
+   
+    
+     
+     
+     
+     <LinearLayout 
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content" 
+        android:gravity="center_horizontal"
+        android:weightSum="1">
+        
+         <Button android:text=" HOME " 
+                android:layout_marginTop="20dp" android:textColor="#21dbd4"
+                android:layout_width="wrap_content" android:drawableTop="@drawable/home_logo" 
+        android:id="@+id/aboutamritabtn"  android:background="@android:color/transparent" android:textSize="20dp"
+                android:layout_height="wrap_content" android:layout_weight="0.35"/> 
+                
+                
+         <Button android:textColor="#21dbd4" android:textSize="20dp" 
+         android:layout_width="wrap_content" android:drawableTop="@drawable/library1"
+          android:layout_marginTop="20dp" android:text=" Library" android:id="@+id/librarybtn"
+           android:layout_height="wrap_content"  android:background="@android:color/transparent" android:layout_weight="0.24"></Button>
+    
+    
+    
+    </LinearLayout>
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+    
+    
+    
+
+    
+    <LinearLayout 
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content" 
+        android:gravity="center_horizontal"
+        android:weightSum="1">
+        
+         <Button android:text=" Faculty" 
+                android:layout_marginTop="20dp" android:textColor="#21dbd4"
+                android:layout_width="wrap_content" android:drawableTop="@drawable/faculty11" 
+        android:id="@+id/facultabcbtn"  android:background="@android:color/transparent" android:textSize="20dp"
+                android:layout_height="wrap_content" android:layout_weight="0.35"/> 
+                
+                
+         <Button android:textColor="#21dbd4" android:textSize="20dp" 
+         android:layout_width="wrap_content" android:drawableTop="@drawable/courses11"
+          android:layout_marginTop="20dp" android:text=" Courses" android:id="@+id/coursesbtn"
+           android:layout_height="wrap_content"  android:background="@android:color/transparent" android:layout_weight="0.24"></Button>
+    
+    
+    
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content" 
+        android:gravity="center_horizontal"
+        android:weightSum="1">
+        
+         <Button android:text=" Map" 
+                android:layout_marginTop="20dp" android:textColor="#21dbd4"
+                android:layout_width="wrap_content" android:drawableTop="@drawable/maps" 
+        android:id="@+id/routebtn"  android:background="@android:color/transparent" android:textSize="20dp"
+                android:layout_height="wrap_content" android:layout_weight="0.35"/> 
+                
+                
+         <Button android:textColor="#21dbd4" android:textSize="20dp" 
+         android:drawableTop="@drawable/forums11" 
+         android:layout_marginTop="20dp" android:text=" Forums" 
+         android:id="@+id/clubsbtn" android:layout_height="wrap_content" 
+         android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_weight="0.25"></Button>
+    </LinearLayout>
+    
+    
+    
+    
+     
+     <LinearLayout 
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content" 
+        android:gravity="center_horizontal"
+      android:background="@android:color/transparent" android:weightSum="1">
+        <Button android:text="  Snap Shots  " android:textColor="#21dbd4"
+                android:layout_width="wrap_content" android:layout_marginTop="20dp" 
+                android:drawableTop="@drawable/snapshots11" 
+        android:id="@+id/snapsbtn"  android:background="@android:color/transparent" android:textSize="20dp"
+                android:layout_height="wrap_content" android:layout_weight="0.32"/>
+                
+        <Button android:textColor="#21dbd4" android:textSize="20dp"
+         android:layout_width="wrap_content" android:drawableTop="@drawable/feedback11" 
+         android:layout_marginTop="20dp" android:text="Feedback" android:id="@+id/feedbackbtn"
+          android:layout_height="wrap_content"  android:background="@android:color/transparent"
+          android:layout_weight="0.25"></Button>
+    </LinearLayout>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <TextView  
+    android:layout_height="wrap_content" 
+    
+    android:layout_gravity="center"
+    android:textSize="20dip"
+        android:textColor="#ffffff"
+    android:layout_marginRight="4px"
+    android:text="                  " android:layout_width="149dp"/>
+    
+    
+    
+    <TextView  
+    android:layout_height="wrap_content" 
+    
+    android:layout_gravity="center"
+    android:textSize="20dip"
+        android:textColor="#ffffff"
+    android:layout_marginRight="4px"
+    android:text="                  " android:layout_width="149dp"/>
+    
+     <TextView  
+    android:layout_height="wrap_content" 
+    
+    android:layout_gravity="center"
+    
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+    android:layout_marginRight="4px"
+    android:text=" ©copyrights  protected to ASE BLR " android:layout_weight="0.43" android:layout_width="wrap_content"/>
+    
+    
+
+   <TextView  
+    android:layout_height="wrap_content" 
+    
+    android:layout_gravity="center"
+    android:textSize="20dip"
+        android:textColor="#ffffff"
+    android:layout_marginRight="4px"
+    android:text="                  " android:layout_width="149dp"/>
+    
+    <TextView  
+    android:layout_height="wrap_content" 
+    
+    android:layout_gravity="center"
+    android:textSize="20dip"
+        android:textColor="#ffffff"
+    android:layout_marginRight="4px"
+    android:text="                  " android:layout_width="149dp"/>
+    
+</LinearLayout>
+
+
+
+</ScrollView>

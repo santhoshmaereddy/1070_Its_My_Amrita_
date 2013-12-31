@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#3b3b3b"
+    
+>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:background="#3b3b3b"
+  android:weightSum="1" android:layout_height="426dp">
+
+        
+	    <TextView android:layout_height="wrap_content" 
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:text=" SPICMACAY 2012 Events " android:layout_width="wrap_content" 
+    android:id="@+id/textView1" android:layout_alignParentTop="true"
+    android:textSize="25dp"
+    
+     android:layout_marginTop="20dip"
+     android:background="#FFFFFF"
+		android:layout_gravity="center"
+    android:textColor="#0050EF"
+
+     >
+    </TextView>
+	    <TextView android:textAppearance="?android:attr/textAppearanceLarge" 
+	    android:textColor="#0050EF"
+	     android:id="@+id/textView1"
+	      android:layout_marginLeft="22dp"
+	       android:background="#FFFFFF" 
+	       android:text=" 1.	Aavega'13 " android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_marginTop="30dip" android:textSize="20dp"></TextView>
+      <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" android:layout_marginLeft="22dp"
+      android:textColor="#ffffff" android:textSize="18dp"
+      android:layout_weight="0.36"
+           android:layout_marginTop="18dip"
+       android:layout_width="wrap_content" 
+       android:text="  	   		The events conducted on Aavega’13 were Rangoli and Mehendi competition. There was a lot of participation in both the events. Rangoli competition was judged by ‘Sebastian Sir(ASB –Bangalore)’ and the Mehendi competition was judged by ‘Kirti pandae(ECE – Dept.)’.">
+       </TextView>
+      
+      
+      <TextView android:textAppearance="?android:attr/textAppearanceLarge" 
+	    android:textColor="#0050EF"
+	     android:id="@+id/textView1"
+	      android:layout_marginLeft="22dp"
+	       android:background="#FFFFFF" 
+	       android:text=" 2.	Dandiya Night " android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_marginTop="30dip" android:textSize="20dp"></TextView>
+      <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" android:layout_marginLeft="22dp"
+      android:textColor="#ffffff" 
+      android:layout_weight="0.36"
+           android:layout_marginTop="18dip"  android:textSize="18dp"
+       android:layout_width="wrap_content" 
+       android:text="  	   		The first dandiya night organized in our college was one of the best events of the last sem. Organized by MBA and B.tech students (Amritadhara). It had a great reaponse and students had a great time in dancing, shouting and enjoying with everyone.">
+       </TextView>
+      
+      
+       <TextView android:textAppearance="?android:attr/textAppearanceLarge" 
+	    android:textColor="#0050EF"
+	     android:id="@+id/textView1"
+	      android:layout_marginLeft="22dp"
+	       android:background="#FFFFFF" 
+	       android:text=" 3.	Series Of Antakshari " android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_marginTop="30dip" android:textSize="20dp"></TextView>
+      <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" android:layout_marginLeft="22dp"
+      android:textColor="#ffffff"
+      android:layout_weight="0.36"  android:textSize="18dp"
+           android:layout_marginTop="18dip"
+       android:layout_width="wrap_content" 
+       android:text="  	   		 Spic Macay along with Raaga club started a series of Antakshari that had its first episode in sept, which had a very good response and so we continued it till 2nd n 3rd episode in oct. each episode had 2 winners who played their finals on the day of Aavega’13. Antakshari , since its all about your knowledge in music and songs.. we saw a realy very good participation in this event.">
+       </TextView>
+      
+      
+      
+       <TextView android:textAppearance="?android:attr/textAppearanceLarge" 
+	    android:textColor="#0050EF"
+	     android:id="@+id/textView1"
+	      android:layout_marginLeft="22dp"
+	       android:background="#FFFFFF" 
+	       android:text=" 4.	Viraasat'13 " android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_marginTop="30dip" android:textSize="20dp"></TextView>
+      <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" android:layout_marginLeft="22dp"
+      android:textColor="#ffffff"
+      android:layout_weight="0.36"
+           android:layout_marginTop="18dip"  android:textSize="18dp"
+       android:layout_width="wrap_content" 
+       android:text="  	   		 Viraasat’13 was the sole event of Spic Macay itself. It was conducted on 18th sept. An artist Mr. Anil Srinivasan who is a pianist visited our college and gave our students a mind-blowing performance. He is a renowned artist of Spic Macay institute who travels all over the world to give such kind of shows.">
+       </TextView>
+      
+      
+       <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" android:layout_marginLeft="22dp"
+      android:textColor="#ffffff"
+      android:layout_weight="0.36"
+           android:layout_marginTop="18dip"  android:textSize="18dp"
+       android:layout_width="wrap_content" 
+       android:text="  	   		">
+       </TextView>
+      
+      
+        
+</LinearLayout>
+
+
+</ScrollView>

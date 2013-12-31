@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#3b3b3b"
+    
+>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:background="#3b3b3b"
+  android:weightSum="1" android:layout_height="426dp">
+
+        
+	    <TextView android:layout_height="wrap_content" 
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:text=" VIDYUTH " android:layout_width="wrap_content" 
+    android:id="@+id/textView1" android:layout_alignParentTop="true"
+    android:textSize="30dp"
+    
+     android:layout_marginTop="20dip"
+     android:background="#FFFFFF"
+		android:layout_gravity="center"
+		
+    
+    android:textColor="#0050EF"
+
+     >
+    </TextView>
+    
+
+  
+
+    
+    <TextView android:text="	Vidyuth, the technical forum for the department of Electrical and Electronics aims to conduct a number of events across the semester aimed at generating general awareness about the Branch, as well improving the technical skills of the students, while preparing them for industry standards and outside fests." 
+    android:layout_height="wrap_content"
+     android:id="@+id/textView3" 
+     android:layout_marginLeft="12dp"
+     android:textColor="#ffffff" android:textSize="18sp"
+     android:layout_width="wrap_content" 
+     android:layout_below="@+id/textView2" 
+     android:layout_alignLeft="@+id/textView2" 
+     android:layout_marginTop="18dp"></TextView>
+     
+     
+
+
+<Button 
+     android:layout_weight="1.0" android:layout_width="150dp" 
+     android:layout_marginTop="20dip"
+     android:background="#FFFFFF"
+		android:layout_gravity="center"
+		android:textColor="#0A5BC4"
+     android:text=" Members " android:layout_height="wrap_content" 
+     android:id="@+id/vidyuthteambtn" android:textSize="25dp"></Button>
+    
+    
+    <Button 
+     android:layout_weight="1.0" android:layout_width="150dp" 
+     android:layout_marginTop="20dip"
+     android:background="#FFFFFF"
+		android:layout_gravity="center"
+		android:textColor="#0A5BC4"
+     android:text=" 2012 Events" android:layout_height="wrap_content" 
+     android:id="@+id/vidyuth12btn" android:textSize="25dp"></Button>
+    
+    
+    
+    <Button 
+     android:layout_weight="1.0" android:layout_width="150dp" 
+     android:layout_marginTop="20dip"
+     android:background="#FFFFFF"
+		android:layout_gravity="center"
+		android:textColor="#0A5BC4"
+     android:text=" 2013 Events" android:layout_height="wrap_content" 
+     android:id="@+id/vidyuth134btn" android:textSize="25dp"></Button>
+       
+    
+</LinearLayout>
+
+
+</ScrollView>

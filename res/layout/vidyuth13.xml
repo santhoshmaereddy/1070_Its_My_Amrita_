@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#3b3b3b"
+    
+>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:background="#3b3b3b"
+  android:weightSum="1" android:layout_height="426dp">
+
+        
+	    <TextView android:layout_height="wrap_content" 
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:text=" Vidyuth 2012 Events " android:layout_width="wrap_content" 
+    android:id="@+id/textView1" android:layout_alignParentTop="true"
+    android:textSize="30dp"
+    
+     android:layout_marginTop="20dip"
+     android:background="#FFFFFF"
+		android:layout_gravity="center"
+		
+    
+    android:textColor="#0050EF"
+
+     >
+    </TextView>
+      
+        <TextView android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#0050EF" android:id="@+id/textView1"
+         android:layout_marginLeft="22dp" android:background="#FFFFFF" 
+         android:text="1.	Technical Quiz" 
+         android:layout_height="wrap_content" android:layout_width="wrap_content"
+          android:layout_marginTop="30dip" android:textSize="20dp"></TextView>
+          
+      <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" android:layout_marginLeft="12dp"
+      android:textColor="#ffffff"
+      android:layout_weight="0.36"
+           android:layout_marginTop="18dip"  android:textSize="18sp"
+       android:layout_width="wrap_content" 
+       android:text="  	   			Vidyuth technical quiz ">
+       </TextView>
+      
+       
+       <TextView android:textAppearance="?android:attr/textAppearanceLarge"
+         android:textColor="#0050EF" android:id="@+id/textView1" 
+         android:layout_marginLeft="22dp" android:background="#FFFFFF" 
+         android:text=" 2. Thinkware"
+         android:layout_height="wrap_content"
+          android:layout_width="wrap_content" android:layout_marginTop="30dip"
+           android:textSize="20dp"></TextView>
+           
+      <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" android:layout_marginLeft="12dp"
+      android:textColor="#ffffff"
+      android:layout_weight="0.36"  android:textSize="18sp"
+           android:layout_marginTop="18dip"
+       android:layout_width="wrap_content" 
+       android:text="  	   			Workshop on Digital Image Processing Robot">
+       </TextView>
+       
+       
+       
+       
+       <TextView android:layout_height="wrap_content" 
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:text=" Upcoming Events " android:layout_width="wrap_content" 
+    android:id="@+id/textView1" android:layout_alignParentTop="true"
+    android:textSize="22dp"
+    
+     android:layout_marginTop="30dip"
+     android:background="#FFFFFF"
+		android:layout_marginLeft="15dp"
+    android:textColor="#0050EF"
+
+     >
+    </TextView>
+    
+      <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" android:layout_marginLeft="12dp"
+      android:textColor="#ffffff"
+      android:layout_weight="0.36"  android:textSize="18sp" 
+           android:layout_marginTop="18dip"
+       android:layout_width="wrap_content" 
+       android:text="1. 	555  : 			The groups will be thought the basics of 555 timers and some standard IC’s. Then a problem statement will be given and the groups will have to come up with their own circuits. ">
+       </TextView>
+       
+    
+    
+      <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" android:layout_marginLeft="12dp"
+      android:textColor="#ffffff"
+      android:layout_weight="0.36"
+           android:layout_marginTop="18dip"
+       android:layout_width="wrap_content"   android:textSize="18sp"
+       android:text=" 2 	   			Music effects
+Using only analog circuits the participating teams should design circuits which add effects for musicals instruments like electric guitar. Students bring their own circuits.
+">
+       </TextView>
+       
+    
+    
+      <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" android:layout_marginLeft="12dp"
+      android:textColor="#ffffff"
+      android:layout_weight="0.36"
+           android:layout_marginTop="18dip"
+       android:layout_width="wrap_content"   android:textSize="18sp"
+       android:text="3.  	   		Deconstructed 
+Some piece of machinery which has been deconstructed will be given to the teams. The team which reconstructs it the fastest wins.">
+       </TextView>
+       
+      <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" android:layout_marginLeft="12dp"
+      android:textColor="#ffffff"
+      android:layout_weight="0.36"
+           android:layout_marginTop="18dip"
+       android:layout_width="wrap_content"   android:textSize="18sp"
+       android:text=" 4. 	   			Find the receiver
+A transmitter module will be hidden somewhere in college. Using some clues and a transmitter module the teams have to find the position of the transmitter.
+">
+       </TextView>
+       
+    
+      <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" android:layout_marginLeft="12dp"
+      android:textColor="#ffffff"
+      android:layout_weight="0.36"
+           android:layout_marginTop="18dip"
+       android:layout_width="wrap_content"   android:textSize="18sp"
+       android:text=" 5.		Work for the poor
+Participants should come up with cost effective solutions for the problems faced by poor India. Can be practical implementation or paper presentation. ">
+       </TextView>
+       
+      <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" android:layout_marginLeft="12dp"
+      android:textColor="#ffffff"
+      android:layout_weight="0.36"  android:textSize="18sp"
+           android:layout_marginTop="18dip"
+       android:layout_width="wrap_content"  
+       android:text=" 6.  		Aerotricx 
+willing to conduct hands on workshop in our college. Aerotrix will teach how to build a RC plane  ">
+       </TextView>
+       
+    
+    <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" android:layout_marginLeft="12dp"
+      android:textColor="#ffffff"  android:textSize="18sp"
+      android:layout_weight="0.36"
+           android:layout_marginTop="18dip"
+       android:layout_width="wrap_content" 
+       android:text=" 7. 		Microcontroller coding 
+Assembly level microcontroller coding competition. ">
+       </TextView>
+    
+       <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" android:layout_marginLeft="12dp"
+      android:textColor="#ffffff"
+      android:layout_weight="0.36"
+           android:layout_marginTop="18dip"  android:textSize="18sp"
+       android:layout_width="wrap_content" 
+       android:text=" 8.		Game design 
+Participants should come up with games which with the help of electronic circuits. Rules will be announced well in advance and the participants should come with their own circuits.  ">
+       </TextView>
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" android:layout_marginLeft="12dp"
+      android:textColor="#ffffff"
+      android:layout_weight="0.36" 
+           android:layout_marginTop="18dip"  android:textSize="18sp"
+       android:layout_width="wrap_content" 
+       android:text=" 9.		Weird or what(inspired from the program dark matter) 
+Participants will have to discuss or debate on very weird science theories and experiments which were conducted for the sake of science.  ">
+       </TextView>
+       
+       
+       
+       
+       
+       
+       <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" android:layout_marginLeft="12dp"
+      android:textColor="#ffffff"
+      android:layout_weight="0.36"
+           android:layout_marginTop="18dip"  android:textSize="18sp"
+       android:layout_width="wrap_content" 
+       android:text=" 10.	Inspired by nature  
+Participants will be tested in various electronic topics like circuit design and basic problem solving abilities will be tested. ">
+       </TextView>
+       
+       
+        <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" android:layout_marginLeft="12dp"
+      android:textColor="#ffffff"
+      android:layout_weight="0.36"
+           android:layout_marginTop="18dip"
+       android:layout_width="wrap_content"   android:textSize="18sp"
+       android:text=" 11	Ultimate engineer  
+Participants will have to come up with projects of machines which are inspired from nature. Rules will be announced well in advance and the participants should bring their own stuff.  ">
+       </TextView>
+       
+       
+       <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" android:layout_marginLeft="12dp"
+      android:textColor="#ffffff"
+      android:layout_weight="0.36"
+           android:layout_marginTop="18dip" android:textSize="18sp"
+       android:layout_width="wrap_content" 
+       android:text="  ">
+       </TextView>
+</LinearLayout>
+
+
+</ScrollView>

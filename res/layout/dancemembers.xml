@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#3b3b3b"
+    
+>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:background="#3b3b3b"
+  android:weightSum="1" android:layout_height="421dp">
+
+        
+	    <TextView android:layout_height="wrap_content" 
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:text=" NARTHANA Memebers " android:layout_width="wrap_content" 
+    android:id="@+id/textView1" android:layout_alignParentTop="true"
+    android:textSize="25dp"
+    
+     android:layout_marginTop="20dip"
+     
+		android:layout_gravity="center"
+		
+    
+    android:textColor="#AA40FF"
+
+     >
+    </TextView>
+    
+    
+    <TextView android:text="		  " 
+  android:textSize="20dp"
+	    android:id="@+id/t5"
+	    
+	    android:textColor="#ffffff"
+	     android:layout_height="wrap_content" android:layout_width="118dp">
+	     </TextView>
+    
+    
+     <LinearLayout 
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content" 
+        android:gravity="center_horizontal"
+        android:weightSum="1">
+    
+    <TextView android:text="		Mentor " 
+  android:textSize="20dp"
+	    android:id="@+id/t1"
+	    
+	    android:textColor="#AA40FF"
+	     android:layout_height="wrap_content" android:layout_width="167dp">
+	     </TextView>
+</LinearLayout>
+  
+  
+   <LinearLayout 
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content" 
+        android:gravity="center_horizontal"
+        android:weightSum="1">
+  
+  
+  <TextView android:text="		Miss Vinita Jain K V " 
+  android:textSize="20dp"
+	    android:id="@+id/t2"
+	    android:textColor="#ffffff"
+	     android:layout_height="wrap_content" android:layout_width="266dp">
+	     </TextView>
+	</LinearLayout>
+	 <LinearLayout 
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content" 
+        android:gravity="center_horizontal"
+        android:weightSum="1">
+	 
+	     
+	     <TextView android:text="	  Assistant Professor  " 
+  android:textSize="20dp"
+	    android:id="@+id/t3"
+	    android:textColor="#ffffff"
+	     android:layout_height="wrap_content" android:layout_width="250dp">
+	     </TextView>
+	     </LinearLayout>
+	     
+	      <LinearLayout 
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content" 
+        android:gravity="center_horizontal"
+        android:weightSum="1">
+	          <TextView android:textSize="20dp" android:text="	  Department of CSE  " android:id="@+id/t6" android:layout_height="wrap_content" android:textColor="#ffffff" android:layout_width="250dp"></TextView>
+</LinearLayout>
+
+<TextView android:text="		  " 
+  android:textSize="20dp"
+	    android:id="@+id/t5"
+	    
+	    android:textColor="#ffffff"
+	     android:layout_height="wrap_content" android:layout_width="118dp">
+	     </TextView>
+	     
+	      <LinearLayout 
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content" 
+        android:gravity="center_horizontal"
+        android:weightSum="1">
+	     
+<TextView android:textSize="20dp" android:text="		Secretary  " android:id="@+id/t12" android:layout_height="wrap_content" android:textColor="#AA40FF" android:layout_width="279dp"></TextView>
+  
+ </LinearLayout>
+     <LinearLayout 
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content" 
+        android:gravity="center_horizontal"
+        android:weightSum="1">
+	     
+  
+  <TextView android:text="		Subhadeep			  EEE  VI" 
+  android:textSize="20dp"
+	    android:id="@+id/t8"
+	    android:textColor="#ffffff"
+	     android:layout_height="wrap_content" android:layout_width="287dp">
+	     </TextView>
+	     </LinearLayout>
+	     
+	        <LinearLayout 
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content" 
+        android:gravity="center_horizontal"
+        android:weightSum="1">
+	     
+	     <TextView android:text="	  Joint Secretary  " 
+  android:textSize="20dp"
+	    android:id="@+id/t9"
+	    android:textColor="#AA40FF"
+	     android:layout_height="wrap_content" android:layout_width="259dp">
+	     </TextView>
+	     
+	     </LinearLayout>
+	     
+	        <LinearLayout 
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content" 
+        android:gravity="center_horizontal"
+        android:weightSum="1">
+	     
+	     <TextView android:text="		M Sowmya		 		  ECE  VI" 
+  android:textSize="20dp"
+	    android:id="@+id/t8"
+	    android:textColor="#ffffff"
+	     android:layout_height="wrap_content" android:layout_width="289dp">
+	     </TextView>
+	     
+    </LinearLayout>
+    
+    
+	    <TextView android:text="	  " 
+	    android:id="@+id/textView2"
+	    android:textColor="#ffffff"
+	     android:layout_width="wrap_content" 
+	     android:layout_height="wrap_content">
+	     </TextView>
+	     
+  
+  
+  <TextView android:text="		  " 
+  android:textSize="20dp"
+	    android:id="@+id/t11"
+	    
+	    android:textColor="#ffffff"
+	     android:layout_height="wrap_content" android:layout_width="118dp">
+	     </TextView>
+	     
+
+
+<TextView android:text="		  " 
+  android:textSize="20dp"
+	    android:id="@+id/t11"
+	    
+	    android:textColor="#ffffff"
+	     android:layout_height="wrap_content" android:layout_width="118dp">
+	     </TextView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+</LinearLayout>
+
+
+</ScrollView>

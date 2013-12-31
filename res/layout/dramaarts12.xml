@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#3b3b3b"
+    
+>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:background="#3b3b3b"
+  android:weightSum="1" android:layout_height="426dp">
+
+  <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" 
+      android:textColor="#ffffff"
+      android:layout_weight="0.36" android:layout_marginLeft="22dp"
+           android:layout_marginTop="15dip"
+       android:layout_width="wrap_content" 
+       android:text="	      ">
+       </TextView>
+
+        
+	    <TextView android:layout_height="wrap_content" 
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:text=" ABHINAYA Events " android:layout_width="wrap_content" 
+    android:id="@+id/textView1" android:layout_alignParentTop="true"
+    android:textSize="30dp"
+    
+     android:layout_marginTop="20dip"
+     android:background="#FFFFFF"
+		android:layout_gravity="center"
+		
+    
+   android:textColor="#AA40FF"
+
+     >
+    </TextView>
+	    <TextView android:textAppearance="?android:attr/textAppearanceLarge" 
+	    android:textColor="#AA40FF" android:id="@+id/textView1" 
+	    android:layout_marginLeft="22dp" android:background="#FFFFFF" 
+	    android:text=" 1.	National level Mime team  " android:layout_height="wrap_content" 
+	    android:layout_width="wrap_content" android:layout_marginTop="30dip" android:textSize="20dp">
+	    
+	    </TextView>
+      <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" android:layout_marginLeft="22dp"
+      android:textColor="#ffffff"
+      android:layout_weight="0.36"   android:textSize="18sp"
+           android:layout_marginTop="18dip"
+       android:layout_width="wrap_content" 
+       android:text="  	   		We have a National level Mime team Si.N.E which stands for Silent Network of Emotions which consisted of Gowtham Nair, Sreejith Nair, Jagannath Kamath, C.V.Raman, Shreesha Kashyap, Shishir.H, P.Kranthi Kumar, Ishaan Roy and Murali Krishna. ">
+       </TextView>
+      
+      
+      <TextView android:layout_height="wrap_content" 
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:text="2.	St.John's Medical College" android:id="@+id/textView1" android:layout_alignParentTop="true"
+    android:textSize="20dp"
+    
+     android:layout_marginTop="20dip"
+     android:background="#FFFFFF"
+		android:layout_marginLeft="22dp"
+    android:textColor="#0050EF"
+
+     android:layout_weight="0.02" android:layout_width="284dp">
+    </TextView>
+      
+  
+  <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" 
+      android:textColor="#ffffff"
+      android:layout_weight="0.36" android:layout_marginLeft="22dp"
+           android:layout_marginTop="15dip"  android:textSize="18sp"
+       android:layout_width="wrap_content" 
+       android:text="	       We participated in St. John’s medical college’s national level fest “Autumn Muse” in the Mime competition and stood 1st for the second time in a row.">
+       </TextView>
+  
+<TextView android:layout_height="wrap_content" android:layout_marginLeft="22dp"
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:text="3.	Admit-One" android:id="@+id/textView1" android:layout_alignParentTop="true"
+    android:textSize="20dp"
+     
+     android:layout_marginTop="20dip"
+     android:background="#FFFFFF"
+		
+    android:textColor="#0050EF"
+
+     android:layout_weight="0.04" android:layout_width="274dp">
+    </TextView>
+       <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" 
+      android:textColor="#ffffff"  android:textSize="18sp"
+      android:layout_weight="0.36" android:layout_marginLeft="22dp"
+           android:layout_marginTop="15dip"
+       android:layout_width="wrap_content" 
+       android:text="	       We were selected for National law school’s “Admit-one”, a national level fest in which only the top 20 scripts were selected. We stood national 5th and we were the only college from Karnataka in the top 5 and we also got the 2nd best actor award received by Gowtham Nair.">
+       </TextView>
+  
+  
+  
+
+<TextView android:layout_height="wrap_content" 
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:text="4.	AMMA's in Bangalore" android:id="@+id/textView1" android:layout_alignParentTop="true"
+    android:textSize="20dp"
+    
+     android:layout_marginTop="20dip"
+     android:background="#FFFFFF"
+		android:layout_marginLeft="22dp"
+    android:textColor="#0050EF" android:layout_weight="0.07" android:layout_width="276dp">
+    </TextView>
+      
+      
+        <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" 
+      android:textColor="#ffffff"
+      android:layout_weight="0.36" android:layout_marginLeft="22dp"
+           android:layout_marginTop="15dip"  android:textSize="18sp"
+       android:layout_width="wrap_content" 
+       android:text="	      On Amma’s visit to Bangalore, we performed in front of Amma which is one of the biggest programs that take place in the college.">
+       </TextView>
+  
+  
+  
+
+<TextView android:layout_height="wrap_content" 
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:text="5.	UNTITLED" android:layout_width="wrap_content" 
+    android:id="@+id/textView1" android:layout_alignParentTop="true"
+    android:textSize="20dp"
+    
+     android:layout_marginTop="20dip"
+     android:background="#FFFFFF"
+		android:layout_marginLeft="22dp"
+    android:textColor="#0050EF"
+
+     >
+    </TextView>
+      
+  
+  <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" android:layout_marginLeft="22dp"
+      android:textColor="#ffffff"
+      android:layout_weight="0.36"
+           android:layout_marginTop="15dip"  android:textSize="18sp"
+       android:layout_width="wrap_content" 
+       android:text="	       We got selected for Bangalore Theatre league produced by Tea Arts in which 5 different colleges had performed in a Public Theatre. The 5 college teams had attended a Workshop before the performance taken by Ratan Thakore Grant, a well known theatre professional. Our play named “Untitled” had a really good review and was appreciated by many.">
+       </TextView>
+  
+  
+  <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" 
+      android:textColor="#ffffff"
+      android:layout_weight="0.36" android:layout_marginLeft="22dp"
+           android:layout_marginTop="15dip"
+       android:layout_width="wrap_content" 
+       android:text="	      ">
+       </TextView>
+
+
+<TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" 
+      android:textColor="#ffffff"
+      android:layout_weight="0.36" android:layout_marginLeft="22dp"
+           android:layout_marginTop="15dip"
+       android:layout_width="wrap_content" 
+       android:text="	      ">
+       </TextView>
+<TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" 
+      android:textColor="#ffffff"
+      android:layout_weight="0.36" android:layout_marginLeft="22dp"
+           android:layout_marginTop="15dip"
+       android:layout_width="wrap_content" 
+       android:text="	      ">
+       </TextView>
+
+
+  
+</LinearLayout>
+
+
+</ScrollView>

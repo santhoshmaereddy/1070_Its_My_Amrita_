@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#3b3b3b"
+    
+>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:background="#3b3b3b"
+  android:weightSum="1" android:layout_height="426dp">
+
+        
+	    <TextView android:layout_height="wrap_content" 
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:text=" ACROM " android:layout_width="wrap_content" 
+    android:id="@+id/textView1" android:layout_alignParentTop="true"
+    android:textSize="30dp"
+    
+     android:layout_marginTop="20dip"
+     android:background="#FFFFFF"
+		android:layout_gravity="center"
+		
+    
+    android:textColor="#0050EF"
+
+     >
+    </TextView>
+    
+<TextView android:text="Amrita club for Robotics and Mechatronics" 
+    android:layout_height="wrap_content"
+     android:id="@+id/textView2" 
+  
+     android:textColor="#0050EF"
+     android:textSize="20dp"
+     android:layout_below="@+id/textView1"
+      android:layout_alignParentLeft="true" 
+      android:layout_marginLeft="22dp"
+       android:layout_marginTop="18dp" android:layout_weight="0.06" android:layout_width="436dp">
+       </TextView>
+    
+    
+   
+  
+
+    
+    <TextView android:text="	ACROM started in the year 2010. The motivation of this club is to help students come up with innovative ideas. " 
+    android:layout_height="wrap_content"
+     android:id="@+id/textView3"  android:textSize="18dp"
+    android:layout_marginLeft="22dp"
+     
+     android:textColor="#ffffff"
+     android:layout_below="@+id/textView2" 
+     android:layout_alignLeft="@+id/textView2" 
+     android:layout_marginTop="18dp" android:layout_weight="0.10" android:layout_width="match_parent"></TextView>
+
+<TextView android:text="	 ACROM organized FIRA (Federation of International Robot-Soccer Association) hosted at Amrita School of Engineering, Bangalore in 2010. Later, as the interest of the students in Robotics grew workshop in basic Robotics (Line Follower) was conducted. And in year 2011 ACROM conducted the state level Robotics Fest RASE (Robodium @ ASE) and teams from Karnataka took part in the events. Now, ACROM helps students by conducting workshops, events and also helping them by some articles in Robotics. ACROM also help students in participating in other colleges’ technical fests and thus gain experience. " 
+    android:layout_height="wrap_content"
+     android:id="@+id/textView3" 
+     android:layout_marginLeft="22dp"
+     android:textColor="#ffffff" android:textSize="18dp"
+     android:layout_below="@+id/textView2" 
+     android:layout_alignLeft="@+id/textView2" 
+     android:layout_marginTop="18dp" android:layout_weight="0.33" android:layout_width="match_parent"></TextView>
+
+ <TextView android:text="	  " 
+    android:layout_height="wrap_content"
+     android:id="@+id/textView3" 
+     android:layout_marginLeft="22dp"
+     android:textColor="#ffffff"
+     android:layout_below="@+id/textView2" 
+     android:layout_alignLeft="@+id/textView2" 
+     android:layout_marginTop="18dp" android:layout_weight="0.33" android:layout_width="match_parent"></TextView>
+    
+
+
+<Button 
+     android:layout_weight="1.0" android:layout_width="150dp" 
+     android:layout_marginTop="20dip"
+     android:background="#FFFFFF"
+		android:layout_gravity="center"
+		android:textColor="#0A5BC4"
+     android:text=" Members " android:layout_height="wrap_content" 
+     android:id="@+id/acromteambtn" android:textSize="25dp"></Button>
+    
+    
+    <Button 
+     android:layout_weight="1.0" android:layout_width="150dp" 
+     android:layout_marginTop="20dip"
+     android:background="#FFFFFF"
+		android:layout_gravity="center"
+		android:textColor="#0A5BC4"
+     android:text=" 2012 Events" android:layout_height="wrap_content" 
+     android:id="@+id/acrom12btn" android:textSize="25dp"></Button>
+    
+    
+    
+    <Button 
+     android:layout_weight="1.0" android:layout_width="150dp" 
+     android:layout_marginTop="20dip"
+     android:layout_gravity="center"
+     
+     android:background="#FFFFFF"
+				android:textColor="#0A5BC4"
+     android:text=" 2013 Events" android:layout_height="wrap_content" 
+     android:id="@+id/acrom134btn" android:textSize="25dp"></Button>
+    
+    <TextView android:text="	  " 
+    android:layout_height="wrap_content"
+     android:id="@+id/textView3" 
+     android:layout_marginLeft="22dp"
+     android:textColor="#ffffff"
+     android:layout_below="@+id/textView2" 
+     android:layout_alignLeft="@+id/textView2" 
+     android:layout_marginTop="18dp" android:layout_weight="0.33" android:layout_width="match_parent"></TextView>
+     
+     <TextView android:text="Contact us: acromcontact@gmail.com" 
+    android:layout_height="wrap_content"
+     android:id="@+id/textView2" 
+  
+     android:textColor="#0050EF"
+     android:textSize="20dp"
+     android:layout_below="@+id/textView1"
+      android:layout_alignParentLeft="true" 
+      android:layout_marginLeft="22dp"
+       android:layout_marginTop="18dp" android:layout_width="367dp">
+       </TextView>
+     
+    
+     <TextView android:text="	  " 
+    android:layout_height="wrap_content"
+     android:id="@+id/textView3" 
+     android:layout_marginLeft="22dp"
+     android:textColor="#ffffff"
+     android:layout_below="@+id/textView2" 
+     android:layout_alignLeft="@+id/textView2" 
+     android:layout_marginTop="18dp" android:layout_weight="0.33" android:layout_width="match_parent"></TextView>
+    
+    
+     <TextView android:text="	  " 
+    android:layout_height="wrap_content"
+     android:id="@+id/textView3" 
+     android:layout_marginLeft="22dp"
+     android:textColor="#ffffff"
+     android:layout_below="@+id/textView2" 
+     android:layout_alignLeft="@+id/textView2" 
+     android:layout_marginTop="18dp" android:layout_weight="0.33" android:layout_width="match_parent"></TextView>
+    
+    
+     <TextView android:text="	  " 
+    android:layout_height="wrap_content"
+     android:id="@+id/textView3" 
+     android:layout_marginLeft="22dp"
+     android:textColor="#ffffff"
+     android:layout_below="@+id/textView2" 
+     android:layout_alignLeft="@+id/textView2" 
+     android:layout_marginTop="18dp" android:layout_weight="0.33" android:layout_width="match_parent"></TextView>
+     <TextView android:text="	  " 
+    android:layout_height="wrap_content"
+     android:id="@+id/textView3" 
+     android:layout_marginLeft="22dp"
+     android:textColor="#ffffff"
+     android:layout_below="@+id/textView2" 
+     android:layout_alignLeft="@+id/textView2" 
+     android:layout_marginTop="18dp" android:layout_weight="0.33" android:layout_width="match_parent"></TextView>
+    
+    
+    
+</LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,31 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+
+>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="Insert Data"
+    />
+<EditText android:id="@+id/user1" android:hint="Enter Username"
+ android:layout_height="wrap_content" android:layout_width="match_parent">
+    <requestFocus></requestFocus>
+</EditText>
+<EditText android:id="@+id/pass1" android:hint="Enter Password" 
+android:layout_height="wrap_content" android:layout_width="match_parent" android:inputType="textPassword"></EditText>
+<Button android:text="LOGIN" android:layout_gravity="center" 
+android:id="@+id/loginhome" android:layout_width="wrap_content" 
+android:layout_height="wrap_content"></Button>
+
+
+</LinearLayout>
+</ScrollView>

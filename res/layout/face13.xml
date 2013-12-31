@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#3b3b3b"
+    
+>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:background="#3b3b3b"
+  android:weightSum="1" android:layout_height="426dp">
+
+        
+	    <TextView android:layout_height="wrap_content" 
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:text=" FACE 2013 Events " android:layout_width="wrap_content" 
+    android:id="@+id/textView1" android:layout_alignParentTop="true"
+    android:textSize="30dp"
+     android:layout_marginTop="20dip"
+     android:background="#FFFFFF"
+		android:layout_gravity="center"
+    android:textColor="#0050EF" >
+    </TextView>
+      <TextView android:layout_height="wrap_content" 
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:text=" 1.	Stay Late and Code (SLAC) 2013  " android:id="@+id/textView1" android:layout_marginLeft="22dp"  android:layout_alignParentTop="true"
+    android:textSize="20dp"
+    
+     android:layout_marginTop="30dip"
+     android:background="#FFFFFF"
+		
+    android:textColor="#0050EF"
+
+     android:layout_width="274dp">
+    </TextView>
+      <TextView android:id="@+id/textView2" android:layout_marginLeft="22dp"
+      android:textColor="#ffffff"
+      android:layout_marginTop="18dip"
+      android:textSize="18sp"
+      
+       android:text="  	 The SLAC event was a huge success among the people who attended it. When asked the question upon initiation of the event, regarding the duration and the ease, people were more than ready to stay late and code for more than 24 hours. Mr. Shashidhar K., Head, CIR, Bangalore inaugurated SLAC quoting the needs of the hour with his personal experiences. In the end we began at 11am on 26th Jan 2013 and ended it at 2pm 27th Jan 2013, a total of 27Hours. The Judges, our alumni, were highly impressed with the initiative and the students as they came up with wonderful ideas and executed it with panache." android:layout_width="match_parent" android:layout_height="191dp">
+       </TextView>
+       
+       <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" android:layout_marginLeft="22dp"
+      android:textColor="#ffffff"
+      
+       android:text="  	 The winners Snap Dragons created two games viz. AngryBallZ and Django. The second team decided to go on a conventional manner by developing an API using exclusive API’s. They decided to create a location based reminder service that reminds you of a particular task as soon as you reach the location that was tagged with the task. While the third and fourth apps were normal apps dealing with game mechanics and dynamics and also image processing on the latter app, the fifth app however posed a significant challenge."
+        android:layout_weight="0.16" android:layout_width="match_parent">
+       </TextView>
+       
+       
+       <TextView android:layout_height="wrap_content" 
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:text=" 2.	TRACKING THE TRACKERS  " android:id="@+id/textView1" android:layout_marginLeft="22dp"  android:layout_alignParentTop="true"
+    android:textSize="20dp"
+    
+     android:layout_marginTop="30dip"
+     android:background="#FFFFFF"
+		
+    android:textColor="#0050EF"
+
+     android:layout_width="274dp">
+    </TextView>
+      <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" android:layout_marginLeft="22dp"
+      android:textColor="#ffffff"
+      android:layout_marginTop="18dip"
+       android:text="  	 FACE organised a workshop on Digital Privacy under the banner of Internet Society, Bangalore chapter. Mr Ankush Bagotra started the session demystifying the myths about Internet. He exclaimed the threats users’ bears over the Internet. With a few hands on experiments using add-ons on Google’s chrome browser. The speaker demonstrated to the crowd, the numbers websites who track them using “collusion” add-on.  Also stating that the maximum number of trackers being on e-shopping websites. Next, he went ahead to explain the concept of “Internet Footprint”. The crowd were left nonplussed when Ankush claimed Gmail to be unsafe. He gave convincing, supporting reasons for the same. The speaker then moved onto ways to protect one’s privacy over the Internet. He gave many alternatives to secure oneself online. Most importantly, he urged the participants to choose strong passwords for their online account and suggested on changing them regularly. "
+        android:layout_weight="0.29" android:layout_width="match_parent">
+       </TextView>
+       
+       
+       
+       
+       
+       <TextView android:layout_height="wrap_content" 
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:text=" 3.	CLOUD COMPUTING AND VIRTUALISATION  " android:id="@+id/textView1" android:layout_marginLeft="22dp"  android:layout_alignParentTop="true"
+    android:textSize="20dp"
+    
+     android:layout_marginTop="30dip"
+     android:background="#FFFFFF"
+		
+    android:textColor="#0050EF"
+
+     android:layout_width="274dp">
+    </TextView>
+      <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" android:layout_marginLeft="22dp"
+      android:textColor="#ffffff"
+      android:layout_marginTop="18dip"
+       android:text="  	 FACE organised a talk on Cloud computing and Virtualisation in association with VirtuQ, an educational service provider. The session started off with the speaker putting forward some questions testing the general notion of “CLOUD” among students. The speaker, after putting the cloud rightly into the minds of the students, moved on to the history of data storage and discussed a few pre-dominant models. Later, the crowd was introduced to servers, on which our internet rests upon. The speaker then shifted focus towards virtualisation and explained technical jargons like Emulation, Jails, Para virtualisation, and Full virtualisation. The before mentioned technologies were explained with relevant examples. Virtualisation technologies like AMD-V, Intel-VM were mentioned. Towards the end of the session Dr.Basant quoted that to become an amazing developer in cloud arena the following things have to be taken note of
+•	Comprehensive knowledge of GNU/Linux or UNIX
+•	Programming in C and C++ on a GNU
+•	Extensive LINUX system programming
+The session was a very informative one with a new lease of learning experience and refined the meaning of CLOUD altogether.
+       "
+        android:layout_weight="0.40" android:layout_width="match_parent">
+       </TextView>
+        
+        <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" 
+      android:textColor="#ffffff"  android:textSize="18sp"
+      android:layout_weight="0.36"
+           android:layout_marginTop="15dip"
+       android:layout_width="wrap_content" 
+       android:text="  	   	 	">
+       </TextView>
+        <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" 
+      android:textColor="#ffffff"  android:textSize="18sp"
+      android:layout_weight="0.36"
+           android:layout_marginTop="15dip"
+       android:layout_width="wrap_content" 
+       android:text="  	   	 	">
+       </TextView>
+        
+</LinearLayout>
+
+
+</ScrollView>

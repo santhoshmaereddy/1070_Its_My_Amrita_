@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#3b3b3b"
+    
+>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:background="#3b3b3b"
+  android:weightSum="1" android:layout_height="426dp">
+
+  <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" 
+      android:textColor="#ffffff"
+      android:layout_weight="0.36" android:layout_marginLeft="22dp"
+           android:layout_marginTop="15dip"
+       android:layout_width="wrap_content" 
+       android:text="	      ">
+       </TextView>
+
+        
+	    <TextView android:layout_height="wrap_content" 
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:text=" NARTHANA Events " android:layout_width="wrap_content" 
+    android:id="@+id/textView1" android:layout_alignParentTop="true"
+    android:textSize="30dp"
+    
+     android:layout_marginTop="20dip"
+     android:background="#FFFFFF"
+		android:layout_gravity="center"
+		
+    
+   android:textColor="#AA40FF"
+
+     >
+    </TextView>
+      <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" android:layout_marginLeft="22dp"
+      android:textColor="#ffffff"
+      android:layout_weight="0.36"   android:textSize="18sp"
+           android:layout_marginTop="18dip"
+       android:layout_width="wrap_content" 
+       android:text="  	   		We have prepared and presented all the dance performances in major events like Onam Celebrations, Amma’s Birthday celebrations, Independence Day, Kannada Rajyotsava, and most recently in the Amma’s Programme. ">
+       </TextView>
+       <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" 
+      android:textColor="#ffffff"  android:textSize="18sp"
+      android:layout_weight="0.36" android:layout_marginLeft="22dp"
+           android:layout_marginTop="15dip"
+       android:layout_width="wrap_content" 
+       android:text="	      We have also organize the dance events and competitions in college fests like Kalakriti(Talent Day) and Aavega (Mini-Kalanjali). In the coming months we are holding the much-anticipated Flash Mob, small fun events and plan to hold competitive and entertaining events in Kalanjali 2013. The club aims to maximize fun through dance as also giving students a platform to showcase and enhance their dancing talents.">
+       </TextView>
+  
+  
+  <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" 
+      android:textColor="#ffffff"
+      android:layout_weight="0.36" android:layout_marginLeft="22dp"
+           android:layout_marginTop="15dip"
+       android:layout_width="wrap_content" 
+       android:text="	      ">
+       </TextView>
+
+
+<TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" 
+      android:textColor="#ffffff"
+      android:layout_weight="0.36" android:layout_marginLeft="22dp"
+           android:layout_marginTop="15dip"
+       android:layout_width="wrap_content" 
+       android:text="	      ">
+       </TextView>
+<TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" 
+      android:textColor="#ffffff"
+      android:layout_weight="0.36" android:layout_marginLeft="22dp"
+           android:layout_marginTop="15dip"
+       android:layout_width="wrap_content" 
+       android:text="	      ">
+       </TextView>
+
+
+  
+</LinearLayout>
+
+
+</ScrollView>

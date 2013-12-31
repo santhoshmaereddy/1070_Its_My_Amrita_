@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#3b3b3b"
+    
+>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:background="#3b3b3b"
+  android:weightSum="1" android:layout_height="426dp">
+
+        
+	    <TextView android:layout_height="wrap_content" 
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:text=" SPICMACAY 2013 Events " android:layout_width="wrap_content" 
+    android:id="@+id/textView1" android:layout_alignParentTop="true"
+    android:textSize="25dp"
+    
+     android:layout_marginTop="20dip"
+     android:background="#FFFFFF"
+		android:layout_gravity="center"
+    android:textColor="#0050EF"
+
+     >
+    </TextView>
+      
+       
+       
+       
+       <TextView android:layout_height="wrap_content" 
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:text=" 1.	Face painting " android:layout_width="wrap_content" 
+    android:id="@+id/textView1" android:layout_alignParentTop="true"
+    android:textSize="20dp"
+    
+     android:layout_marginTop="20dip"
+     android:layout_marginLeft="15dp"
+		
+    android:textColor="#FFFFFF"
+
+     >
+    </TextView>
+    
+       <TextView android:layout_height="wrap_content" 
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:text=" 2.	Kalanjali ’13 ( Rangoli , Face painting, Antakshari) " android:layout_width="wrap_content" 
+    android:id="@+id/textView1" android:layout_alignParentTop="true"
+    android:textSize="20dp"
+    android:layout_marginLeft="15dp"
+     android:layout_marginTop="20dip"
+  
+		
+    android:textColor="#FFFFFF"
+
+     >
+    </TextView>
+           
+       
+       
+       
+       
+       
+       
+       
+        
+</LinearLayout>
+
+
+</ScrollView>

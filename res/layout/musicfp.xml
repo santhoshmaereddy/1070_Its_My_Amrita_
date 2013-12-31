@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#3b3b3b"
+    
+>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:background="#3b3b3b"
+  android:weightSum="1" android:layout_height="426dp">
+
+        
+	    <TextView android:layout_height="wrap_content" 
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:text=" RAAGA " android:layout_width="wrap_content" 
+    android:id="@+id/textView1" android:layout_alignParentTop="true"
+    android:textSize="30dp"
+    
+     android:layout_marginTop="20dip"
+     android:background="#FFFFFF"
+		android:layout_gravity="center"
+		
+    
+    android:textColor="#0050EF"
+
+     >
+    </TextView>
+    
+
+
+
+<TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" android:layout_marginLeft="22dp"
+      android:textColor="#ffffff"
+      android:layout_weight="0.36"
+           android:layout_marginTop="18dip"
+       android:layout_width="wrap_content" 
+       android:textSize="18sp"
+       android:text="  	   		Raaga, the music club, is the unifying factor for all the music lovers in our campus. It organizes various events to bring out their dormant talents and helps them realize their musical talents and mainly to spread power of music throughout the campus.">
+       </TextView>
+
+<TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" android:layout_marginLeft="22dp"
+      android:textColor="#ffffff"
+      android:layout_weight="0.36" android:textSize="18sp"
+           android:layout_marginTop="18dip"
+       android:layout_width="wrap_content" 
+       android:text="  	   		The club is an essential part of all the events that happen throughout the year, like Independence Day, Republic Day, Kannada Rajyotsavam, Onam Celebrations, Krishna Janmashtami and the various programs involving our Chancellor Mata Amritanandamayi Devi.">
+       </TextView>
+
+
+
+
+
+
+
+
+
+<Button 
+     android:layout_weight="1.0" android:layout_width="150dp" 
+     android:layout_marginTop="20dip"
+     android:background="#FFFFFF"
+		android:layout_gravity="center"
+		android:textColor="#0A5BC4"
+     android:text=" Members " android:layout_height="wrap_content" 
+     android:id="@+id/musicteambtn" android:textSize="25dp"></Button>
+    
+    
+    <Button 
+     android:layout_weight="1.0" android:layout_width="150dp" 
+     android:layout_marginTop="20dip"
+     android:background="#FFFFFF"
+		android:layout_gravity="center"
+		android:textColor="#0A5BC4"
+     android:text=" 2012 Events" android:layout_height="wrap_content" 
+     android:id="@+id/music12btn" android:textSize="25dp"></Button>
+    
+    
+    
+    <Button 
+     android:layout_weight="1.0" android:layout_width="150dp" 
+     android:layout_marginTop="20dip"
+     android:background="#FFFFFF"
+		android:layout_gravity="center"
+		android:textColor="#0A5BC4"
+     android:text=" 2013 Events" android:layout_height="wrap_content" 
+     android:id="@+id/music134btn" android:textSize="25dp"></Button>
+    
+    <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" android:layout_marginLeft="22dp"
+      android:textColor="#ffffff"
+      android:layout_weight="0.36" android:textSize="18sp"
+           android:layout_marginTop="18dip"
+       android:layout_width="wrap_content" 
+       android:text="  	   		">
+       </TextView>
+
+
+
+    
+    
+</LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#3b3b3b"
+    
+>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:background="#3b3b3b"
+  android:weightSum="1" android:layout_height="426dp">
+
+  <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" 
+      android:textColor="#ffffff"
+      android:layout_weight="0.36" android:layout_marginLeft="22dp"
+           android:layout_marginTop="15dip"
+       android:layout_width="wrap_content" 
+       android:text="	      ">
+       </TextView>
+
+        
+	    <TextView android:layout_height="wrap_content" 
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:text=" ECIF 2012 Events " android:layout_width="wrap_content" 
+    android:id="@+id/textView1" android:layout_alignParentTop="true"
+    android:textSize="30dp"
+    
+     android:layout_marginTop="20dip"
+     android:background="#FFFFFF"
+		android:layout_gravity="center"
+		
+    
+   android:textColor="#AA40FF"
+
+     >
+    </TextView>
+	    <TextView android:textAppearance="?android:attr/textAppearanceLarge" 
+	    android:textColor="#AA40FF" android:id="@+id/textView1" 
+	    android:layout_marginLeft="22dp" android:background="#FFFFFF" 
+	    android:text=" 1.	PROJECT EXHIBITION " android:layout_height="wrap_content" 
+	    android:layout_width="wrap_content" android:layout_marginTop="30dip" android:textSize="20dp">
+	    
+	    </TextView>
+      <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" android:layout_marginLeft="22dp"
+      android:textColor="#ffffff"
+      android:layout_weight="0.36"   android:textSize="18sp"
+           android:layout_marginTop="18dip"
+       android:layout_width="wrap_content" 
+       android:text="  	   		This event was organised in order to display the projects done by the 3rd and 4th years of ECE and EIE. This was conductes on 24th August 2012">
+       </TextView>
+      
+      
+      <TextView android:layout_height="wrap_content" 
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:text="2.	COMITRONICS" android:id="@+id/textView1" android:layout_alignParentTop="true"
+    android:textSize="20dp"
+    
+     android:layout_marginTop="20dip"
+     android:background="#FFFFFF"
+		android:layout_marginLeft="22dp"
+    android:textColor="#0050EF"
+
+     android:layout_width="188dp">
+    </TextView>
+      
+  
+  <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" 
+      android:textColor="#ffffff"
+      android:layout_weight="0.36" android:layout_marginLeft="22dp"
+           android:layout_marginTop="15dip"  android:textSize="18sp"
+       android:layout_width="wrap_content" 
+       android:text="	       This event is being organized to bring out the creativity of students. As the name suggests it’s a combination of Comics and Electronics. This event will be open through out the 2012-2013 odd semester.">
+       </TextView>
+  
+<TextView android:layout_height="wrap_content" android:layout_marginLeft="22dp"
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:text="3.	HANDS ON WORKSHOP		 ON DSP" android:id="@+id/textView1" android:layout_alignParentTop="true"
+    android:textSize="20dp"
+     
+     android:layout_marginTop="20dip"
+     android:background="#FFFFFF"
+		
+    android:textColor="#0050EF"
+
+     android:layout_weight="0.04" android:layout_width="274dp">
+    </TextView>
+       <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" 
+      android:textColor="#ffffff"  android:textSize="18sp"
+      android:layout_weight="0.36" android:layout_marginLeft="22dp"
+           android:layout_marginTop="15dip"
+       android:layout_width="wrap_content" 
+       android:text="	       This workshop was conducted by Cranes Varsity, Bangalore on DSP TMS320C6713. It was conducted on 29th and 30th September 2012 and around 100 students attended.">
+       </TextView>
+  
+  
+  
+
+<TextView android:layout_height="wrap_content" 
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:text="4.	HANDS ON WORKSHOP ON ELECTRONIC SIMULATION" android:id="@+id/textView1" android:layout_alignParentTop="true"
+    android:textSize="20dp"
+    
+     android:layout_marginTop="20dip"
+     android:background="#FFFFFF"
+		android:layout_marginLeft="22dp"
+    android:textColor="#0050EF" android:layout_weight="0.07" android:layout_width="276dp">
+    </TextView>
+      
+      
+        <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" 
+      android:textColor="#ffffff"
+      android:layout_weight="0.36" android:layout_marginLeft="22dp"
+           android:layout_marginTop="15dip"  android:textSize="18sp"
+       android:layout_width="wrap_content" 
+       android:text="	       This workshop was conducted by the ECE faculty about TINA and LTSPICE on 7th November 2012. This helped students gain knowledge about the above mentioned softwares.">
+       </TextView>
+  
+  
+  
+
+<TextView android:layout_height="wrap_content" 
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:text="5.	LOGIQ QUIZ" android:layout_width="wrap_content" 
+    android:id="@+id/textView1" android:layout_alignParentTop="true"
+    android:textSize="20dp"
+    
+     android:layout_marginTop="20dip"
+     android:background="#FFFFFF"
+		android:layout_marginLeft="22dp"
+    android:textColor="#0050EF"
+
+     >
+    </TextView>
+      
+  
+  <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" android:layout_marginLeft="22dp"
+      android:textColor="#ffffff"
+      android:layout_weight="0.36"
+           android:layout_marginTop="15dip"  android:textSize="18sp"
+       android:layout_width="wrap_content" 
+       android:text="	       The aim of this quiz was to check the technical knowledge of the students and how they apply it in the real world. Over 30 teams attended.">
+       </TextView>
+
+
+
+
+<TextView android:layout_height="wrap_content" 
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:text="6.	CIRCUIT SIMULATION" android:layout_width="wrap_content" 
+    android:id="@+id/textView1" android:layout_alignParentTop="true"
+    android:textSize="20dp"
+    android:layout_marginLeft="22dp"
+     android:layout_marginTop="20dip"
+     android:background="#FFFFFF"
+		
+    android:textColor="#0050EF"
+
+     >
+    </TextView>
+      
+      
+         <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" 
+      android:textColor="#ffffff"
+      android:layout_weight="0.36" android:layout_marginLeft="22dp"
+           android:layout_marginTop="15dip"
+       android:layout_width="wrap_content"   android:textSize="18sp"
+       android:text="	       This event was specially conducted to the 2nd year students to give them a brief introduction about Circuit simulation. (TINA and MULTISIM)">
+       </TextView>
+  
+  
+  <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" 
+      android:textColor="#ffffff"
+      android:layout_weight="0.36" android:layout_marginLeft="22dp"
+           android:layout_marginTop="15dip"
+       android:layout_width="wrap_content" 
+       android:text="	      ">
+       </TextView>
+
+
+<TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" 
+      android:textColor="#ffffff"
+      android:layout_weight="0.36" android:layout_marginLeft="22dp"
+           android:layout_marginTop="15dip"
+       android:layout_width="wrap_content" 
+       android:text="	      ">
+       </TextView>
+<TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" 
+      android:textColor="#ffffff"
+      android:layout_weight="0.36" android:layout_marginLeft="22dp"
+           android:layout_marginTop="15dip"
+       android:layout_width="wrap_content" 
+       android:text="	      ">
+       </TextView>
+
+
+  
+</LinearLayout>
+
+
+</ScrollView>

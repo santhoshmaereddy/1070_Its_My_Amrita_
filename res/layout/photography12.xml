@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#3b3b3b"
+    
+>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:background="#3b3b3b"
+  android:weightSum="1" android:layout_height="426dp">
+
+  <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" 
+      android:textColor="#ffffff"
+      android:layout_weight="0.36" android:layout_marginLeft="22dp"
+           android:layout_marginTop="15dip"
+       android:layout_width="wrap_content" 
+       android:text="	      ">
+       </TextView>
+
+        
+	    <TextView android:layout_height="wrap_content" 
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:text=" Photography 2012 Events " android:layout_width="wrap_content" 
+    android:id="@+id/textView1" android:layout_alignParentTop="true"
+    android:textSize="25dp"
+    
+     android:layout_marginTop="20dip"
+     android:background="#FFFFFF"
+		android:layout_gravity="center"
+    android:textColor="#0050EF" >
+    </TextView>
+      
+       
+	    <TextView android:textAppearance="?android:attr/textAppearanceLarge" 
+	    android:textColor="#AA40FF" android:id="@+id/textView1" 
+	    android:layout_marginLeft="22dp" android:background="#FFFFFF" 
+	    android:text=" 1.	Kalakriti-2012" android:layout_height="wrap_content" 
+	    android:layout_width="wrap_content" android:layout_marginTop="30dip" android:textSize="20dp">
+	    
+	    </TextView>
+      <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" android:layout_marginLeft="22dp"
+      android:textColor="#ffffff"
+      android:layout_weight="0.36"   android:textSize="18sp"
+           android:layout_marginTop="18dip"
+       android:layout_width="wrap_content" 
+       android:text="  	   		Through a Martian’s eyes
+An event where the participants try to click landscape photographs of the college and to try to make it look like it wasn’t college.">
+       </TextView>
+      
+      
+      <TextView android:layout_height="wrap_content" 
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:text="2.	Tell Me a Story" android:id="@+id/textView1" android:layout_alignParentTop="true"
+    android:textSize="20dp"
+    
+     android:layout_marginTop="20dip"
+     android:background="#FFFFFF"
+		android:layout_marginLeft="22dp"
+    android:textColor="#0050EF"
+
+     android:layout_width="188dp">
+    </TextView>
+      
+  
+  <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" 
+      android:textColor="#ffffff"
+      android:layout_weight="0.36" android:layout_marginLeft="22dp"
+           android:layout_marginTop="15dip"  android:textSize="18sp"
+       android:layout_width="wrap_content" 
+       android:text="	      An event where participants try to convey a story through their photographs.">
+       </TextView>
+  
+<TextView android:layout_height="wrap_content" android:layout_marginLeft="22dp"
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:text="3.	Aavega" android:id="@+id/textView1" android:layout_alignParentTop="true"
+    android:textSize="20dp"
+     
+     android:layout_marginTop="20dip"
+     android:background="#FFFFFF"
+		
+    android:textColor="#0050EF"
+
+     android:layout_weight="0.04" android:layout_width="274dp">
+    </TextView>
+       <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" 
+      android:textColor="#ffffff"  android:textSize="18sp"
+      android:layout_weight="0.36" android:layout_marginLeft="22dp"
+           android:layout_marginTop="15dip"
+       android:layout_width="wrap_content" 
+       android:text="	     A Contest where participants click photographs of clouds
+When the City Sleeps 
+A contest where the participants prowess at clicking night photographs was tested
+
+A workshop on basic photography was conducted by the secretary and co-secretary of the club aimed at introducing the basic concepts of shutter speed, aperture and ISO to budding photographers.
+">
+       </TextView>
+  
+  
+  
+
+<TextView android:layout_height="wrap_content" 
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:text="4.    WORKSHOP" android:id="@+id/textView1" android:layout_alignParentTop="true"
+    android:textSize="20dp"
+    
+     android:layout_marginTop="20dip"
+     android:background="#FFFFFF"
+		android:layout_marginLeft="22dp"
+    android:textColor="#0050EF" android:layout_weight="0.07" android:layout_width="276dp">
+    </TextView>
+      
+      
+        <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" 
+      android:textColor="#ffffff"
+      android:layout_weight="0.36" android:layout_marginLeft="22dp"
+           android:layout_marginTop="15dip"  android:textSize="18sp"
+       android:layout_width="wrap_content" 
+       android:text="	      A workshop on photography was held by Bhrahmachari Dhyanamrita Chaitanya. This workshop focused on not only the right settings for a photograph but also the right attitude and approach a photographer should have to capture masterpieces.">
+       </TextView>
+  
+  
+  <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" 
+      android:textColor="#ffffff"
+      android:layout_weight="0.36" android:layout_marginLeft="22dp"
+           android:layout_marginTop="15dip"
+       android:layout_width="wrap_content" 
+       android:text="	      ">
+       </TextView>
+
+
+<TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" 
+      android:textColor="#ffffff"
+      android:layout_weight="0.36" android:layout_marginLeft="22dp"
+           android:layout_marginTop="15dip"
+       android:layout_width="wrap_content" 
+       android:text="	      ">
+       </TextView>
+<TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" 
+      android:textColor="#ffffff"
+      android:layout_weight="0.36" android:layout_marginLeft="22dp"
+           android:layout_marginTop="15dip"
+       android:layout_width="wrap_content" 
+       android:text="	      ">
+       </TextView>
+
+
+  
+</LinearLayout>
+      
+      
+        
+
+
+</ScrollView>

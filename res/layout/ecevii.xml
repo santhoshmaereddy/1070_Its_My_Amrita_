@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:weightSum="1">
+    <TableLayout android:id="@+id/tableLayout1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="0.39">
+        <TableRow android:id="@+id/tableRow1" android:layout_width="wrap_content" 
+
+        android:layout_height="wrap_content">
+            <TextView android:textSize="20dp" android:textColor="#3399FF" android:text="Code" android:id="@+id/textView1" android:layout_width="80dp" android:layout_height="35dp"></TextView>
+            <TextView android:textSize="20dp" android:textColor="#3399FF" android:text="Course Title" android:id="@+id/textView2" android:layout_width="175dp" android:layout_height="35dp"></TextView>
+            <TextView android:textSize="20dp" android:textColor="#3399FF" android:text="Credits" android:id="@+id/textView3" android:layout_width="fill_parent" android:layout_height="35dp"></TextView>
+        </TableRow>
+        <TableRow android:id="@+id/tableRow2" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:text="ECE430" android:textSize="18dp" android:textColor="#ffffff"  android:id="@+id/textView4" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+            <TextView android:text="Radio Frequency"  android:textSize="18dp" android:textColor="#ffffff"  android:id="@+id/textView5" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+            <TextView android:text="4"  android:textSize="18dp" android:textColor="#ffffff" android:id="@+id/textView6" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+        </TableRow>
+        <TableRow android:id="@+id/tableRow3" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:text="" android:id="@+id/textView7" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+            <TextView android:text="	Engineering" android:textSize="18dp" android:textColor="#ffffff"  android:id="@+id/textView8" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+            <TextView android:text="" android:id="@+id/textView9" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+        </TableRow>
+        <TableRow android:id="@+id/tableRow4" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:text="ECE431"  android:textSize="18dp" android:textColor="#ffffff" android:id="@+id/textView10" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+            <TextView android:text="Information Theory and"  android:textSize="18dp" android:textColor="#ffffff" android:id="@+id/textView11" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+            <TextView android:text="4"  android:textSize="18dp" android:textColor="#ffffff" android:id="@+id/textView12" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+        </TableRow>
+        <TableRow android:id="@+id/tableRow2" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:text="" android:id="@+id/textView4" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+            <TextView android:text="	coding techniques" android:textSize="18dp" android:textColor="#ffffff"  android:id="@+id/textView5" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+            <TextView android:text="" android:id="@+id/textView6" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+        </TableRow>
+        
+        <TableRow android:id="@+id/tableRow2" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:text="ECE445"  android:textSize="18dp" android:textColor="#ffffff" android:id="@+id/textView4" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+            <TextView android:text="Wireless Communication"  android:textSize="18dp" android:textColor="#ffffff" android:id="@+id/textView5" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+            <TextView android:text="3"  android:textSize="18dp" android:textColor="#ffffff" android:id="@+id/textView6" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+        </TableRow>
+        <TableRow android:id="@+id/tableRow2" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:text="" android:id="@+id/textView4" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+            <TextView android:text="Elective II" android:textSize="18dp" android:textColor="#ffffff"  android:id="@+id/textView5" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+            <TextView android:text="3"  android:textSize="18dp" android:textColor="#ffffff" android:id="@+id/textView6" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+        </TableRow>
+        <TableRow android:id="@+id/tableRow2" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:text="" android:id="@+id/textView4" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+            <TextView android:text="Elective III" android:textSize="18dp" android:textColor="#ffffff"  android:id="@+id/textView5" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+            <TextView android:text="3"  android:textSize="18dp" android:textColor="#ffffff" android:id="@+id/textView6" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+        </TableRow>
+        <TableRow android:id="@+id/tableRow2" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:text="MNG400"  android:textSize="18dp" android:textColor="#ffffff" android:id="@+id/textView4" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+            <TextView android:text="Principles of Management"  android:textSize="18dp" android:textColor="#ffffff" android:id="@+id/textView5" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+            <TextView android:text="3"  android:textSize="18dp" android:textColor="#ffffff" android:id="@+id/textView6" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+        </TableRow>
+        
+        <TableRow android:id="@+id/tableRow2" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:text="ECE490" android:textSize="18dp" android:textColor="#ffffff"  android:id="@+id/textView4" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+            <TextView android:text="Microwave and antenna Lab" android:textSize="18dp" android:textColor="#ffffff"  android:id="@+id/textView5" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+            <TextView android:text="  1"  android:textSize="18dp" android:textColor="#ffffff" android:id="@+id/textView6" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+        </TableRow>
+        
+    </TableLayout>
+    
+</LinearLayout>

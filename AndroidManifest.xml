@@ -1,0 +1,1558 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="out.in"
+      android:versionCode="2"
+      android:installLocation="auto"
+      android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="8" />
+    <uses-permission android:name="android.permission.SEND_SMS">
+</uses-permission>
+<uses-library android:name="com.google.android.maps"/>
+<uses-permission android:name="android.permission.INTERNET"/>
+<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+
+
+
+
+ <application android:icon="@drawable/logo" android:label="ItsMyAmrita">
+ 
+ <uses-library android:name="com.google.android.maps" />
+ 
+ 
+ 
+    <activity android:name=".Animation"
+                  android:label="ItsMyAmrita">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+      
+ 
+    <activity android:name=".Home"
+                  android:label="ItsMyAmrita">
+            <intent-filter>
+                <action android:name="out.in.Home" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity android:name=".AboutBangalore"
+                  android:label="Bangalore Campus">
+            <intent-filter>
+                <action android:name="out.in.AboutBangalore" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+         <activity android:name=".AboutAmrita"
+                  android:label="ItsMyAmrita">
+            <intent-filter>
+                <action android:name="out.in.AboutAmrita" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+        
+         <activity android:name=".LibraryActivity"
+                  android:label="Library">
+            <intent-filter>
+                <action android:name="out.in.LibraryActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+         <activity android:name=".librarygeneralinfo"
+                  android:label="Library General Information">
+            <intent-filter>
+                <action android:name="out.in.librarygeneralinfo" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity android:name=".LibraryServices"
+                  android:label="Library Services">
+            <intent-filter>
+                <action android:name="out.in.LibraryServices" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+        
+        
+        <activity android:name=".Campus"
+                  android:label="Campus">
+            <intent-filter>
+                <action android:name="out.in.Campus" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+         <activity android:name=".ActivitiesImages"
+                  android:label="Activities">
+            <intent-filter>
+                <action android:name="out.in.ActivitiesImages" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity android:name=".Orientation"
+                  android:label="Orientation cermony">
+            <intent-filter>
+                <action android:name="out.in.Orientation" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+        
+        
+        
+         <activity android:name=".Eresources"
+                  android:label="Library">
+            <intent-filter>
+                <action android:name="out.in.Eresources" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity android:name=".AmritaHomeActivity"
+                  android:label="Amrita University">
+            <intent-filter>
+                <action android:name="out.in.AmritaHomeActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+          <activity android:name=".RouteMapAmrita"
+                  android:label="Amrita Map"
+                  >
+            <intent-filter>
+                <action android:name="out.in.RouteMapAmrita" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+        
+        
+        <activity android:name=".AboutUS"
+                  android:label="AboutUS"
+                  >
+            <intent-filter>
+                <action android:name="out.in.AboutUS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+        <activity android:name=".Help"
+                  android:label="Instructions"
+                  >
+            <intent-filter>
+                <action android:name="out.in.Help" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+<activity android:name=".Prefs"
+                  android:label="Preferences"
+                  >
+            <intent-filter>
+                <action android:name="out.in.Prefs" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+        
+        
+        <activity android:name=".Route"
+                  android:label="Route">
+            <intent-filter>
+                <action android:name="out.in.Route" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <activity android:name=".DashboardLayout"
+                  android:label="ItsMyAmrita">
+            <intent-filter>
+                <action android:name="out.in.DashboardLayout" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+        <activity android:name=".DaramaArtsMembers"
+                  android:label="Drama-Arts">
+            <intent-filter>
+                <action android:name="out.in.DramaArtsMembers" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+        <activity android:name=".RoutemapDirections"
+                  android:label="Route Map Directions">
+            <intent-filter>
+                <action android:name="out.in.RoutemapDirections" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+
+        
+         <activity android:name=".DramaArts13"
+                  android:label="DramaArts">
+            <intent-filter>
+                <action android:name="out.in.DramaArts13" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+         <activity android:name=".DramaArtsMembers"
+                  android:label="Members">
+            <intent-filter>
+                <action android:name="out.in.DramaArtsMembers" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+        
+         <activity android:name=".DramaArts12"
+                  android:label="Drama-Arts">
+            <intent-filter>
+                <action android:name="out.in.DramaArts12" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+        
+        
+        
+        
+        <activity android:name=".MusicMembers"
+                  android:label="Music">
+            <intent-filter>
+                <action android:name="out.in.MusicMembers" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity android:name=".Music13"
+                  android:label="Music">
+            <intent-filter>
+                <action android:name="out.in.Music13" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity android:name=".Music12"
+                  android:label="Music">
+            <intent-filter>
+                <action android:name="out.in.Music12" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+        
+        
+        
+         <activity android:name=".DanceMembers"
+                  android:label="Dance">
+            <intent-filter>
+                <action android:name="out.in.DanceMembers" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity android:name=".Dance13"
+                  android:label="Dance">
+            <intent-filter>
+                <action android:name="out.in.Dance13" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity android:name=".Dance12"
+                  android:label="Dance">
+            <intent-filter>
+                <action android:name="out.in.Dance12" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+         <activity android:name=".PhotographyMembers"
+                  android:label="Photography">
+            <intent-filter>
+                <action android:name="out.in.PhotographyMembers" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+        
+        
+        
+         <activity android:name=".MovieMembers"
+                  android:label="MOVIE CLUB">
+            <intent-filter>
+                <action android:name="out.in.MovieMembers" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity android:name=".Movie13"
+                  android:label="MOVIE CLUB">
+            <intent-filter>
+                <action android:name="out.in.Movie13" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity android:name=".Movie12"
+                  android:label="MOVIE CLUB">
+            <intent-filter>
+                <action android:name="out.in.Movie12" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+         <activity android:name=".MovieFP"
+                  android:label="MOVIE CLUB">
+            <intent-filter>
+                <action android:name="out.in.MovieFP" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+        
+        
+        
+         <activity android:name=".PrananaMembers"
+                  android:label="PRANANA CLUB">
+            <intent-filter>
+                <action android:name="out.in.PrananaMembers" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity android:name=".Pranana13"
+                  android:label="PRANANA CLUB">
+            <intent-filter>
+                <action android:name="out.in.Pranana13" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity android:name=".Pranana12"
+                  android:label="PRANANA CLUB">
+            <intent-filter>
+                <action android:name="out.in.Pranana12" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+         <activity android:name=".PrananaFP"
+                  android:label="PRANANA CLUB">
+            <intent-filter>
+                <action android:name="out.in.PrananaFP" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+        
+     
+        
+        
+         <activity android:name=".Photography13"
+                  android:label="Photography">
+            <intent-filter>
+                <action android:name="out.in.Photography13" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity android:name=".Photography12"
+                  android:label="Photography">
+            <intent-filter>
+                <action android:name="out.in.Photography12" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+        
+         <activity android:name=".LiteraryMembers"
+                  android:label="Literary">
+            <intent-filter>
+                <action android:name="out.in.LiteraryMembers" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity android:name=".Literary13"
+                  android:label="Literary">
+            <intent-filter>
+                <action android:name="out.in.Literary13" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity android:name=".Literary12"
+                  android:label="Literary">
+            <intent-filter>
+                <action android:name="out.in.Literary12" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+        
+        
+         <activity android:name=".SpicmacayMembers"
+                  android:label="Spicmacay">
+            <intent-filter>
+                <action android:name="out.in.SpicmacayMembers" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity android:name=".Spicmacay13"
+                  android:label="Spicmacay">
+            <intent-filter>
+                <action android:name="out.in.Spicmacay13" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity android:name=".Spicmacay12"
+                  android:label="Spicmacay">
+            <intent-filter>
+                <action android:name="out.in.Spicmacay12" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+        
+         <activity android:name=".PressMembers"
+                  android:label="Press">
+            <intent-filter>
+                <action android:name="out.in.PressMembers" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity android:name=".Press13"
+                  android:label="Press">
+            <intent-filter>
+                <action android:name="out.in.Press13" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity android:name=".Press12"
+                  android:label="Press">
+            <intent-filter>
+                <action android:name="out.in.Press12" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+        
+        
+        
+        <activity android:name=".JnanavaniMembers"
+                  android:label="VEDANTA">
+            <intent-filter>
+                <action android:name="out.in.JnanavaniMembers" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity android:name=".Jnanavani13"
+                  android:label="VEDANTA">
+            <intent-filter>
+                <action android:name="out.in.Jnanavani13" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity android:name=".Jnanavani12"
+                  android:label="VEDANTA">
+            <intent-filter>
+                <action android:name="out.in.Jnanavani12" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+        
+        <activity android:name=".EcoclubMembers"
+                  android:label="Eco-Club">
+            <intent-filter>
+                <action android:name="out.in.EcoclubMembers" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity android:name=".Ecoclub13"
+                  android:label="Eco-Club">
+            <intent-filter>
+                <action android:name="out.in.Ecoclub13" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity android:name=".Ecoclub12"
+                  android:label="Eco-Club">
+            <intent-filter>
+                <action android:name="out.in.Ecoclub12" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+        
+        <activity android:name=".SportsMembers"
+                  android:label="Sports">
+            <intent-filter>
+                <action android:name="out.in.SportsMembers" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity android:name=".Sports13"
+                  android:label="Sports">
+            <intent-filter>
+                <action android:name="out.in.Sports13" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity android:name=".Sports12"
+                  android:label="Sports">
+            <intent-filter>
+                <action android:name="out.in.Sports12" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+         <activity android:name=".FeedbackFP"
+                  android:label="FeedbackFP">
+            <intent-filter>
+                <action android:name="out.in.FeedbackFP" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity android:name=".PhotographyFP"
+                  android:label="Photography">
+            <intent-filter>
+                <action android:name="out.in.PhotographyFP" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity android:name=".EcoclubFP"
+                  android:label="Eco-Club">
+            <intent-filter>
+                <action android:name="out.in.EcoclubFP" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+        
+         <activity android:name=".DanceFP"
+                  android:label="Dance">
+            <intent-filter>
+                <action android:name="out.in.DanceFP" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity android:name=".SportsFP"
+                  android:label="Sports">
+            <intent-filter>
+                <action android:name="out.in.SportsFP" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity android:name=".DramaArtsFP"
+                  android:label="Drama-Arts">
+            <intent-filter>
+                <action android:name="out.in.DramaArtsFP" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+     
+        
+        
+        
+         <activity android:name=".DramaMembers"
+                  android:label="Members">
+            <intent-filter>
+                <action android:name="out.in.DramaMembers" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+     
+        
+        
+        
+        
+         <activity android:name=".JnanavaniFP"
+                  android:label="JnanavaniFP">
+            <intent-filter>
+                <action android:name="out.in.JnanavaniFP" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity android:name=".LiteraryFP"
+                  android:label="LiteraryFP">
+            <intent-filter>
+                <action android:name="out.in.LiteraryFP" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity android:name=".MusicFP"
+                  android:label="MusicFP">
+            <intent-filter>
+                <action android:name="out.in.MusicFP" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity android:name=".PressFP"
+                  android:label="PressFP">
+            <intent-filter>
+                <action android:name="out.in.PressFP" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity android:name=".SpicmacayFP"
+                  android:label="SpicmacayFP">
+            <intent-filter>
+                <action android:name="out.in.SpicmacayFP" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+        
+        <activity android:name=".AllFaculty"
+                  android:label="Faaculty Home Page">
+            <intent-filter>
+                <action android:name="out.in.Login" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".CustomViewAdapter"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="out.in.CustomViewAdapter" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+         <activity android:name=".Login"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="out.in.Login" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+        
+         <activity android:name=".Register"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="out.in.Register" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+        <activity android:name=".ViewDataActivity"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="out.in.ViewDataActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+	<activity android:name=".CseFaculty"
+                  android:label="CSE">
+            <intent-filter>
+                <action android:name="out.in.CseFaculty" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".EceFaculty"
+                  android:label="ECE">
+            <intent-filter>
+                <action android:name="out.in.EceFaculty" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".EEEFaculty"
+                  android:label="EEE">
+            <intent-filter>
+                <action android:name="out.in.EEEFaculty" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MechFaculty"
+                  android:label="Mechanical">
+            <intent-filter>
+                <action android:name="out.in.MechFaculty" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".EnglishFaculty"
+                  android:label="English">
+            <intent-filter>
+                <action android:name="out.in.EnglishFaculty" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+        <activity android:name=".CivilFaculty"
+                  android:label="Civil">
+            <intent-filter>
+                <action android:name="out.in.CivilFaculty" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity android:name=".MathFaculty"
+                  android:label="Maths">
+            <intent-filter>
+                <action android:name="out.in.MathFaculty" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity android:name=".PhysicsFaculty"
+                  android:label="Physics">
+            <intent-filter>
+                <action android:name="out.in.PhysicsFaculty" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity android:name=".ChemistryFaculty"
+                  android:label="Chemistry">
+            <intent-filter>
+                <action android:name="out.in.ChemistryFaculty" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".CulturalFaculty"
+                  android:label="Cultural">
+            <intent-filter>
+                <action android:name="out.in.CulturalFaculty" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".CIRFaculty"
+                  android:label="CIR">
+            <intent-filter>
+                <action android:name="out.in.CIRFaculty" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+        <activity android:name=".ClubsForumsFP"
+                  android:label="Clubs And Forums Home Page">
+            <intent-filter>
+                <action android:name="out.in.ClubsForumsFP" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".CoursesFP"
+                  android:label="Courses Home Page">
+            <intent-filter>
+                <action android:name="out.in.CoursesFP" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".RouteFP"
+                  android:label="Route Map">
+            <intent-filter>
+                <action android:name="out.in.RouteFP" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".SnapsFP"
+                  android:label="Snap Shots">
+            <intent-filter>
+                <action android:name="out.in.SnapsFP" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+        <activity android:name=".TimeTableFP"
+                  android:label="Time Table Home Page">
+            <intent-filter>
+                <action android:name="out.in.TimeTableFP" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".AllFaculty"
+                  android:label="Faculty Home Page">
+            <intent-filter>
+                <action android:name="out.in.AllFaculty" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+        <activity android:name=".TechClubsForumsFP"
+                  android:label="Clubs And Forums">
+            <intent-filter>
+                <action android:name="out.in.TechClubsForumsFP" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+        <activity android:name=".AmritadaraFP"
+                  android:label="Amritadara">
+            <intent-filter>
+                <action android:name="out.in.AmritadaraFP" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    	
+    	<activity android:name=".ECIFFP"
+                  android:label="ECIF">
+            <intent-filter>
+                <action android:name="out.in.ECIFFP" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ECIF12"
+                  android:label="ECIF2012">
+            <intent-filter>
+                <action android:name="out.in.ECIF12" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".ECIF13"
+                  android:label="ECIF2013">
+            <intent-filter>
+                <action android:name="out.in.ECIF13" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ECIFMembers"
+                  android:label="ECIF Members">
+            <intent-filter>
+                <action android:name="out.in.ECIFMembers" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+        
+        <activity android:name=".AcromFP"
+                  android:label="Acrom">
+            <intent-filter>
+                <action android:name="out.in.AcromFP" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Acrom12"
+                  android:label="Acrom 2012">
+            <intent-filter>
+                <action android:name="out.in.Acrom12" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".Acrom13"
+                  android:label="Acrom 2013">
+            <intent-filter>
+                <action android:name="out.in.Acrom13" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AcromMembers"
+                  android:label="Acrom Members">
+            <intent-filter>
+                <action android:name="out.in.AcromMembers" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+        
+        
+    	<activity android:name=".AcromFP"
+                  android:label="Acrom">
+            <intent-filter>
+                <action android:name="out.in.AcromFP" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Acrom12"
+                  android:label="ACROM2012">
+            <intent-filter>
+                <action android:name="out.in.Acrom12" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".Acrom13"
+                  android:label="Acrom2013">
+            <intent-filter>
+                <action android:name="out.in.Acrom13" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ECIFMembers"
+                  android:label="ECIF Members">
+            <intent-filter>
+                <action android:name="out.in.ECIFMembers" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <activity android:name=".FaceForumFP"
+                  android:label="FACE">
+            <intent-filter>
+                <action android:name="out.in.FaceForumFP" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Face12"
+                  android:label="Face2012">
+            <intent-filter>
+                <action android:name="out.in.Face12" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".Face13"
+                  android:label="Face2013">
+            <intent-filter>
+                <action android:name="out.in.Face13" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".FaceMembers"
+                  android:label="Face Members">
+            <intent-filter>
+                <action android:name="out.in.FaceMembers" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+        
+        
+        
+        
+        <activity android:name=".IngineumFP"
+                  android:label="INGINEUM">
+            <intent-filter>
+                <action android:name="out.in.IngineumFP" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Ingineum12"
+                  android:label="INGINEUM 2012">
+            <intent-filter>
+                <action android:name="out.in.Ingineum12" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".Ingineum13"
+                  android:label="INGINEUM 2013">
+            <intent-filter>
+                <action android:name="out.in.Ingineum13" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".IngineumMembers"
+                  android:label="INGINEUM Members">
+            <intent-filter>
+                <action android:name="out.in.IngineumMembers" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+        
+        
+        
+        
+        <activity android:name=".VidyuthFP"
+                  android:label="VIDYUTH">
+            <intent-filter>
+                <action android:name="out.in.VidyuthFP" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Vidyuth12"
+                  android:label="Vidyuth2012">
+            <intent-filter>
+                <action android:name="out.in.Vidyuth12" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".Vidyuth13"
+                  android:label="Vidyuth2013">
+            <intent-filter>
+                <action android:name="out.in.Vidyuth13" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".VidyuthMembers"
+                  android:label="Vidyuth Members">
+            <intent-filter>
+                <action android:name="out.in.VidyuthMembers" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+        
+        
+        
+        
+        
+         <activity android:name=".courses" android:label="Courses">
+- <intent-filter>
+  <action android:name="in.out.courses" /> 
+  <category android:name="android.intent.category.DEFAULT" /> 
+  </intent-filter>
+  </activity>
+- <activity android:name=".Cyear1cse" android:label="@string/app_name">
+- <intent-filter>
+  <action android:name="in.out.Cyear1cse" /> 
+  <category android:name="android.intent.category.DEFAULT" /> 
+  </intent-filter>
+  </activity>
+  <activity android:name="cyear1csei" /> 
+  <activity android:name="cyear1cseii" /> 
+- <activity android:name=".TabBarExample" android:label="@string/app_name">
+- <intent-filter>
+  <action android:name="in.out.TabBarExample" /> 
+  <category android:name="android.intent.category.DEFAULT" /> 
+  </intent-filter>
+  </activity>
+  <activity android:name="FirstTab" /> 
+  <activity android:name="SecondTab" /> 
+- <activity android:name=".Cyear4cse" android:label="@string/app_name">
+- <intent-filter>
+  <action android:name="in.out.Cyear4cse" /> 
+  <category android:name="android.intent.category.DEFAULT" /> 
+  </intent-filter>
+  </activity>
+  <activity android:name="cyear4csei" /> 
+  <activity android:name="cyear4cseii" /> 
+- <activity android:name=".cyear1" android:label="@string/app_name">
+- <intent-filter>
+  <action android:name="in.out.cyear1" /> 
+  <category android:name="android.intent.category.DEFAULT" /> 
+  </intent-filter>
+  </activity>
+  <activity android:name="cyear1f" /> 
+  <activity android:name="cyear1s" /> 
+- <activity android:name=".Cyear2ece" android:label="@string/app_name">
+- <intent-filter>
+  <action android:name="in.out.Cyear2ece" /> 
+  <category android:name="android.intent.category.DEFAULT" /> 
+  </intent-filter>
+  </activity>
+  <activity android:name="cyear2ecei" /> 
+  <activity android:name="cyear2eceii" /> 
+- <activity android:name=".Cyear3ece" android:label="@string/app_name">
+- <intent-filter>
+  <action android:name="in.out.Cyear3ece" /> 
+  <category android:name="android.intent.category.DEFAULT" /> 
+  </intent-filter>
+  </activity>
+  <activity android:name="cyear3ecei" /> 
+  <activity android:name="cyear3eceii" /> 
+- <activity android:name=".Cyear4ece" android:label="@string/app_name">
+- <intent-filter>
+  <action android:name="in.out.Cyear4ece" /> 
+  <category android:name="android.intent.category.DEFAULT" /> 
+  </intent-filter>
+  </activity>
+  <activity android:name="cyear4ecei" /> 
+  <activity android:name="cyear4eceii" /> 
+- <activity android:name=".Cyear2mec" android:label="@string/app_name">
+- <intent-filter>
+  <action android:name="in.out.Cyear2mec" /> 
+  <category android:name="android.intent.category.DEFAULT" /> 
+  </intent-filter>
+  </activity>
+  <activity android:name="cyear2meci" /> 
+  <activity android:name="cyear2mecii" /> 
+- <activity android:name=".Cyear3mec" android:label="@string/app_name">
+- <intent-filter>
+  <action android:name="in.out.Cyear3mec" /> 
+  <category android:name="android.intent.category.DEFAULT" /> 
+  </intent-filter>
+  </activity>
+  <activity android:name="cyear3meci" /> 
+  <activity android:name="cyear3mecii" /> 
+- <activity android:name=".Cyear4mec" android:label="@string/app_name">
+- <intent-filter>
+  <action android:name="in.out.Cyear4mec" /> 
+  <category android:name="android.intent.category.DEFAULT" /> 
+  </intent-filter>
+  </activity>
+  <activity android:name="cyear4meci" /> 
+  <activity android:name="cyear4mecii" /> 
+- <activity android:name=".Cyear2eee" android:label="@string/app_name">
+- <intent-filter>
+  <action android:name="in.out.Cyear2eee" /> 
+  <category android:name="android.intent.category.DEFAULT" /> 
+  </intent-filter>
+  </activity>
+  <activity android:name="cyear2eeei" /> 
+  <activity android:name="cyear2eeeii" /> 
+- <activity android:name=".Cyear3eee" android:label="@string/app_name">
+- <intent-filter>
+  <action android:name="in.out.Cyear3eee" /> 
+  <category android:name="android.intent.category.DEFAULT" /> 
+  </intent-filter>
+  </activity>
+  <activity android:name="cyear3eeei" /> 
+  <activity android:name="cyear3eeeii" /> 
+- <activity android:name=".Cyear4eee" android:label="@string/app_name">
+- <intent-filter>
+  <action android:name="in.out.Cyear4eee" /> 
+  <category android:name="android.intent.category.DEFAULT" /> 
+  </intent-filter>
+  </activity>
+  <activity android:name="cyear4eeei" /> 
+  <activity android:name="cyear4eeeii" /> 
+- <activity android:name=".Cyear2eie" android:label="@string/app_name">
+- <intent-filter>
+  <action android:name="in.out.Cyear2eie" /> 
+  <category android:name="android.intent.category.DEFAULT" /> 
+  </intent-filter>
+  </activity>
+  <activity android:name="cyear2eiei" /> 
+  <activity android:name="cyear2eieii" /> 
+- <activity android:name=".Cyear3eie" android:label="@string/app_name">
+- <intent-filter>
+  <action android:name="in.out.Cyear3eie" /> 
+  <category android:name="android.intent.category.DEFAULT" /> 
+  </intent-filter>
+  </activity>
+  <activity android:name="cyear3eiei" /> 
+  <activity android:name="cyear3eieii" /> 
+- <activity android:name=".Cyear4eie" android:label="@string/app_name">
+- <intent-filter>
+  <action android:name="in.out.Cyear4eie" /> 
+  <category android:name="android.intent.category.DEFAULT" /> 
+  </intent-filter>
+  </activity>
+  <activity android:name="cyear4eiei" /> 
+  <activity android:name="cyear4eieii" /> 
+        
+        <activity android:name=".HelloGridViewActivity"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="out.in.HelloGridViewActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".a1"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="out.in.a1" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity android:name=".a2"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="out.in.a2" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity android:name=".a3"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="out.in.a3" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity android:name=".a4"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="out.in.a4" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity android:name=".a5"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="out.in.a5" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity android:name=".a6"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="out.in.a6" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity android:name=".a7"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="out.in.a7" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity android:name=".a8"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="out.in.a8" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".activities"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="out.in.activities" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".campus"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="out.in.campus" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".c1"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="out.in.c1" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+        
+         <activity android:name=".c2"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="out.in.c2" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity android:name=".c3"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="out.in.c3" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity android:name=".c4"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="out.in.c4" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity android:name=".c5"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="out.in.c5" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity android:name=".c6"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="out.in.c6" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity android:name=".c7"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="out.in.c7" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity android:name=".c8"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="out.in.c8" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".c9"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="out.in.c9" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity android:name=".c10"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="out.in.c10" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity android:name=".c11"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="out.in.c11" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity android:name=".c12"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="out.in.c12" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity android:name=".c13"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="out.in.c13" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity android:name=".c14"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="out.in.c14" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity android:name=".c15"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="out.in.c15" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity android:name=".c16"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="out.in.c16" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".c17"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="out.in.c17" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".general"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="out.in.general" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".g1"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="out.in.g1" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity android:name=".g2"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="out.in.g2" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity android:name=".g3"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="out.in.g3" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity android:name=".g4"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="out.in.g4" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity android:name=".g5"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="out.in.g5" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+        <activity android:name=".activities1"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="out.in.activities1" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".campus1"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="out.in.campus1" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+        
+        <activity android:name=".general1"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="out.in.general1" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         
+        <activity android:name=".campusslideshow"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="out.in.campusslideshow" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".activityslideshow"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="out.in.activityslideshow" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".generalslidshow"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="out.in.generalslideshow" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+    </application>
+</manifest>

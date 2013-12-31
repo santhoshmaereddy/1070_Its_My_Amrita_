@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#3b3b3b"
+    
+>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:background="#3b3b3b"
+  android:weightSum="1" android:layout_height="426dp">
+
+        
+	    <TextView android:layout_height="wrap_content" 
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:text=" MAARDHANI 2012 Events " android:layout_width="wrap_content" 
+    android:id="@+id/textView1" android:layout_alignParentTop="true"
+    android:textSize="25dp"
+    
+     android:layout_marginTop="20dip"
+     android:background="#FFFFFF"
+		android:layout_gravity="center"
+    android:textColor="#0050EF"
+
+     >
+    </TextView>
+      
+      
+      <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:textColor="#0050EF" android:id="@+id/textView1" android:layout_marginLeft="22dp" android:background="#FFFFFF" android:text=" 1.	Special Quiz " android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_marginTop="30dip" android:textSize="20dp"></TextView>
+      <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" android:layout_marginLeft="22dp"
+      android:textColor="#ffffff"
+      android:layout_weight="0.36"
+           android:layout_marginTop="18dip" android:textSize="18sp"
+       android:layout_width="wrap_content" 
+       android:text="  	   		A special Quiz week was conducted in which the  theme was India as it was conducted around 15th Aug (Independence Day). Learning can be fun so activities like Dum Charades are also conducted .Women’s week under wrap.">
+       </TextView>
+      
+     <TextView android:textAppearance="?android:attr/textAppearanceLarge" 
+     android:textColor="#0050EF"
+      android:id="@+id/textView1" android:layout_marginLeft="22dp" android:background="#FFFFFF" 
+      android:text=" 2.	Participation in Fests " android:layout_height="wrap_content"  
+      android:layout_width="wrap_content" android:layout_marginTop="30dip" 
+      android:textSize="20dp"></TextView>
+      <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" android:layout_marginLeft="22dp"
+      android:textColor="#ffffff"
+      android:layout_weight="0.36"
+           android:layout_marginTop="18dip" android:textSize="18sp"
+       android:layout_width="wrap_content" 
+       android:text="  	   		Students also participated in a number of fests organized by prestigious institutions such as St. John’s Medical College, Bangalore etc. ">
+       </TextView>
+       
+       
+       <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" android:layout_marginLeft="22dp"
+      android:textColor="#ffffff"
+      android:layout_weight="0.36"
+           android:layout_marginTop="18dip" android:textSize="18sp"
+       android:layout_width="wrap_content" 
+       android:text="  ">
+       </TextView>
+      
+</LinearLayout>
+
+
+</ScrollView>

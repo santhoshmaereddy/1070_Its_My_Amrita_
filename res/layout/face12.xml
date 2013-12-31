@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_height="fill_parent"
+    android:background="#3b3b3b" android:layout_width="match_parent">
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:background="#3b3b3b"
+  android:weightSum="1" android:layout_height="426dp">
+
+        
+	    <TextView android:layout_height="wrap_content" 
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:text=" FACE 2012 Events " android:layout_width="wrap_content" 
+    android:id="@+id/textView1" android:layout_alignParentTop="true"
+    android:textSize="30dp"
+    
+     android:layout_marginTop="20dip"
+     android:background="#FFFFFF"
+		android:layout_gravity="center"
+		
+    
+    android:textColor="#0050EF"
+
+     >
+    </TextView>
+      
+        <TextView android:layout_height="wrap_content" 
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:text=" 1.	Internet Society Empower Artisans " android:id="@+id/textView1" android:layout_marginLeft="22dp"  android:layout_alignParentTop="true"
+    android:textSize="20dp"
+    
+     android:layout_marginTop="30dip"
+     android:background="#FFFFFF"
+		
+    android:textColor="#0050EF"
+
+     android:layout_width="280dp">
+    </TextView>
+      <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" android:layout_marginLeft="22dp"
+      android:textColor="#ffffff"  android:textSize="18sp"
+      android:layout_marginTop="18dip"
+       android:text="  	   		FACE meteoric rise continued with the Empower Artisan programme. With this project, a few students from Amrita joined hands with ISOC Bangalore Chapter in an attempt to bridge the digital divide by infusing Internet literacy on standard business procedures among different artisan groups in and around the city of Bangalore. Internet literacy also provides the benefit of cementing the concept and importance of product development and in predicting market patterns. By connecting to the Internet, artisans will have access to web tools for selling their products to a wider demographic. Additionally, they will learn more about accounting procedures for purchases, salaries and others loan and grant applications. The Chapter will setup a basic lab infrastructure for the artisans from Self Help Groups (SHG), prepare curriculum in 3 Languages (English, Kannada and another local language) and deliver this online content through a series of workshops. Our students have empowered artisans in two centres in Bangalore on a weekly basis." android:layout_weight="0.03" android:layout_width="match_parent">
+       </TextView>
+      <TextView android:layout_height="wrap_content" 
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:text=" 2.	Hack it Yourself " android:layout_width="wrap_content" 
+    android:id="@+id/textView1" android:layout_marginLeft="22dp"  android:layout_alignParentTop="true"
+    android:textSize="20dp"
+    
+     android:layout_marginTop="30dip"
+     android:background="#FFFFFF"
+		
+    android:textColor="#0050EF"
+
+     >
+    </TextView>
+      <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" android:layout_marginLeft="22dp"
+      android:textColor="#ffffff"  android:textSize="18sp"
+      android:layout_marginTop="18dip"
+       android:text="  	   		The session saw a strong crowd of eager students. Anirban Gupta, from the Second year, ran the audience through the basics of hacking, the threats posed by it and a host of terms recognized by the cyber underworld. His primer was punctuated by witty quirks from Suhas, which kept everyone lively and engaged. After an informative half hour, the thinking hats were on as Suraj Nair and AJ Yuganeshan took the stage and posed a few basic hacking challenges to the audience. The first person to complete each challenge was treated to a round of applause. For the next forty-five minutes, using Mozilla Firefox and its Add-Ons Realistic, Basic Web Hacking and JavaScript missions were cracked. At the end, the response was largely positive. K Sai Vishnu, Subramanian Pillai and Visahavel Parthasarathy pooled in to tackle the queries put forward by the individuals among participants. Participants found the event interesting." android:layout_weight="0.08" android:layout_width="match_parent">
+       </TextView>
+      <TextView android:layout_height="wrap_content" 
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:text=" 3.	Ubiquitous Computing " android:layout_width="wrap_content" 
+    android:id="@+id/textView1" android:layout_marginLeft="22dp"  android:layout_alignParentTop="true"
+    android:textSize="20dp"
+    
+     android:layout_marginTop="30dip"
+     android:background="#FFFFFF"
+		
+    android:textColor="#0050EF"
+
+     >
+    </TextView>
+      <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" android:layout_marginLeft="22dp"
+      android:textColor="#ffffff"
+      android:layout_marginTop="18dip"  android:textSize="18sp"
+       android:text="  	   		The seminar introduced the concept of computing – anywhere and everywhere. Right from computing components embedded into the smallest devices to the large scale computing devices, the presence of computers is felt. The session focussed on various fields where ubiquitous computing can find its applications. The crowd was made up of ECE as well CSE students."
+        android:layout_weight="0.03" android:layout_width="match_parent">
+       </TextView>
+       
+       <TextView android:layout_height="wrap_content" 
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:text=" 4.	Your Story - App. On Cloud (IIMB ) " android:layout_width="wrap_content" 
+    android:id="@+id/textView1" android:layout_marginLeft="22dp"  android:layout_alignParentTop="true"
+    android:textSize="20dp"
+    
+     android:layout_marginTop="30dip"
+     android:background="#FFFFFF"
+		
+    android:textColor="#0050EF"
+
+     >
+    </TextView>
+      <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" android:layout_marginLeft="22dp"
+      android:textColor="#ffffff"  android:textSize="18sp"
+      android:layout_marginTop="18dip"
+       android:text="  	   		FACE co-ordinated the participation of students from 4th and 6th semester of Amrita school of Engineering, Bangalore to Application on Cloud conference organised by YourStory.in, held at Indian Institute of Management, Bangalore. The chief speaker, Mr Yusef Khalidi of Microsoft Azure, explained about the various aspects and advantages of deploying application over the Windows Azure platform. The students had a great overall exposure attending conference of such magnitude. " android:layout_width="match_parent">
+       </TextView>
+       <TextView android:layout_height="wrap_content" 
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:text=" 5.	Interactive C/ C++ Classes " android:layout_width="wrap_content" 
+    android:id="@+id/textView1" android:layout_marginLeft="22dp"  android:layout_alignParentTop="true"
+    android:textSize="20dp"
+    
+     android:layout_marginTop="30dip"
+     android:background="#FFFFFF"
+		
+    android:textColor="#0050EF"
+
+     >
+    </TextView>
+      <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" android:layout_marginLeft="22dp"
+      android:textColor="#ffffff"  android:textSize="18sp"
+      android:layout_marginTop="18dip"
+       android:text="  	   		The Interactive C/ C++ Classes is aimed at providing greater depth of the programming language. The members of the forum conducted classes throughout the year for the 1st and 2nd year students. Challenging questions as well as concepts were dealt with. "
+        android:layout_weight="0.02" android:layout_width="match_parent">
+       </TextView>
+       
+         <TextView android:layout_height="wrap_content" 
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:text=" 6.	NPL Online Round  " android:layout_width="wrap_content" 
+    android:id="@+id/textView1" android:layout_marginLeft="22dp"  android:layout_alignParentTop="true"
+    android:textSize="20dp"
+    
+     android:layout_marginTop="30dip"
+     android:background="#FFFFFF"
+		
+    android:textColor="#0050EF"
+
+     >
+    </TextView>
+      <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" android:layout_marginLeft="22dp"
+      android:textColor="#ffffff"  android:textSize="18sp"
+      android:layout_marginTop="18dip"
+       android:text="  	   		Technozion in association with IEEE – NIT Warangal organized National Programming League (NPL). NPL is a purely non-profitable, student welfare event, aiming to bring out the best and provide the student community with opportunities to stage their programming prowess. It tested the students for their programming ability on a national level coding competition. NPL consisted of four rounds. The event was monitored by Sai Vishnu, Varun Teja and Gopi, all from 5th semester."
+        android:layout_weight="0.05" android:layout_width="match_parent">
+       </TextView>
+       
+       <TextView android:layout_height="wrap_content" 
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:text=" 7.	Web Development Classes " android:layout_width="wrap_content" 
+    android:id="@+id/textView1" android:layout_marginLeft="22dp"  android:layout_alignParentTop="true"
+    android:textSize="20dp"
+    
+     android:layout_marginTop="30dip"
+     android:background="#FFFFFF"
+		
+    android:textColor="#0050EF"
+
+     >
+    </TextView>
+      <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" android:layout_marginLeft="22dp"
+      android:textColor="#ffffff"
+      android:layout_marginTop="18dip"  android:textSize="18sp"
+       android:text="  	   FACE organized series of hands-on web development workshops in the months of August – September, 2012. The workshops focused on incubating web development in the campus and giving the students a head-start into development on the WEB. The web development action plan split based on supporting topics over several sessions. Each session focused on different aspect leading towards development.		"
+        android:layout_weight="0.04" android:layout_width="match_parent">
+       </TextView>
+       
+             <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" android:layout_marginLeft="22dp"
+      android:textColor="#ffffff"  android:textSize="18sp"
+      android:layout_marginTop="18dip"
+       android:text="  	   	The Web development sessions were built over the following languages: PHP,HTML,Hosting on Web Servers:"
+        android:layout_weight="0.01" android:layout_width="match_parent">
+       </TextView>
+       
+       <TextView android:layout_height="wrap_content" 
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:text=" 8.	TxtWeb Planet of Apps " android:layout_width="wrap_content" 
+    android:id="@+id/textView1" android:layout_marginLeft="22dp"  android:layout_alignParentTop="true"
+    android:textSize="20dp"
+    
+     android:layout_marginTop="30dip"
+     android:background="#FFFFFF"
+		
+    android:textColor="#0050EF"
+
+     >
+    </TextView>
+      <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" android:layout_marginLeft="22dp"
+      android:textColor="#ffffff"  android:textSize="18sp"
+      android:layout_marginTop="18dip"  
+       android:text="  	   FACE organized the first ever hackathon to happen in Amrita School Engineering, Bangalore. TxtWeb Planet of Apps was an in-house competition encouraging and endorsing the multitude of innovative Ideas among the student community to be implemented in real time environment. The competition aimed to provide the participants with an opportunity to experience a hackathon right inside the campus. The participants battled it out to be pronounced as the best TxtWeb developer in the campus. The event unleashed the programming prowess of the students. The participants were treated to a wholesome 5 hours coding marathon. Students were tested for their mental ability, perseverance, agility and most importantly, innovation. During the competition, around 70 students designed, built and deployed applications on TxtWeb platform. The students provided innovative solutions to solve real life challenges.The first and Second places are bagged by M Santhosh Reddy and Monisha L Pathi for @hideit and @must services respectively and third place won by Vishavel and naresh for @whatsontv service"
+        android:layout_weight="0.08" android:layout_width="match_parent">
+       </TextView>
+       
+     <TextView android:layout_height="wrap_content" 
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:text=" 9.	FACE Week - Sixth Sense, Secur.ME " android:id="@+id/textView1" android:layout_marginLeft="22dp"  android:layout_alignParentTop="true"
+    android:textSize="20dp"
+    
+     android:layout_marginTop="30dip"
+     android:background="#FFFFFF"
+		
+    android:textColor="#0050EF"
+
+     android:layout_width="270dp">
+    </TextView>
+      <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" android:layout_marginLeft="22dp"
+      android:textColor="#ffffff"
+      android:layout_marginTop="18dip"  android:textSize="18sp"
+       android:text="  	   To introduce the 1st year students to the fascinating field of computer science, FACE organised series of seminars which brought about a lot of interest amongst the juniors. Sixth sense gave the participants a detailed insight into the field of Gesture based computing whereas Secur.ME pulled the cyber enthusiast to the fore."
+        android:layout_weight="0.03" android:layout_width="match_parent">
+       </TextView>
+       
+         
+       <TextView android:layout_height="wrap_content" 
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:text=" 10.	SAP Roadshow " android:layout_width="wrap_content" 
+    android:id="@+id/textView1" android:layout_marginLeft="22dp"  android:layout_alignParentTop="true"
+    android:textSize="20dp"
+    
+     android:layout_marginTop="30dip"
+     android:background="#FFFFFF"
+		
+    android:textColor="#0050EF"
+
+     >
+    </TextView>
+      <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" android:layout_marginLeft="22dp"
+      android:textColor="#ffffff"  android:textSize="18sp"
+      android:layout_marginTop="18dip"
+       android:text="  	   FACE along with CIR organized the SAP Roadshow in the campus. The speaker of the event introduced SAP Techniversity to the students. He grabbed the attention of the students by firing intriguing questions of the trending technologies like IPAD, Cloud etc. Trends included Cloud, E-Commerce, Entrepreneurship, Big Data, Ethical Hacking, and Mobility. The event was designed to bring out the spirit of entrepreneurship and bridge the industry-academic gap. "
+        android:layout_weight="0.04" android:layout_width="match_parent">
+       </TextView>
+       
+        <TextView android:layout_height="wrap_content" 
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:text=" 11.	Session on Bridging the Employability Gap " android:layout_width="wrap_content" 
+    android:id="@+id/textView1" android:layout_marginLeft="22dp"  android:layout_alignParentTop="true"
+    android:textSize="20dp"
+    
+     android:layout_marginTop="30dip"
+     android:background="#FFFFFF"
+		
+    android:textColor="#0050EF"
+
+     >
+    </TextView>
+      <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" android:layout_marginLeft="22dp"
+      android:textColor="#ffffff"  android:textSize="18sp"
+      android:layout_marginTop="18dip"
+       android:text="  	   FACE organised a session with seasoned computer science professionals in the industry who were keen on bridging the employability gap between under-graduate students and industry through a series of workshops. The presenter also focussed on more important things like the ‘Four Pillars of Computer Science’ namely Operating Systems, Compiler Design, Data Structures and Algorithm Design and Computer Organisation and Architecture. The session was aimed to test the strong basics of students and the other common analogies that students fail to put their attention to. Their idea was to prepare students by connecting them with more professionals and exposing them to problem-solving scenarios in the industry. "
+        android:layout_weight="0.10" android:layout_width="match_parent">
+       </TextView>
+       
+       
+       <TextView android:layout_height="wrap_content" 
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:text=" 12.	ICPC Online Round " android:layout_width="wrap_content" 
+    android:id="@+id/textView1" android:layout_marginLeft="22dp"  android:layout_alignParentTop="true"
+    android:textSize="20dp"
+    
+     android:layout_marginTop="30dip"
+     android:background="#FFFFFF"
+		
+    android:textColor="#0050EF"
+
+     >
+    </TextView>
+      <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" android:layout_marginLeft="22dp"
+      android:textColor="#ffffff"  android:textSize="18sp"
+      android:layout_marginTop="18dip"
+       android:text="  	   The test consisted of 5 problems, wherein the participants were needed to draft the most efficient solution for real life problems. Time Complexity, Space complexity and time of submission were the judging criteria. Ms Vinita, faculty, Department of Computer Science monitored the event. Team work, strategies and perseverance of the participants were under the hammer. Few teams battled it out to make it to the top while for others; it was a test of their programming prowess. On the whole, it was an experience to take away from the day." android:layout_width="match_parent">
+       </TextView>
+       
+       <TextView android:layout_height="wrap_content" 
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:text=" 13.	ISOC APNIC Workshop " android:layout_width="wrap_content" 
+    android:id="@+id/textView1" android:layout_marginLeft="22dp"  android:layout_alignParentTop="true"
+    android:textSize="20dp"
+    
+     android:layout_marginTop="30dip"
+     android:background="#FFFFFF"
+		
+    android:textColor="#0050EF"
+
+     >
+    </TextView>
+      <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" android:layout_marginLeft="22dp"
+      android:textColor="#ffffff"  android:textSize="18sp"
+      android:layout_marginTop="18dip"
+       android:text="  	   The Bangalore session of APNIC workshop on IRM/ IRR/ IPV4/ IPV6 was held at Amrita School of Engineering. The workshop was co-organized by Internet Society’s Bangalore chapter. Mr Nurul Islam Roman, APNIC presided over the 4 day workshop. A mix of enthusiastic students and Industrialists made the participants."
+        android:layout_weight="0.03" android:layout_width="match_parent">
+       </TextView>
+       
+       <TextView android:layout_height="wrap_content" 
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:text=" 14.	Web Development session on Rapid Prototyping in HTML and CSS using Adobe Photoshop/Fireworks " android:id="@+id/textView1" android:layout_marginLeft="22dp"  android:layout_alignParentTop="true"
+    android:textSize="20dp"
+    
+     android:layout_marginTop="30dip"
+     android:background="#FFFFFF"
+		
+    android:textColor="#0050EF"
+
+     android:layout_width="274dp">
+    </TextView>
+      <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" android:layout_marginLeft="22dp"
+      android:textColor="#ffffff"  android:textSize="18sp"
+      android:layout_marginTop="18dip"
+       android:text="  	  Dr Venkatesh started with an amazing presentation of the intuitiveness of Web design. He exclaimed on necessity of object placement, colour contrasts, colour density, combinations, font adjustments and various other design mantras. The session continued after break, when the presenter moved into hands on training on Adobe Photoshop and Fireworks. He stressed on slicing elements out of a PSD file and using it onto the webpage. 
+The event was well received among the attendees. The power of Adobe tools mind boggled them. Around 60 students attended the workshop and all took away a great deal of Web space knowledge from the event"
+        android:layout_weight="0.06" android:layout_width="match_parent">
+       </TextView>
+       
+       <TextView android:layout_height="wrap_content" 
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:text=" 15.	Cyber Security Talk  " android:id="@+id/textView1" android:layout_marginLeft="22dp"  android:layout_alignParentTop="true"
+    android:textSize="20dp"
+    
+     android:layout_marginTop="30dip"
+     android:background="#FFFFFF"
+		
+    android:textColor="#0050EF"
+
+     android:layout_width="274dp">
+    </TextView>
+      <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" android:layout_marginLeft="22dp"
+      android:textColor="#ffffff"  android:textSize="18sp"
+      android:layout_marginTop="18dip"
+       android:text="  	 The speaker started the session with the need of cyber security in today’s world quoting examples from various major data thefts, cyber-crimes etc.  Later, he stressed on the opportunities in the field on Cyber Security and called for many young cyber experts. "
+        android:layout_weight="0.03" android:layout_width="match_parent">
+       </TextView>
+       
+       
+    <TextView android:layout_height="wrap_content" 
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:text=" 16.	ICPC ON-SITE Round.  " android:id="@+id/textView1" android:layout_marginLeft="22dp"  android:layout_alignParentTop="true"
+    android:textSize="20dp"
+    
+     android:layout_marginTop="30dip"
+     android:background="#FFFFFF"
+		
+    android:textColor="#0050EF"
+
+     android:layout_width="274dp">
+    </TextView>
+      <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" android:layout_marginLeft="22dp"
+      android:textColor="#ffffff"  android:textSize="18sp"
+      android:layout_marginTop="18dip"
+       android:text="  	  "
+        android:layout_weight="0.57" android:layout_width="267dp">
+       </TextView>
+          
+       
+</LinearLayout>
+
+
+</ScrollView>

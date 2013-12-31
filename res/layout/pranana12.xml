@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#3b3b3b"
+    
+>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:background="#3b3b3b"
+  android:weightSum="1" android:layout_height="426dp">
+
+  <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" 
+      android:textColor="#ffffff"
+      android:layout_weight="0.36" android:layout_marginLeft="22dp"
+           android:layout_marginTop="15dip"
+       android:layout_width="wrap_content" 
+       android:text="	      ">
+       </TextView>
+
+        
+	    <TextView android:layout_height="wrap_content" 
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:text=" PRANANA Events " android:layout_width="wrap_content" 
+    android:id="@+id/textView1" android:layout_alignParentTop="true"
+    android:textSize="30dp"
+    
+     android:layout_marginTop="20dip"
+     android:background="#FFFFFF"
+		android:layout_gravity="center"
+		
+    
+   android:textColor="#AA40FF"
+
+     >
+    </TextView>
+	    <TextView android:textAppearance="?android:attr/textAppearanceLarge" 
+	    android:textColor="#AA40FF" android:id="@+id/textView1" 
+	    android:layout_marginLeft="22dp" android:background="#FFFFFF" 
+	    android:text=" 1.Seminar by youth for seva:	 " android:layout_height="wrap_content" 
+	    android:layout_width="wrap_content" android:layout_marginTop="30dip" android:textSize="20dp">
+	    
+	    </TextView>
+      <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" android:layout_marginLeft="22dp"
+      android:textColor="#ffffff"
+      android:layout_weight="0.36"   android:textSize="18sp"
+           android:layout_marginTop="18dip"
+       android:layout_width="wrap_content" 
+       android:text="  	   A motivating seminar to all the youngsters by one of the popular ngo, youth for seva.it was an inspiring speech from sriram,ajay gopal and niranjan, which motivated 200 people and made them volunteer the following club events.		">
+       </TextView>
+      
+      
+      <TextView android:layout_height="wrap_content" 
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:text="2. Joy of giving week:	" android:id="@+id/textView1" android:layout_alignParentTop="true"
+    android:textSize="20dp"
+    
+     android:layout_marginTop="20dip"
+     android:background="#FFFFFF"
+		android:layout_marginLeft="22dp"
+    android:textColor="#0050EF"
+
+     android:layout_width="188dp">
+    </TextView>
+      
+  
+  <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" 
+      android:textColor="#ffffff"
+      android:layout_weight="0.36" android:layout_marginLeft="22dp"
+           android:layout_marginTop="15dip"  android:textSize="18sp"
+       android:layout_width="wrap_content" 
+       android:text="	  It includes following events:
+ 2.1:  orphanage visit:
+We visited grace fellow ship orphanage home with 40 volunteers. Orphanage shelters 75 children, where we provided them lunch along with grocery required for a month and also blankets and sleeping mats.
+2.2: old age home visit:
+We visited om ashram oldage home in bannerghatta road with 25 volunteers and provided them with pressure cooker, utensils and grocery for a month.we have spend a day talking and playing with the grannies and grandpas
+2.3: blood donation camp:
+Blood donation camp has been organized in the college in co ordination with raashtrothhana blood bank.students,faculty and non teaching staff volunteered in donating blood which finally led us to collect 311 units of blood
+2.4: joy of giving lunch:
+As a part of joy of giving,we have provided the cleaning and other workers at amrita with lunch and has distributed umbrellas among them.
+           ">
+       </TextView>
+  
+  
+  <TextView android:textAppearance="?android:attr/textAppearanceLarge" 
+	    android:textColor="#AA40FF" android:id="@+id/textView1" 
+	    android:layout_marginLeft="22dp" android:background="#FFFFFF" 
+	    android:text=" 3. Amala Bharatham  Campaign:	 " android:layout_height="wrap_content" 
+	    android:layout_width="wrap_content" android:layout_marginTop="30dip" android:textSize="20dp">
+	    
+	    </TextView>
+      <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" android:layout_marginLeft="22dp"
+      android:textColor="#ffffff"
+      android:layout_weight="0.36"   android:textSize="18sp"
+           android:layout_marginTop="18dip"
+       android:layout_width="wrap_content" 
+       android:text="  	   Prerana has continued the amala bharatham cleaning campaign at shabarimala this year too. 50 volunteers including staff have been to shabarimala and have cleaned the prescribed area for 2 days along with 3000 volunteers from math.		">
+       </TextView>
+      
+      
+      
+      
+      <TextView android:textAppearance="?android:attr/textAppearanceLarge" 
+	    android:textColor="#AA40FF" android:id="@+id/textView1" 
+	    android:layout_marginLeft="22dp" android:background="#FFFFFF" 
+	    android:text=" 4. Mehendi Program:	 " android:layout_height="wrap_content" 
+	    android:layout_width="wrap_content" android:layout_marginTop="30dip" android:textSize="20dp">
+	    
+	    </TextView>
+      <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" android:layout_marginLeft="22dp"
+      android:textColor="#ffffff"
+      android:layout_weight="0.36"   android:textSize="18sp"
+           android:layout_marginTop="18dip"
+       android:layout_width="wrap_content" 
+       android:text="  	   We have initiated the a mehendi event in the campus and the money collected from the it has been given to nitya annadaanam initiated ny maata amritanandamayi.	">
+       </TextView>
+      
+      
+      
+      <TextView android:textAppearance="?android:attr/textAppearanceLarge" 
+	    android:textColor="#AA40FF" android:id="@+id/textView1" 
+	    android:layout_marginLeft="22dp" android:background="#FFFFFF" 
+	    android:text=" 5. Amma in Bangalore:	 " android:layout_height="wrap_content" 
+	    android:layout_width="wrap_content" android:layout_marginTop="30dip" android:textSize="20dp">
+	    
+	    </TextView>
+      <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" android:layout_marginLeft="22dp"
+      android:textColor="#ffffff"
+      android:layout_weight="0.36"   android:textSize="18sp"
+           android:layout_marginTop="18dip"
+       android:layout_width="wrap_content" 
+       android:text="  	   Amma visited Bangalore and the club members had co ordinated the ashram volunteers for 3 successive days and helped them in arranging for the amma’s darshan and other important activities.	">
+       </TextView>
+      
+      
+      
+      <TextView android:textAppearance="?android:attr/textAppearanceLarge" 
+	    android:textColor="#AA40FF" android:id="@+id/textView1" 
+	    android:layout_marginLeft="22dp" android:background="#FFFFFF" 
+	    android:text=" 6. Cloth donation :" android:layout_height="wrap_content" 
+	    android:layout_width="wrap_content" android:layout_marginTop="30dip" android:textSize="20dp">
+	    
+	    </TextView>
+      <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" android:layout_marginLeft="22dp"
+      android:textColor="#ffffff"
+      android:layout_weight="0.36"   android:textSize="18sp"
+           android:layout_marginTop="18dip"
+       android:layout_width="wrap_content" 
+       android:text="  	   Prerana started the cloth donation program.the old clothes collected from faculty and students and the collected clothes were distributed among the orphanages and old age homes .	">
+       </TextView>
+      
+  
+  <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" 
+      android:textColor="#ffffff"
+      android:layout_weight="0.36" android:layout_marginLeft="22dp"
+           android:layout_marginTop="15dip"
+       android:layout_width="wrap_content" 
+       android:text="	      ">
+       </TextView>
+
+
+<TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" 
+      android:textColor="#ffffff"
+      android:layout_weight="0.36" android:layout_marginLeft="22dp"
+           android:layout_marginTop="15dip"
+       android:layout_width="wrap_content" 
+       android:text="	      ">
+       </TextView>
+<TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" 
+      android:textColor="#ffffff"
+      android:layout_weight="0.36" android:layout_marginLeft="22dp"
+           android:layout_marginTop="15dip"
+       android:layout_width="wrap_content" 
+       android:text="	      ">
+       </TextView>
+
+
+  
+</LinearLayout>
+
+
+</ScrollView>

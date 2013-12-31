@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#3b3b3b"
+    
+>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:background="#3b3b3b"
+  android:weightSum="1" android:layout_height="match_parent">
+<TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" 
+      android:textColor="#ffffff"  android:textSize="18sp"
+      android:layout_weight="0.36"
+           android:layout_marginTop="15dip"
+       android:layout_width="wrap_content" 
+       android:text="  	   ">
+       </TextView>
+        
+	    <TextView android:layout_height="wrap_content" 
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:text=" Press 2013 Events " android:layout_width="wrap_content" 
+    android:id="@+id/textView1" android:layout_alignParentTop="true"
+    android:textSize="30dp"
+    
+     android:layout_marginTop="20dip"
+     android:background="#FFFFFF"
+		android:layout_gravity="center"
+		
+    
+    android:textColor="#0050EF"
+
+     >
+    </TextView>
+      
+	    <TextView android:textAppearance="?android:attr/textAppearanceLarge" 
+	    android:textColor="#AA40FF" android:id="@+id/textView1" 
+	    android:layout_marginLeft="22dp" android:background="#FFFFFF" 
+	    android:text=" 1.	Magazine( Sanchita) " android:layout_height="wrap_content" 
+	    android:layout_width="wrap_content" android:layout_marginTop="30dip" android:textSize="20dp">
+	    
+	    </TextView>
+      <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" android:layout_marginLeft="22dp"
+      android:textColor="#ffffff"
+      android:layout_weight="0.36"   android:textSize="18sp"
+           android:layout_marginTop="18dip"
+       android:layout_width="wrap_content" 
+       android:text="  	   		Magazine( Sanchita) work has started and will be released for Amritakalanjali 2013.">
+       </TextView>
+      
+      
+      <TextView android:layout_height="wrap_content" 
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:text="2.	Adzap" android:id="@+id/textView1" android:layout_alignParentTop="true"
+    android:textSize="20dp"
+    
+     android:layout_marginTop="20dip"
+     android:background="#FFFFFF"
+		android:layout_marginLeft="22dp"
+    android:textColor="#0050EF"
+
+     android:layout_width="188dp">
+    </TextView>
+      
+  
+  <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" 
+      android:textColor="#ffffff"
+      android:layout_weight="0.36" android:layout_marginLeft="22dp"
+           android:layout_marginTop="15dip"  android:textSize="18sp"
+       android:layout_width="wrap_content" 
+       android:text="	    An event where students advertise products of their own imagination.">
+       </TextView>
+  
+<TextView android:layout_height="wrap_content" android:layout_marginLeft="22dp"
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:text="3.	Mixed Bag" android:id="@+id/textView1" android:layout_alignParentTop="true"
+    android:textSize="20dp"
+     
+     android:layout_marginTop="20dip"
+     android:background="#FFFFFF"
+		
+    android:textColor="#0050EF"
+
+     android:layout_weight="0.04" android:layout_width="274dp">
+    </TextView>
+       <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" 
+      android:textColor="#ffffff"  android:textSize="18sp"
+      android:layout_weight="0.36" android:layout_marginLeft="22dp"
+           android:layout_marginTop="15dip"
+       android:layout_width="wrap_content" 
+       android:text="	      In collaboration with Maardhani- a potpourri of word and vocabulary games.">
+       </TextView>
+  
+  
+  
+      <TextView android:layout_height="wrap_content" 
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:text=" Upcoming Events " android:id="@+id/textView1" android:layout_alignParentTop="true"
+    android:textSize="20dp"
+    android:layout_marginLeft="20dp"
+     android:layout_marginTop="30dip"
+     android:background="#FFFFFF"
+		
+    android:textColor="#0050EF" android:layout_width="209dp">
+    </TextView>
+    
+    
+    
+    <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" 
+      android:textColor="#ffffff"  android:textSize="18sp"
+      android:layout_weight="0.36"
+           android:layout_marginTop="15dip"
+       android:layout_width="wrap_content" 
+       android:text="  	   	1.	Amrita Kalanjali-13 	">
+       </TextView>
+  <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" 
+      android:textColor="#ffffff"  android:textSize="18sp"
+      android:layout_weight="0.36"
+           android:layout_marginTop="15dip"
+       android:layout_width="wrap_content" 
+       android:text="  	 2. Crosswords,Creative Writings  ">
+       </TextView>
+       
+       <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" 
+      android:textColor="#ffffff"  android:textSize="18sp"
+      android:layout_weight="0.36"
+           android:layout_marginTop="15dip"
+       android:layout_width="wrap_content" 
+       android:text="  	   ">
+       </TextView>
+       <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" 
+      android:textColor="#ffffff"  android:textSize="18sp"
+      android:layout_weight="0.36"
+           android:layout_marginTop="15dip"
+       android:layout_width="wrap_content" 
+       android:text="  	   ">
+       </TextView>
+</LinearLayout>
+
+
+</ScrollView>

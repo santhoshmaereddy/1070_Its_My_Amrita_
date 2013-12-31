@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:background="@drawable/backg5"
+  android:layout_height="match_parent" android:weightSum="1">
+  
+
+
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  
+  android:layout_height="match_parent" android:weightSum="1">
+  
+  
+    <TextView android:layout_width="wrap_content"
+     android:text="Instructions" android:id="@+id/textView1"
+     android:layout_gravity="center"
+     android:textSize="35dp"
+     android:layout_marginTop="35dp"
+     android:textColor="#2AD115"
+android:textAppearance="?android:attr/textAppearanceLarge"
+ android:layout_height="wrap_content"></TextView>
+ 
+ 
+ <TextView android:text="Please Note if you r using Route Map service please see to that theres a reasonable high speed INTERNET Facility"
+    android:layout_marginLeft="30dp"
+     android:id="@+id/textView2" 
+     
+     android:layout_marginTop="35dp"
+     android:textAppearance="?android:attr/textAppearanceMedium" 
+     android:layout_height="wrap_content" android:layout_weight="0.31" android:layout_width="match_parent"></TextView>
+    
+ 
+ 
+ <TextView android:text="In Maps Use Get Directions Options to get the driving directions  from your current location to Amrita Vishwa Vidyapeetham Bangalore"
+    android:layout_marginLeft="30dp"
+     android:id="@+id/textView2" 
+     
+     android:layout_marginTop="35dp"
+     android:textAppearance="?android:attr/textAppearanceMedium" 
+     android:layout_height="wrap_content" android:layout_weight="0.31" android:layout_width="match_parent"></TextView>
+ 
+    
+    <TextView android:text="Use Preferences to make changes on the Start up "
+    android:layout_marginLeft="30dp"
+     android:id="@+id/textView2" 
+     
+     android:layout_marginTop="35dp"
+     android:textAppearance="?android:attr/textAppearanceMedium" 
+     android:layout_height="wrap_content" android:layout_weight="0.31" android:layout_width="match_parent"></TextView>
+    
+    
+    <TextView android:text="Use the Feedback Module to give us Valuable Feedback "
+    android:layout_marginLeft="30dp"
+     android:id="@+id/textView2" 
+     
+     android:layout_marginTop="35dp"
+     android:textAppearance="?android:attr/textAppearanceMedium" 
+     android:layout_height="wrap_content" android:layout_weight="0.31" android:layout_width="match_parent"></TextView>
+    
+     <TextView android:text=""
+    android:layout_marginLeft="30dp"
+     android:id="@+id/textView2" 
+     
+     android:layout_marginTop="35dp"
+     android:textAppearance="?android:attr/textAppearanceMedium" 
+     android:layout_height="wrap_content" android:layout_weight="0.31" android:layout_width="match_parent"></TextView>
+    
+    
+    
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#3b3b3b"
+    
+>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:background="#3b3b3b"
+  android:weightSum="1" android:layout_height="426dp">
+
+        
+	    <TextView android:layout_height="wrap_content" 
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:text=" SMRITI " android:layout_width="wrap_content" 
+    android:id="@+id/textView1" android:layout_alignParentTop="true"
+    android:textSize="30dp"
+    
+     android:layout_marginTop="20dip"
+     android:background="#FFFFFF"
+		android:layout_gravity="center"
+		
+    
+    android:textColor="#0050EF"
+
+     >
+    </TextView>
+    
+    
+   
+  
+  
+    <TextView android:text="SMRITI Club (Photography)" 
+    android:layout_height="wrap_content"
+     android:id="@+id/textView2" 
+   android:textSize="22sp"
+     android:textColor="#AA40FF"
+     android:layout_below="@+id/textView1"
+      android:layout_alignParentLeft="true" 
+      android:layout_marginLeft="22dp"
+       android:layout_marginTop="18sp" android:layout_weight="0.04" android:layout_width="match_parent">
+       </TextView>
+    
+    
+   
+  
+
+    
+    <TextView android:text="	The main aim of the club is to report the major events like Aavega, independence day etc happening in the college. The club has a design team and  a editorial team which handles the making of the magazine." 
+    android:layout_height="wrap_content"
+     android:id="@+id/textView3" 
+     android:layout_marginLeft="22dp"
+     android:textSize="18sp"
+     android:textColor="#ffffff"
+     android:layout_width="wrap_content" 
+     android:layout_below="@+id/textView2" 
+     android:layout_alignLeft="@+id/textView2" 
+     android:layout_marginTop="18sp"></TextView>
+     
+     
+    
+    
+    
+
+<Button 
+     android:layout_weight="1.0" android:layout_width="150dp" 
+     android:layout_marginTop="20dip"
+     android:background="#FFFFFF"
+		android:layout_gravity="center"
+		android:textColor="#0A5BC4"
+     android:text=" Members " android:layout_height="wrap_content" 
+     android:id="@+id/photographyteambtn" android:textSize="25dp"></Button>
+    
+    
+    <Button 
+     android:layout_weight="1.0" android:layout_width="150dp" 
+     android:layout_marginTop="20dip"
+     android:background="#FFFFFF"
+		android:layout_gravity="center"
+		android:textColor="#0A5BC4"
+     android:text=" 2012 Events" android:layout_height="wrap_content" 
+     android:id="@+id/photography12btn" android:textSize="25dp"></Button>
+    
+    
+    
+    <Button 
+     android:layout_weight="1.0" android:layout_width="150dp" 
+     android:layout_marginTop="20dip"
+     android:background="#FFFFFF"
+		android:layout_gravity="center"
+		android:textColor="#0A5BC4"
+     android:text=" 2013 Events" android:layout_height="wrap_content" 
+     android:id="@+id/photography134btn" android:textSize="25dp"></Button>
+    
+     
+   <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" 
+      android:textColor="#ffffff"
+      android:layout_weight="0.36"
+           android:layout_marginTop="15dip"
+       android:layout_width="wrap_content" 
+       android:text="  	   ">
+       </TextView>
+       
+    
+</LinearLayout>
+
+
+</ScrollView>

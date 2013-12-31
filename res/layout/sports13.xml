@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#3b3b3b"
+    
+>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:background="#3b3b3b"
+  android:weightSum="1" android:layout_height="426dp">
+
+        
+	    <TextView android:layout_height="wrap_content" 
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:text=" CHETANA 2013 Events " android:layout_width="wrap_content" 
+    android:id="@+id/textView1" android:layout_alignParentTop="true"
+    android:textSize="25dp"
+    
+     android:layout_marginTop="20dip"
+     android:background="#FFFFFF"
+		android:layout_gravity="center"
+    android:textColor="#0050EF"
+
+     >
+    </TextView>
+      
+      
+      
+      
+      <TextView android:textAppearance="?android:attr/textAppearanceLarge" 
+     android:textColor="#0050EF" android:id="@+id/textView1" android:layout_marginLeft="22dp"
+      android:background="#FFFFFF" android:text=" 1.	Inter-Department Activities " 
+      android:layout_height="wrap_content" android:layout_width="wrap_content" 
+      android:layout_marginTop="30dip" android:textSize="20dp"></TextView>
+      
+      <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" android:layout_marginLeft="22dp"
+      android:textColor="#ffffff"
+      android:layout_weight="0.36"
+           android:layout_marginTop="18dip" android:textSize="18dp"
+       android:layout_width="wrap_content" 
+       android:text="  	   		Inter- department cricket and volleyball tournament was conducted and also it includes inter-department football, badminton, basketball and TT. There is also an on-going throw ball tournament for girls.">
+       </TextView>
+      
+      
+      <TextView android:textAppearance="?android:attr/textAppearanceLarge" 
+      android:textColor="#0050EF" android:id="@+id/textView1" 
+      android:layout_marginLeft="22dp" android:background="#FFFFFF" 
+      android:text=" 2.		Sports Day  " android:layout_height="wrap_content" 
+      android:layout_width="wrap_content" android:layout_marginTop="30dip" 
+      android:textSize="20dp"></TextView>
+      
+      <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" android:layout_marginLeft="22dp"
+      android:textColor="#ffffff"
+      android:layout_weight="0.36"
+           android:layout_marginTop="18dip" android:textSize="18dp"
+       android:layout_width="wrap_content" 
+       android:text="  	   		. Sports day was also conducted on 27/2/13 which saw an overwhelming participation by the participants. Track and field events were conducted on that day. ">
+       </TextView>
+      
+      
+      
+      
+      
+    <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" android:layout_marginLeft="22dp"
+      android:textColor="#ffffff"
+      android:layout_weight="0.36" android:textSize="18sp"
+           android:layout_marginTop="18dip"
+       android:layout_width="wrap_content" 
+       android:text="  	   		">
+       </TextView>
+      
+      
+        
+</LinearLayout>
+
+
+</ScrollView>

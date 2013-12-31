@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:background="@drawable/fb_background"
+	android:layout_height="fill_parent">
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:weightSum="1">
+  
+    <TextView android:gravity="center" android:id="@+id/txtroute1" 
+    android:layout_height="wrap_content" 
+    android:textColor="@android:color/black"
+    android:background="@android:color/white"
+    android:text="Route Map" android:layout_width="match_parent"
+     android:layout_weight="0.05"></TextView>
+     
+     
+     
+     <TextView android:id="@+id/txtroute2" android:layout_height="wrap_content" 
+    android:layout_width="wrap_content" android:text=" " 
+    android:textSize="20dp"
+    android:layout_weight="0.05"></TextView>
+     
+     
+     
+    <TextView android:id="@+id/txtroute2" android:layout_height="wrap_content" 
+    android:layout_width="wrap_content" android:text="Driving Details" 
+    android:textColor="#ffffff"
+    android:textSize="26dp"
+    
+    android:layout_weight="0.05"></TextView>
+    
+    <TextView android:id="@+id/txtroute2" android:layout_height="wrap_content" 
+    android:layout_width="wrap_content" android:text=" " 
+    android:textSize="20dp"
+    android:layout_weight="0.05"></TextView>
+    <TextView android:id="@+id/txtroute3" 
+    android:layout_height="wrap_content"  android:textSize="18dp"
+    android:layout_marginLeft="10dp"
+    android:text=" 			342 F ( From Majestic ), 342 A, 342 B, 342 C, 342 D   ( From City Market ) - Passes through Kaikondranahalli. 
+			341 B from City Market and 	
+			340 L from majestic passes through the college campus." 
+			android:textColor="#ffffff"
+    android:layout_width="match_parent" android:layout_weight="0.05">
+        <requestFocus></requestFocus>
+    </TextView>
+    <ImageView android:id="@+id/routemapamritabtn" android:layout_width="wrap_content" android:layout_weight="0.05" android:layout_height="wrap_content" android:src="@drawable/routemap"></ImageView>
+   
+    
+    <Button 
+     android:layout_marginTop="20dip"
+     
+		android:layout_gravity="center"
+		android:textColor="#FFFFFF" android:background="@android:color/transparent"
+     android:text="Get Directions " android:id="@+id/googlemapbtn" android:textSize="25dp" 
+     android:layout_height="wrap_content" android:layout_width="223dp"></Button>
+     
+     <TextView android:id="@+id/txtr" android:layout_height="wrap_content" 
+    android:layout_width="wrap_content" android:text="" 
+    android:textColor="#ffffff"
+    android:textSize="26dp"
+    
+    android:layout_weight="0.05"></TextView>
+      
+    <TextView android:id="@+id/txtrout" android:layout_height="wrap_content" 
+    android:layout_width="wrap_content" android:text="" 
+    android:textColor="#ffffff"
+    android:textSize="26dp"
+    
+    android:layout_weight="0.05"></TextView>
+    
+</LinearLayout>
+</ScrollView>

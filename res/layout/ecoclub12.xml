@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#3b3b3b"
+    
+>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:background="#3b3b3b"
+  android:weightSum="1" android:layout_height="426dp">
+
+        
+	    <TextView android:layout_height="wrap_content" 
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:text=" PRAKRITI 2012 Events " android:layout_width="wrap_content" 
+    android:id="@+id/textView1" android:layout_alignParentTop="true"
+    android:textSize="25dp"
+    
+     android:layout_marginTop="20dip"
+     android:background="#FFFFFF"
+		android:layout_gravity="center"
+    android:textColor="#0050EF"
+
+     >
+    </TextView>
+      <TextView android:layout_height="wrap_content" 
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:text=" 1.ABC Campaign " android:id="@+id/textView1" android:layout_alignParentTop="true"
+    android:textSize="25dp"
+    
+     android:layout_marginTop="20dip"
+     android:background="#FFFFFF"
+		android:layout_marginLeft="20dp"
+    android:textColor="#0050EF" android:layout_width="wrap_content">
+    </TextView>
+    
+    
+    
+        <TextView android:text="		Amalabharatam campaign, this is a cleaning campaign. This abc campaign was initiated by amma herself. Since its inception it been receiving a very good response. It includes cleaning programmes in sabarimala, Bangalore etc" 
+    android:layout_height="wrap_content"
+     android:id="@+id/textView3" 
+    android:layout_marginLeft="22dp"
+      android:textSize="18dp"
+     android:textColor="#ffffff"
+     android:layout_below="@+id/textView2" 
+     android:layout_alignLeft="@+id/textView2" 
+     android:layout_marginTop="18dp" android:layout_weight="0.10" android:layout_width="match_parent"></TextView>
+     
+     
+     
+     
+     
+     <TextView android:layout_height="wrap_content" 
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:text=" 2.Campus Cleaning " android:id="@+id/textView1" android:layout_alignParentTop="true"
+    android:textSize="25dp"
+    
+     android:layout_marginTop="20dip"
+     android:background="#FFFFFF"
+		android:layout_marginLeft="20dp"
+    android:textColor="#0050EF" android:layout_width="wrap_content">
+    </TextView>
+    
+    
+    
+        <TextView android:text="			We do campus cleaning frequently. Because, before telling others firstly we should implement it. By this we bring awareness between students as to how we should maintain our surroundings" 
+    android:layout_height="wrap_content"
+     android:id="@+id/textView3" 
+    android:layout_marginLeft="22dp"
+    android:textSize="18dp" 
+     android:textColor="#ffffff"
+     android:layout_below="@+id/textView2" 
+     android:layout_alignLeft="@+id/textView2" 
+     android:layout_marginTop="18dp" android:layout_weight="0.10" android:layout_width="match_parent"></TextView>
+     
+  <TextView android:layout_height="wrap_content" 
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:text=" 3.Fest Events " android:id="@+id/textView1" android:layout_alignParentTop="true"
+    android:textSize="25dp"
+    
+     android:layout_marginTop="20dip"
+     android:background="#FFFFFF"
+		android:layout_marginLeft="20dp"
+    android:textColor="#0050EF" android:layout_width="wrap_content">
+    </TextView>
+    
+    
+    
+        <TextView android:text="			As to fest events 
+a)	Cooking without flame
+b)	Green hands- painting with natural colours like haldi, sindhur etc.
+c)	Art from waste
+d)	Eco collage
+" 
+    android:layout_height="wrap_content"
+     android:id="@+id/textView3" 
+    android:layout_marginLeft="22dp"
+     android:textSize="18dp"
+     android:textColor="#ffffff"
+     android:layout_below="@+id/textView2" 
+     android:layout_alignLeft="@+id/textView2" 
+     android:layout_marginTop="18dp" android:layout_weight="0.10" android:layout_width="match_parent"></TextView>
+     
+    <TextView android:layout_height="wrap_content" 
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:text="4 .Eco Day " android:id="@+id/textView1" android:layout_alignParentTop="true"
+    android:textSize="25dp"
+    
+     android:layout_marginTop="20dip"
+     android:background="#FFFFFF"
+		android:layout_marginLeft="20dp"
+    android:textColor="#0050EF" android:layout_width="wrap_content">
+    </TextView>
+    
+    
+    
+        <TextView android:text="				We have done flash mob in mantri mall on eco day to bring awareness between people." 
+    android:layout_height="wrap_content"
+     android:id="@+id/textView3" 
+    android:layout_marginLeft="22dp" android:textSize="18dp"
+     
+     android:textColor="#ffffff"
+     android:layout_below="@+id/textView2" 
+     android:layout_alignLeft="@+id/textView2" 
+     android:layout_marginTop="18dp" android:layout_weight="0.10" android:layout_width="match_parent"></TextView>
+     
+       
+     
+     
+     <TextView android:text="			" 
+    android:layout_height="wrap_content"
+     android:id="@+id/textView3" 
+    android:layout_marginLeft="22dp"
+     
+     android:textColor="#ffffff"
+     android:layout_below="@+id/textView2" 
+     android:layout_alignLeft="@+id/textView2" 
+     android:layout_marginTop="18dp" android:layout_weight="0.10" android:layout_width="match_parent"></TextView>
+     
+     
+     <TextView android:text="			" 
+    android:layout_height="wrap_content"
+     android:id="@+id/textView3" 
+    android:layout_marginLeft="22dp"
+     
+     android:textColor="#ffffff"
+     android:layout_below="@+id/textView2" 
+     android:layout_alignLeft="@+id/textView2" 
+     android:layout_marginTop="18dp" android:layout_weight="0.10" android:layout_width="match_parent"></TextView>
+     
+     
+     
+     
+</LinearLayout>
+
+
+</ScrollView>

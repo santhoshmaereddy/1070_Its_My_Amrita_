@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#3b3b3b"
+    
+>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:background="#3b3b3b"
+  android:weightSum="1" android:layout_height="426dp">
+
+        
+	    <TextView android:layout_height="wrap_content" 
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:text=" FACE " android:layout_width="wrap_content" 
+    android:id="@+id/textView1" android:layout_alignParentTop="true"
+    android:textSize="30dp"
+    
+     android:layout_marginTop="20dip"
+     android:background="#FFFFFF"
+		android:layout_gravity="center"
+		
+    
+    android:textColor="#0050EF"
+
+     >
+    </TextView>
+    <TextView android:text="Forum for Aspiring Computer Engineers" 
+    android:layout_height="wrap_content"
+     android:id="@+id/textView2" 
+   
+     android:textColor="#0050EF"
+     android:layout_below="@+id/textView1"
+      android:layout_alignParentLeft="true" 
+      android:layout_marginLeft="22dp"
+       android:layout_marginTop="18dp" android:layout_weight="0.05" android:layout_width="252dp">
+       </TextView>
+
+<TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" android:layout_marginLeft="22dp"
+      android:textColor="#ffffff"
+      android:layout_marginTop="18dip"
+       android:text="  	  Technology and computing have not only changed profusely, but is today growing at an exponential pace feeding on its own fodder.We, the Forum for Aspiring Computer Engineers at Amrita School of Engineering, Bangalore solely dedicate ourselves to organize workshops, conduct events and fests to acquaint and immerse you in this fickle world of technology.
+
+And the blueprint for the future is an ever-changing landscape of events.
+
+Ranging from courses on game programming to presentations on laptop reviews, from hands-on OS installations to project exhibitions, from web hacking to application development. We do it all.
+       If you are able to ardently follow us for this planned semester, through our events and workshops, you graduate into a level beyond your peers, rest assured.
+
+And that's not all, we've got some radical new ideas to implement yet.
+
+Tune into technology.
+Tune into F.A.C.E."  android:textSize="18sp"
+        android:layout_weight="0.42" android:layout_width="match_parent">
+       </TextView>
+
+<Button 
+     android:layout_weight="1.0" android:layout_width="150dp" 
+     android:layout_marginTop="20dip"
+     android:background="#FFFFFF"
+		android:layout_gravity="center"
+		android:textColor="#0A5BC4"
+     android:text=" Members " android:layout_height="wrap_content" 
+     android:id="@+id/faceteambtn" android:textSize="25dp"></Button>
+    
+    
+    <Button 
+     android:layout_weight="1.0" android:layout_width="150dp" 
+     android:layout_marginTop="20dip"
+     android:background="#FFFFFF"
+		android:layout_gravity="center"
+		android:textColor="#0A5BC4"
+     android:text=" 2012 Events" android:layout_height="wrap_content" 
+     android:id="@+id/face12btn" android:textSize="25dp"></Button>
+    
+    
+    
+    <Button 
+     android:layout_weight="1.0" android:layout_width="150dp" 
+     android:layout_marginTop="20dip"
+     android:layout_gravity="center"
+     
+     android:background="#FFFFFF"
+				android:textColor="#0A5BC4"
+     android:text=" 2013 Events" android:layout_height="wrap_content" 
+     android:id="@+id/face134btn" android:textSize="25dp"></Button>
+    
+    <TextView android:text=" Contact us at :  face.aseb@gmail.com " 
+    android:layout_height="wrap_content"
+     android:id="@+id/textView2" 
+   android:textSize="20sp"
+     android:textColor="#AA40FF"
+     android:layout_below="@+id/textView1"
+      android:layout_alignParentLeft="true" 
+      android:layout_marginLeft="22dp"
+       android:layout_marginTop="18dp" android:layout_weight="0.05" android:layout_width="match_parent">
+       </TextView>
+    
+    
+    
+    <TextView android:text=" " 
+    android:layout_height="wrap_content"
+     android:id="@+id/textView2" 
+   android:textSize="20sp"
+     android:textColor="#AA40FF"
+     android:layout_below="@+id/textView1"
+      android:layout_alignParentLeft="true" 
+      android:layout_marginLeft="22dp"
+       android:layout_marginTop="18dp" android:layout_weight="0.05" android:layout_width="match_parent">
+       </TextView>
+    
+</LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#3b3b3b"
+    
+>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:background="#3b3b3b"
+  android:weightSum="1" android:layout_height="426dp">
+
+        
+	    <TextView android:layout_height="wrap_content" 
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:text=" INGINEUM " android:layout_width="wrap_content" 
+    android:id="@+id/textView1" android:layout_alignParentTop="true"
+    android:textSize="30dp"
+    
+     android:layout_marginTop="20dip"
+     android:background="#FFFFFF"
+		android:layout_gravity="center"
+		
+    
+    android:textColor="#0050EF"
+
+     >
+    </TextView>
+    
+    <TextView android:text="  " 
+    android:layout_height="wrap_content"
+     android:id="@+id/textView2" 
+   
+     android:textColor="#0050EF"
+     android:layout_below="@+id/textView1"
+      android:layout_alignParentLeft="true" 
+      android:layout_marginLeft="22dp"
+       android:layout_marginTop="18dp" android:layout_weight="0.05" android:layout_width="252dp">
+       </TextView>
+    
+    
+   
+  
+
+    
+    <TextView android:text="	INGENIUM is the forum of the Mechanical Branch in Amrita School of Engineering, Bangalore.  " 
+    android:layout_height="wrap_content"
+     android:id="@+id/textView3"  android:textSize="18sp"
+     android:layout_marginLeft="12dp"
+     android:textColor="#ffffff"
+     android:layout_width="wrap_content" 
+     android:layout_below="@+id/textView2" 
+     android:layout_alignLeft="@+id/textView2" 
+     android:layout_marginTop="18dp"></TextView>
+     
+     
+     
+     
+     
+     <TextView android:text="	In Latin, Ingenium means Cleverness. As the name suggests, the main objective of the forum is to spread knowledge about the legacy of the Mother of all Engineering fields so as to enlighten the inner engineer in a student." android:layout_weight="0.37" android:layout_width="match_parent" 
+    android:layout_height="wrap_content"
+     android:id="@+id/textView3"  android:textSize="18sp"
+     android:layout_marginLeft="12dp"
+     android:textColor="#ffffff"
+     
+     android:layout_below="@+id/textView2" 
+     android:layout_alignLeft="@+id/textView2" 
+     android:layout_marginTop="18dp"></TextView>
+     
+     
+    
+    
+    
+    <TextView android:text="	" 
+    android:layout_height="wrap_content"
+     android:id="@+id/textView3" 
+     android:textColor="#ffffff"
+     android:layout_width="wrap_content" 
+     android:layout_below="@+id/textView2" 
+     android:layout_alignLeft="@+id/textView2" 
+     android:layout_marginTop="18dp"></TextView>
+    
+    
+    <Button 
+     android:layout_weight="1.0" android:layout_width="150dp" 
+     android:layout_marginTop="20dip"
+     android:background="#FFFFFF"
+		android:layout_gravity="center"
+		android:textColor="#0A5BC4"
+     android:text=" Members " android:layout_height="wrap_content" 
+     android:id="@+id/ingineumteambtn" android:textSize="25dp"></Button>
+    
+    
+    <Button 
+     android:layout_weight="1.0" android:layout_width="150dp" 
+     android:layout_marginTop="20dip"
+     android:background="#FFFFFF"
+		android:layout_gravity="center"
+		android:textColor="#0A5BC4"
+     android:text=" 2012 Events" android:layout_height="wrap_content" 
+     android:id="@+id/ingineum12btn" android:textSize="25dp"></Button>
+    
+    
+    
+    <Button 
+     android:layout_weight="1.0" android:layout_width="150dp" 
+     android:layout_marginTop="20dip"
+     android:background="#FFFFFF"
+		android:layout_gravity="center"
+		android:textColor="#0A5BC4"
+     android:text=" 2013 Events" android:layout_height="wrap_content" 
+     android:id="@+id/ingineum134btn" android:textSize="25dp"></Button>
+    
+    
+    
+    
+    <TextView android:text="  " 
+    android:layout_height="wrap_content"
+     android:id="@+id/textView2" 
+   
+     android:textColor="#0050EF"
+     android:layout_below="@+id/textView1"
+      android:layout_alignParentLeft="true" 
+      android:layout_marginLeft="22dp"
+       android:layout_marginTop="18dp" android:layout_weight="0.05" android:layout_width="252dp">
+       </TextView>
+    
+    
+    <TextView android:text=" Contact us at :   " 
+    android:layout_height="wrap_content"
+     android:id="@+id/textView2" 
+   android:textSize="16dp"
+     android:textColor="#0050EF"
+     android:layout_below="@+id/textView1"
+      android:layout_alignParentLeft="true" 
+      android:layout_marginLeft="22dp"
+       android:layout_marginTop="18dp" android:layout_weight="0.09" android:layout_width="wrap_content">
+       </TextView>
+  
+    <TextView android:text="  " 
+    android:layout_height="wrap_content"
+     android:id="@+id/textView2" 
+   
+     android:textColor="#0050EF"
+     android:layout_below="@+id/textView1"
+      android:layout_alignParentLeft="true" 
+      android:layout_marginLeft="22dp"
+       android:layout_marginTop="18dp" android:layout_weight="0.05" android:layout_width="252dp">
+       </TextView>
+  
+  
+</LinearLayout>
+
+
+</ScrollView>

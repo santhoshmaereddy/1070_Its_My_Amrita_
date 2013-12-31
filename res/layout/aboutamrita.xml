@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+ <ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:background="#3b3b3b"
+    android:layout_height="fill_parent" >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:background="#3b3b3b"
+    android:layout_height="fill_parent"
+    >
+   
+    <TextView android:layout_width="wrap_content" 
+    android:layout_marginTop="15dp"
+    android:layout_height="wrap_content" android:text="OVERVIEW"
+    android:textColor="#AA40FF" 
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_gravity="center"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+     android:id="@+id/textView1"></TextView>
+     
+     <TextView android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:textColor="#FFFFFF" android:layout_marginRight="10dp"
+    android:layout_marginTop="10dp"
+     android:text="		Welcome to Amrita Vishwa Vidyapeetham, that is creating a generation of transformational leaders in technology, business, creative arts and scientific society - in a unique academic setting, which fosters professional excellence, and nurtures core values for a fulfilling life" 
+     android:textAppearance="?android:attr/textAppearanceMedium" 
+     android:id="@+id/textView4"></TextView>
+     
+     <TextView android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp" android:layout_marginRight="10dp"
+    android:layout_marginTop="10dp"
+     android:text="		Amrita Vishwa Vidyapeetham is a rapidly developing world class University offering undergraduate, postgraduate, and advanced doctoral research programmes in wide ranging disciplines like Management, Engineering, Healthcare, Journalism, Media Studies, and Biotechnology. It is both young and immensely dynamic, with a unique bolistic approach to produce leaders in all of its disciplines." 
+     android:textAppearance="?android:attr/textAppearanceMedium" 
+     android:id="@+id/textView4"></TextView>
+     
+    <TextView android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"  android:layout_marginRight="10dp"
+    android:text="Chancellor, Mata Amritanandamayi Devi." android:layout_marginLeft="15dp" android:textSize="22dp" 
+    android:textAppearance="?android:attr/textAppearanceLarge" android:textColor="#AA40FF"
+    android:layout_marginTop="15dp"
+    android:id="@+id/textView2"></TextView>
+     <TextView android:layout_width="wrap_content" android:layout_marginRight="10dp"
+    android:layout_height="wrap_content"  android:textColor="#AA40FF"
+    android:text="AMMA" android:layout_marginLeft="15dp" android:textSize="22dp" 
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:layout_marginTop="15dp"
+    android:id="@+id/textView2"></TextView>
+    <ImageView android:id="@+id/imageView1" android:layout_height="wrap_content" android:src="@drawable/amma" android:layout_width="139dp"></ImageView>
+    
+    
+    <TextView android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"  
+
+    android:text="Sadguru Sri Mata Amritanandamayi Devi is a saint like no other. For the past 36 years Amma has dedicated Her life to the upliftment of suffering humanity through the simplest of gestures- an embrace."
+     android:textAppearance="?android:attr/textAppearanceMedium" 
+     android:layout_marginLeft="10dp" android:layout_marginRight="10dp"
+     android:layout_marginTop="15dp"
+     android:id="@+id/textView3"></TextView>
+     
+     
+    <TextView android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp" android:layout_marginRight="10dp"
+    android:layout_marginTop="10dp"
+     android:text="Amma says, My sole mission is to love and serve one and all. Amma's only wish is that her hands should always be on someone's shoulder, consoling and caressing them and wiping their tears, even while breathing her last." 
+     android:textAppearance="?android:attr/textAppearanceMedium" 
+     android:id="@+id/textView4"></TextView>
+     
+     <TextView android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp" android:layout_marginRight="10dp"
+     android:text="The greatest miracle that takes place in her presence occurs in the hearts of those who come to her is the gentle, gradual awaking of love, compassion and selflessness - an awakening of one's own inherent divinity." 
+     android:textAppearance="?android:attr/textAppearanceMedium" 
+     android:id="@+id/textView4"></TextView>
+     
+     <TextView android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp" android:layout_marginRight="10dp"
+    android:layout_marginTop="10dp"
+     android:text="She says, Mother is just an offiering to the world and wants to be available to everyone. Anyone who watches Amma on a day today basis will understand the significance of this statement." 
+     android:textAppearance="?android:attr/textAppearanceMedium" 
+     android:id="@+id/textView4"></TextView>
+     
+     
+     
+     
+     
+       
+    <TextView android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"  android:textColor="#AA40FF"
+    android:text="President, Swami Amritaswarupananda Puri." android:layout_marginLeft="25dp" android:textSize="22dp" 
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:layout_marginTop="15dp" android:layout_marginRight="10dp"
+    android:id="@+id/textView2"></TextView>
+    <ImageView android:id="@+id/imageView1" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:src="@drawable/amritaswaroopananda" android:layout_width="139dp"></ImageView>
+    
+    
+     <TextView android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp" android:layout_marginRight="10dp"
+    android:layout_marginTop="10dp"
+     android:text="For any knowledge to flourish, It needs driving force of love.  We take many decisions, major or minor, in our everday life.  Love and happiness are also decisions. Experiencing them is not dependent on outside circumstances but on the way we arrange our thoughts.  True education happens when we fall in love with knowledge." 
+     android:textAppearance="?android:attr/textAppearanceMedium" 
+     android:id="@+id/textView4"></TextView>
+     
+     <TextView android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"  android:textColor="#AA40FF" android:layout_marginRight="10dp"
+    android:text="Pro Chancellor, Br. Abhayamrita Chaitanya." android:layout_marginLeft="25dp" android:textSize="22dp" 
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:layout_marginTop="15dp"
+    android:id="@+id/textView2"></TextView>
+    <ImageView android:id="@+id/imageView1" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:src="@drawable/abhayamrita" android:layout_width="139dp"></ImageView>
+    
+    
+     <TextView android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp" android:layout_marginRight="10dp"
+    android:layout_marginTop="10dp"
+     android:text="The University ensures an amalgam of serene atmosphere in all campuses for academics; and at the same time, provides easy access to all those who visit us - be it students, parents, business leaders, technologists, academicians, researchers, media personnel, government officials, and well-wishers." 
+     android:textAppearance="?android:attr/textAppearanceMedium" 
+     android:id="@+id/textView4"></TextView>
+     
+     
+     <TextView android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"  android:layout_marginRight="10dp"
+    android:text="Vice Chancellor, Dr.P Venkat Rangan." android:layout_marginLeft="25dp" android:textSize="22dp" 
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:layout_marginTop="15dp" android:textColor="#AA40FF"
+    android:id="@+id/textView2"></TextView>
+    <ImageView android:id="@+id/imageView1" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:src="@drawable/vc" android:layout_width="139dp"></ImageView>
+    
+    
+     <TextView android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp" android:layout_marginRight="10dp"
+     android:text="At the various campuses of Amrita Vishwa Vidyapeetham, we have assembled some of the most well known academicians, entrepreneurs, executives, inventors, creative artists, philanthropists, reasearchers, and scientists to guide us in this noble endeavour. We are launching the foremost frontiers of arts, science, management, and technology." 
+     android:textAppearance="?android:attr/textAppearanceMedium" 
+     android:id="@+id/textView4"></TextView>
+     
+     
+     <TextView android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" android:layout_marginRight="10dp"
+    android:text=" VARIOUS CAMPUSES" android:layout_marginLeft="25dp" android:textSize="22dp" 
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:layout_marginTop="15dp" android:textColor="#AA40FF"
+    android:id="@+id/textView2"></TextView>
+   
+    
+     <TextView android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp" android:layout_marginRight="10dp"
+    android:layout_marginTop="10dp"
+     android:text=" .  Amritapuri Campus    " android:textColor="#AA40FF"
+     android:textAppearance="?android:attr/textAppearanceMedium" 
+     android:id="@+id/textView4"></TextView>
+     
+     
+     
+       
+     <TextView android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp" android:layout_marginRight="10dp"
+    android:layout_marginTop="10dp"
+     android:text="Amrita Vishwa Vidyapeetham
+Amritapuri Campus 
+Amritapuri
+Clappana P. O.
+Kollam - 690525
+Phone: +91 476 2801280
+Fax: +91 476 2896178
+E-mail: campus@am.amrita.edu    " 
+     android:textAppearance="?android:attr/textAppearanceMedium" 
+     android:id="@+id/textView4"></TextView>
+     
+       
+     <TextView android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp" android:layout_marginRight="10dp"
+    android:layout_marginTop="10dp"
+     android:text=" .  Bengaluru Campus    " android:textColor="#AA40FF"
+     android:textAppearance="?android:attr/textAppearanceMedium" 
+     android:id="@+id/textView4"></TextView>
+     
+       
+     <TextView android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp" android:layout_marginRight="10dp"
+    android:layout_marginTop="10dp"
+     android:text=" Amrita Vishwa Vidyapeetham
+Bengaluru Campus
+Kasavanahalli, Carmelaram P.O.
+Bengaluru - 560 035
+Phone: +91 080 25183700, 080 28439 565 / 566 
+Fax: +91 080 2844 0092
+E-mail: info@blr.amrita.edu   " 
+     android:textAppearance="?android:attr/textAppearanceMedium" 
+     android:id="@+id/textView4"></TextView>
+     
+       
+     <TextView android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp" android:layout_marginRight="10dp"
+    android:layout_marginTop="10dp"
+     android:text=" .   Coimbatore Campus    " android:textColor="#AA40FF"
+     android:textAppearance="?android:attr/textAppearanceMedium" 
+     android:id="@+id/textView4"></TextView>
+     
+       
+     <TextView android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp" android:layout_marginRight="10dp"
+    android:layout_marginTop="10dp"
+     android:text=" Amrita Vishwa Vidyapeetham
+Ettimadai Post
+Coimbatore - 641 105
+Phone: +91 422 2685 000
+Fax: +91 422 2656 274
+E-mail: univhq@amrita.edu   " 
+     android:textAppearance="?android:attr/textAppearanceMedium" 
+     android:id="@+id/textView4"></TextView>
+     
+       
+     <TextView android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp" android:layout_marginRight="10dp"
+    android:layout_marginTop="10dp" android:textColor="#AA40FF"
+     android:text=" . 	Kochi Campus    " 
+     android:textAppearance="?android:attr/textAppearanceMedium" 
+     android:id="@+id/textView4"></TextView>
+     
+       
+     <TextView android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp" android:layout_marginRight="10dp"
+    android:layout_marginTop="10dp"
+     android:text=" Amrita Vishwa Vidyapeetham
+Health Sciences Campus
+Amrita Institute of Medical Sciences
+Elamakkara P.O.
+Kochi, Kerala - 682 041
+Phone: +91 0484 2855651, 2858374
+Fax: +91 0484 2802020, 2802051    " 
+     android:textAppearance="?android:attr/textAppearanceMedium" 
+     android:id="@+id/textView4"></TextView>
+     
+       
+     <TextView android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp" android:layout_marginRight="10dp"
+    android:layout_marginTop="10dp"
+     android:text=" .  Mysore Campus   " android:textColor="#AA40FF"
+     android:textAppearance="?android:attr/textAppearanceMedium" 
+     android:id="@+id/textView4"></TextView>
+     
+       
+     <TextView android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp" android:layout_marginRight="10dp"
+    android:layout_marginTop="10dp"
+     android:text=" Amrita Vishwa Vidyapeetham
+Mysore Campus
+#114, 7th Main Bogadi II Stage, Mysore
+Karnataka - 5700026
+Phone: +91 0821 2343479/80
+Fax: +91 0821 2340911
+Email: asasmysore(at)gmail.com   " 
+     android:textAppearance="?android:attr/textAppearanceMedium" 
+     android:id="@+id/textView4"></TextView>
+     
+     
+     
+    <TextView android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text=" " android:layout_marginLeft="15dp" android:textSize="22dp" 
+    android:textAppearance="?android:attr/textAppearanceMedium" 
+    android:layout_marginTop="15dp"
+    android:id="@+id/textView2"></TextView>
+     
+    <TextView android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="  " android:layout_marginLeft="15dp" android:textSize="22dp" 
+    android:textAppearance="?android:attr/textAppearanceMedium" 
+    android:layout_marginTop="15dp"
+    android:id="@+id/textView2"></TextView>
+    
+    
+    
+    <TextView android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="  " android:layout_marginLeft="15dp" android:textSize="22dp" 
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:layout_marginTop="15dp"
+    android:id="@+id/textView2"></TextView>
+    
+    
+    <TextView android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="  " android:layout_marginLeft="15dp" android:textSize="22dp" 
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:layout_marginTop="15dp"
+    android:id="@+id/textView2"></TextView>
+     
+</LinearLayout>
+</ScrollView>

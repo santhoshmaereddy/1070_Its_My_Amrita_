@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+	android:background="@drawable/backg3"
+
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+    <Button android:id="@+id/b5"
+    android:background="@android:color/transparent" android:textColor="#ffffff"
+     android:textSize="30dp" android:layout_gravity="center" android:text="year1" android:layout_marginTop="80dip" android:layout_height="wrap_content" android:layout_width="98dp"></Button>
+    <Button android:id="@+id/b6"  android:background="@android:color/transparent" android:textColor="#ffffff" android:textSize="30dp" android:layout_gravity="center" android:layout_marginTop="30dip"
+    android:layout_height="wrap_content" android:text="year2" android:layout_width="98dp"></Button>
+    <Button android:id="@+id/b7"  android:background="@android:color/transparent" android:textColor="#ffffff" android:textSize="30dp" android:layout_marginTop="30dip" android:layout_gravity="center"
+    android:layout_height="wrap_content" android:text="year3" android:layout_width="96dp"></Button>
+    <Button android:id="@+id/b8"   android:background="@android:color/transparent" android:textColor="#ffffff" android:textSize="30dp" android:layout_marginTop="30dip" android:layout_gravity="center"
+     android:layout_height="wrap_content" android:text="year4" android:layout_width="100dp"></Button>
+    
+</LinearLayout>

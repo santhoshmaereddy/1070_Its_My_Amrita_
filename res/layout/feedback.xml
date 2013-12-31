@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="#3b3b3b"
+   android:weightSum="1">
+    
+    <TextView android:layout_width="fill_parent"
+        	  android:layout_height="wrap_content"
+        	  android:text="Feedback"
+        	  android:textSize="40dip"
+        	  android:gravity="center"
+        	  android:textColor="#21dbd4"
+        	  android:layout_marginTop="10dip"/>
+    
+    
+    <TextView android:layout_width="fill_parent"
+    android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="Please send us your valuable feedback"
+        android:textSize="20dip"
+        android:textColor="#21dbd4"
+        android:textStyle="bold" 
+        android:id="@+id/edittxt1"
+       android:layout_marginTop="40dip"
+       
+        android:background="@null">
+        </TextView>
+    
+    
+    <TextView android:layout_width="fill_parent"
+    android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:textSize="20dip"
+        android:textColor="#21dbd4"
+        android:textStyle="bold" 
+        android:id="@+id/edittxt2"
+       
+       
+        android:background="@null">
+        </TextView>
+    <EditText android:layout_weight="0.08" android:layout_height="wrap_content" 
+    android:inputType="textMultiLine" android:layout_width="match_parent"
+     android:id="@+id/feedtxt"></EditText>
+    <Button android:text="Submit"
+    android:layout_gravity="center" 
+    android:id="@+id/submitbtn" 
+    android:layout_width="wrap_content"
+     android:layout_height="wrap_content">
+     </Button>
+    
+</LinearLayout>

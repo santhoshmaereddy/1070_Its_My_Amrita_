@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+ <ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:background="#3b3b3b"
+    android:layout_height="fill_parent" >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:background="#3b3b3b"
+    android:layout_height="fill_parent"
+    >
+    
+    
+    
+   
+    <TextView android:layout_width="wrap_content" 
+    android:layout_marginTop="15dp"
+    android:layout_height="wrap_content" android:text="Services/Facilities"
+    android:textColor="#AA40FF" 
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:textSize="30dp"
+    android:layout_gravity="center"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+     android:id="@+id/textView1"></TextView>
+     
+       
+     <TextView android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"  android:textColor="#AA40FF" 
+    android:layout_marginTop="10dp" android:layout_marginRight="10dp"
+     android:text="1.	IEEE(ASPP Package) : 145 journals" 
+     android:textAppearance="?android:attr/textAppearanceMedium" 
+     android:id="@+id/textView4"></TextView>
+     
+     <TextView android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp" android:layout_marginRight="10dp"
+     android:text="  In this access to “IEEE-ASPP e-Journals” under AICTE Consortium has been provided and in this package full-text access to total of 148 Journals, Magazines and transactions are provided. " 
+     android:textAppearance="?android:attr/textAppearanceMedium" 
+     android:id="@+id/textView4"></TextView>
+      <TextView android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp" android:layout_marginRight="10dp"
+     android:text="  www.ieeeexplore.ieee.org " android:textColor="#33B5E5"
+     android:textAppearance="?android:attr/textAppearanceMedium" 
+     android:id="@+id/textView4"></TextView>
+       
+       
+     <TextView android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"  android:textColor="#AA40FF" 
+    android:layout_marginTop="10dp" android:layout_marginRight="10dp"
+     android:text="2.	SCIENCE DIRECT : 275 Journals" 
+     android:textAppearance="?android:attr/textAppearanceMedium" 
+     android:id="@+id/textView4"></TextView>
+       
+       
+     <TextView android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp" android:layout_marginRight="10dp"
+     android:text="  In this access to ScienceDirect e-Journals (Engineering +Computer Science) under “AICTE-Elsevier Conortium” has been provided. In this access to 275 journals are included (90 Journals in Computer Science and 185 Journals in Engineering). " 
+     android:textAppearance="?android:attr/textAppearanceMedium" 
+     android:id="@+id/textView4"></TextView>
+       
+        <TextView android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp" android:layout_marginRight="10dp"
+     android:text="  www.sciencedirect.com "  android:textColor="#33B5E5"
+     android:textAppearance="?android:attr/textAppearanceMedium" 
+     android:id="@+id/textView4"></TextView>
+       
+       
+     <TextView android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"  android:textColor="#AA40FF" 
+    android:layout_marginTop="10dp" android:layout_marginRight="10dp"
+     android:text="3.	SUNNY-BUFFALO University e-resources  " 
+     android:textAppearance="?android:attr/textAppearanceMedium" 
+     android:id="@+id/textView4"></TextView>
+       
+       
+     <TextView android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp" android:layout_marginRight="10dp"
+     android:text=" : Electronic Journals are provided for academic research by current authorized UB faculty, students and staff only.  " 
+     android:textAppearance="?android:attr/textAppearanceMedium" 
+     android:id="@+id/textView4"></TextView>
+        <TextView android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" android:textColor="#33B5E5"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp" android:layout_marginRight="10dp"
+     android:text="  http://amrita.edu/digitallibrary " 
+     android:textAppearance="?android:attr/textAppearanceMedium" 
+     android:id="@+id/textView4"></TextView>
+       
+       
+     <TextView android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"  android:textColor="#AA40FF" 
+    android:layout_marginTop="10dp" android:layout_marginRight="10dp"
+     android:text="4.	SPRINGERLINK : 134 journals" 
+     android:textAppearance="?android:attr/textAppearanceMedium" 
+     android:id="@+id/textView4"></TextView>
+       
+       
+     <TextView android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp" android:layout_marginRight="10dp"
+     android:text="  SpringerLink is Springer’s platform, which provides access to 6 million research documents. SpringerLink aims to become the primary resource destination for all academic researchers and students. " 
+     android:textAppearance="?android:attr/textAppearanceMedium" 
+     android:id="@+id/textView4"></TextView>
+       
+       <TextView android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp" android:textColor="#33B5E5"
+    android:layout_marginTop="10dp" android:layout_marginRight="10dp"
+     android:text="  http://link.springer.com/ " 
+     android:textAppearance="?android:attr/textAppearanceMedium" 
+     android:id="@+id/textView4"></TextView>
+     
+     
+     <TextView android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"  android:textColor="#AA40FF" 
+    android:layout_marginTop="10dp" android:layout_marginRight="10dp"
+     android:text="5.	ASME :31 journals" 
+     android:textAppearance="?android:attr/textAppearanceMedium" 
+     android:id="@+id/textView4"></TextView>
+       
+       
+        <TextView android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp" android:layout_marginRight="10dp"
+     android:text=" Founded in 1880 as the American Society of Mechanical Engineers, ASME is the premier professional membership organistion for more than 127,000 mechanical engineers and associated members worldwide. ASME also conducts one of the World’s largest technical publishing operations in the world, offering thousands of titles including some of the profession’s most prestigious journals,conference proceedings and ASME Press books. " 
+     android:textAppearance="?android:attr/textAppearanceMedium" 
+     android:id="@+id/textView4"></TextView>
+     
+     
+     
+       
+     <TextView android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp" android:textColor="#33B5E5"
+    android:layout_marginTop="10dp" android:layout_marginRight="10dp"
+     android:text="  http://wwww.asmedl.org/journals/doc/ASMEDL-home/jrnls " 
+     android:textAppearance="?android:attr/textAppearanceMedium" 
+     android:id="@+id/textView4"></TextView>
+       
+            
+     <TextView android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"  android:textColor="#AA40FF" 
+    android:layout_marginTop="10dp" android:layout_marginRight="10dp"
+     android:text="6.	J-GATE Engineering and Technology" 
+     android:textAppearance="?android:attr/textAppearanceMedium" 
+     android:id="@+id/textView4"></TextView>
+       
+       
+     <TextView android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp" android:layout_marginRight="10dp"
+     android:text="   J-Gate is an electronic gateway to global e-journal literature. Launched in 2001 by Informatics India Limited, J-Gate provides seamless access to  millions of journal articles available online offered by 10082 Publishers. It presently has a massive database of journal literature, indexed from  31673 e-journals with links to full text at publisher sites. J-Gate also plans to support online subscription to journals, electronic document delivery,  archiving and other related services. " 
+     android:textAppearance="?android:attr/textAppearanceMedium" 
+     android:id="@+id/textView4"></TextView>
+       
+       
+       <TextView android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" android:textColor="#33B5E5"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp" android:layout_marginRight="10dp"
+     android:text="  http://http:/jgate.in?tokenid=jgate1052 " 
+     android:textAppearance="?android:attr/textAppearanceMedium" 
+     android:id="@+id/textView4"></TextView>
+       
+       
+       
+     <TextView android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"  android:textColor="#AA40FF" 
+    android:layout_marginTop="10dp" android:layout_marginRight="10dp"
+     android:text="7.	ACCESS Engineering – McGraw-Hill" 
+     android:textAppearance="?android:attr/textAppearanceMedium" 
+     android:id="@+id/textView4"></TextView>
+       
+       
+     <TextView android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp" android:layout_marginRight="10dp"
+     android:text="  AccessEngineering from McGraw-Hill is an innovative online reference and learning resource providing seamless access to the world's most trusted collection of critical, regularly updated engineering reference information.  AccessEngineering also comprises dynamic online features, such as instructional videos, interactive tables and charts, as well as personalization tools allowing users to organize crucial project information as they work.  " 
+     android:textAppearance="?android:attr/textAppearanceMedium" 
+     android:id="@+id/textView4"></TextView>
+       
+       
+       <TextView android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" android:textColor="#33B5E5"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp" android:layout_marginRight="10dp"
+     android:text="  http://2.accessengineeringlibrary.com " 
+     android:textAppearance="?android:attr/textAppearanceMedium" 
+     android:id="@+id/textView4"></TextView>
+       
+       
+     <TextView android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"  android:textColor="#AA40FF" 
+    android:layout_marginTop="10dp" android:layout_marginRight="10dp"
+     android:text="8.	ASTM Digital Library " 
+     android:textAppearance="?android:attr/textAppearanceMedium" 
+     android:id="@+id/textView4"></TextView>
+       
+       
+     <TextView android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp" android:layout_marginRight="10dp"
+     android:text="   ASTM International, known until 2001 as the American Society for Testing and Materials (ASTM), is an international standards organization that develops and publishes voluntary consensus technical standards for a wide range of materials, products, systems, and services. " 
+     android:textAppearance="?android:attr/textAppearanceMedium" 
+     android:id="@+id/textView4"></TextView>
+     
+     
+       <TextView android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"  android:textColor="#33B5E5" 
+    android:layout_marginTop="10dp" android:layout_marginRight="10dp"
+     android:text="   http://enterprise.astm.org" 
+     android:textAppearance="?android:attr/textAppearanceMedium" 
+     android:id="@+id/textView4"></TextView>
+       
+       
+     <TextView android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp" android:layout_marginRight="10dp"
+     android:text="  " 
+     android:textAppearance="?android:attr/textAppearanceMedium" 
+     android:id="@+id/textView4"></TextView>
+       
+   
+   
+   
+   
+   
+   
+   
+   
+     <TextView android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp" android:layout_marginRight="10dp"
+    android:layout_marginTop="10dp"
+     android:text="       " 
+     android:textAppearance="?android:attr/textAppearanceMedium" 
+     android:id="@+id/textView4"></TextView>
+     
+     
+     
+     
+     
+    <TextView android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text=" " android:layout_marginLeft="15dp" android:textSize="22dp" 
+    android:textAppearance="?android:attr/textAppearanceMedium" 
+    android:layout_marginTop="15dp"
+    android:id="@+id/textView2"></TextView>
+     
+    <TextView android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="  " android:layout_marginLeft="15dp" android:textSize="22dp" 
+    android:textAppearance="?android:attr/textAppearanceMedium" 
+    android:layout_marginTop="15dp"
+    android:id="@+id/textView2"></TextView>
+    
+    
+    
+    <TextView android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="  " android:layout_marginLeft="15dp" android:textSize="22dp" 
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:layout_marginTop="15dp"
+    android:id="@+id/textView2"></TextView>
+    
+    
+    <TextView android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="  " android:layout_marginLeft="15dp" android:textSize="22dp" 
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:layout_marginTop="15dp"
+    android:id="@+id/textView2"></TextView>
+     
+</LinearLayout>
+</ScrollView>

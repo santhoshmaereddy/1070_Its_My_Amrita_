@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+   android:background="@drawable/backg1"
+android:alwaysDrawnWithCache="false">
+
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical" android:background="@drawable/backg1"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:weightSum="1">
+  
+    <TextView android:layout_height="wrap_content" 
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:id="@+id/textView1" android:layout_width="wrap_content" 
+    android:text=" "></TextView>
+
+
+       
+
+    
+        
+        
+         
+         
+         <Button 
+     android:layout_width="150dp" 
+     android:layout_marginTop="30dip"
+   
+		android:layout_gravity="center"
+		android:textColor="#ffffff" android:background="@android:color/transparent" 
+     android:text="PRESS" android:id="@+id/pressbtn" android:textSize="28dp" android:layout_height="42dp"></Button>
+     
+     <Button 
+     android:layout_marginTop="20dip"
+   android:background="@android:color/transparent" 
+     
+		android:layout_gravity="center"
+		android:textColor="#ffffff"
+     android:text="MOVIE" android:id="@+id/moviebtn" 
+     
+     android:textSize="25dp" android:layout_height="38dp" android:layout_width="wrap_content"></Button>
+     
+         
+         <Button
+        android:id="@+id/musicbtn"
+  android:background="@android:color/transparent" 
+        android:textColor="#FFFFFF"
+       android:layout_marginTop="20dip"
+       android:layout_gravity="center"
+        android:textSize="28dp"
+         android:text="RAAGA" android:layout_height="35dp" android:layout_width="167dp"/>
+         
+         <Button 
+     android:layout_marginTop="20dip"
+     android:background="@android:color/transparent" 
+     
+		android:layout_gravity="center"
+		android:textColor="#ffffff"
+     android:text="CHETANA" android:id="@+id/sportsbtn" android:textSize="25dp" android:layout_width="174dp" android:layout_height="36dp"></Button>
+<Button 
+     android:layout_marginTop="20dip"
+ android:background="@android:color/transparent" 
+    	android:textColor="#ffffff"
+    	android:layout_gravity="center"
+     android:text="VEDANTA" android:id="@+id/jnanavanibtn" android:textSize="28dp" android:layout_height="32dp" android:layout_width="186dp"></Button>
+        
+        
+        <Button
+        android:id="@+id/ecoclubbtn"
+        android:background="@android:color/transparent" 
+        android:textColor="#ffffff"
+       android:layout_marginTop="20dip"
+       android:layout_gravity="center"
+        android:textSize="28dp"
+         android:text="PRAKRITI" android:layout_height="40dp" android:layout_width="184dp"/>
+        
+    
+    <Button 
+     android:layout_marginTop="22dip"
+     android:background="@android:color/transparent" 
+		android:layout_gravity="center"
+		android:textColor="#ffffff"
+     android:text="PRERANA" android:id="@+id/prananabtn" android:textSize="28dp" android:layout_height="31dp" android:layout_width="206dp" android:layout_weight="0.03"></Button>
+    
+   
+
+
+       
+<Button
+        android:id="@+id/dancebtn"
+        android:layout_marginTop="20dip"
+	android:textColor="#FFFFFF"
+	android:background="@android:color/transparent" 
+        android:textSize="28dp"
+        android:layout_gravity="center"
+        
+       
+         android:text="NARTHANA" android:layout_height="39dp" android:layout_width="195dp"/>
+     
+    
+     
+     
+     <Button
+        android:id="@+id/spicmacaybtn"
+        android:layout_marginTop="20dip"
+	android:textColor="#ffffff"
+        android:textSize="28dp"
+        android:layout_gravity="center"
+        
+        android:background="@android:color/transparent" 
+         android:text="SPICMACAY" android:layout_height="40dp" android:layout_width="214dp"/>
+     
+     
+     <Button
+        android:id="@+id/literarybtn"
+         android:background="@android:color/transparent" 
+        android:textColor="#ffffff"
+       android:layout_marginTop="20dip"
+       android:layout_gravity="center"
+        android:textSize="28dp"
+         android:text="MAARDHANI" android:layout_height="38dp" android:layout_width="211dp"/>
+     
+    <Button 
+     android:layout_marginTop="22dip"
+      android:background="@android:color/transparent" 
+		android:layout_gravity="center"
+		android:textColor="#ffffff"
+     android:text="DRAMA-ARTS" android:id="@+id/dramabtn" android:textSize="28dp" android:layout_height="31dp" android:layout_width="253dp"></Button> 
+        
+    <Button 
+     android:layout_marginTop="20dip"
+ android:background="@android:color/transparent" 
+    	android:textColor="#ffffff"
+    	android:layout_gravity="center"
+     android:text="PHOTOGRAPHY" android:id="@+id/photographybtn" android:textSize="28dp" android:layout_height="35dp" android:layout_width="307dp"></Button>
+    
+
+    
+</LinearLayout>
+</ScrollView>

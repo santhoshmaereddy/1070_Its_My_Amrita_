@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <EditTextPreference
+    android:title="Edit Text"
+    android:key="name"
+    android:summary="Enter Your Name"
+    >
+    </EditTextPreference>
+    
+    <CheckBoxPreference
+    android:title="Music"
+    android:defaultValue="true"
+    android:key="checkbox"
+    android:summary=" check this Box"/>
+    
+    <ListPreference
+    android:title="Upcoming Modules" 
+    android:key="list"
+    android:summary="Here's a list of modules to be released"
+    android:entries="@array/list"
+    android:entryValues="@array/lvalues"
+    
+    ></ListPreference>
+    
+    
+</PreferenceScreen>

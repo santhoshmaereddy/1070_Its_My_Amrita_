@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#3b3b3b"
+    
+>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:background="#3b3b3b"
+  android:weightSum="1" android:layout_height="426dp">
+
+        
+	    <TextView android:layout_height="wrap_content" 
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:text=" PRAKRITI " android:layout_width="wrap_content" 
+    android:id="@+id/textView1" android:layout_alignParentTop="true"
+    android:textSize="30dp"
+    
+     android:layout_marginTop="20dip"
+     android:background="#FFFFFF"
+		android:layout_gravity="center"
+		
+    
+    android:textColor="#0050EF"
+
+     >
+    </TextView>
+    
+    
+    
+    
+<TextView android:text="	There should be a thing called GRATITUDE in every one of us.  Nature gives us what not. It’s our responsible to at least give its share in the form of maintaining it clean and green. " 
+    android:layout_height="wrap_content"
+     android:id="@+id/textView3" 
+    android:layout_marginLeft="22dp" android:textSize="18sp"
+     
+     android:textColor="#ffffff"
+     android:layout_below="@+id/textView2" 
+     android:layout_alignLeft="@+id/textView2" 
+     android:layout_marginTop="18dp" android:layout_weight="0.10" android:layout_width="match_parent"></TextView>
+     
+     
+     <TextView android:text="	This is a social outreach club which serves nature. We do a wide range of activities like cleaning campaigns, campus clean up programmes, awareness programmes, rallies etc. we also conduct some thought provoking activities for college fests like cooking without flame, green art, art from waste, green hands etc." 
+    android:layout_height="wrap_content"
+     android:id="@+id/textView3" 
+    android:layout_marginLeft="22dp" android:textSize="18sp"
+     
+     android:textColor="#ffffff"
+     android:layout_below="@+id/textView2" 
+     android:layout_alignLeft="@+id/textView2" 
+     android:layout_marginTop="18dp" android:layout_weight="0.10" android:layout_width="match_parent"></TextView>
+
+
+<Button 
+     android:layout_weight="1.0" android:layout_width="150dp" 
+     android:layout_marginTop="20dip"
+     android:background="#FFFFFF"
+		android:layout_gravity="center"
+		android:textColor="#0A5BC4"
+     android:text=" Members " android:layout_height="wrap_content" 
+     android:id="@+id/ecoclubteambtn" android:textSize="25dp"></Button>
+    
+    
+    <Button 
+     android:layout_weight="1.0" android:layout_width="150dp" 
+     android:layout_marginTop="20dip"
+     android:background="#FFFFFF"
+		android:layout_gravity="center"
+		android:textColor="#0A5BC4"
+     android:text=" 2012 Events" android:layout_height="wrap_content" 
+     android:id="@+id/ecoclub12btn" android:textSize="25dp"></Button>
+    
+    
+    
+    <Button 
+     android:layout_weight="1.0" android:layout_width="150dp" 
+     android:layout_marginTop="20dip"
+     android:background="#FFFFFF"
+		android:layout_gravity="center"
+		android:textColor="#0A5BC4"
+     android:text=" 2013 Events" android:layout_height="wrap_content" 
+     android:id="@+id/ecoclub134btn" android:textSize="25dp"></Button>
+    
+    
+        <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" 
+      android:textColor="#ffffff"
+      android:layout_weight="0.36" android:layout_marginLeft="22dp"
+           android:layout_marginTop="15dip" android:textSize="18dp"
+       android:layout_width="wrap_content" 
+       android:text="	    ">
+       </TextView>
+    
+</LinearLayout>
+
+
+</ScrollView>

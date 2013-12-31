@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#3b3b3b"
+    
+>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:background="#3b3b3b"
+  android:weightSum="1" android:layout_height="426dp">
+
+        
+	    <TextView android:layout_height="wrap_content" 
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:text=" RAAGA 2013 Events " android:layout_width="wrap_content" 
+    android:id="@+id/textView1" android:layout_alignParentTop="true"
+    android:textSize="30dp"
+    
+     android:layout_marginTop="20dip"
+     android:background="#FFFFFF"
+		android:layout_gravity="center"
+		
+    
+    android:textColor="#0050EF"
+
+     >
+    </TextView>
+      
+        
+        
+        
+        
+        <TextView android:textAppearance="?android:attr/textAppearanceLarge" 
+      android:textColor="#0050EF" android:id="@+id/textView1" 
+      android:layout_marginLeft="22dp" android:background="#FFFFFF"
+       android:text=" 1.	Amma In Bangalore "
+        android:layout_height="wrap_content" android:layout_width="wrap_content" 
+        android:layout_marginTop="30dip" android:textSize="20dp"></TextView>
+        
+      <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" android:layout_marginLeft="22dp"
+      android:textColor="#ffffff"
+      android:layout_weight="0.36"
+           android:layout_marginTop="18dip"
+       android:layout_width="wrap_content" android:textSize="18sp"
+       android:text="  	   		The club came up with the concept of live music for the first time for drama performance during ‘Amma in Bangalore’ event performed by band Mukthi which was received enthusiastically and was given special mention and was asked to perform for Amma once more .The bhajan team lead by Ms. Vineetha Jain, also got special mentioning from Amma and were asked to perform for Maha Sivarathri.">
+       </TextView>
+      
+      
+      <TextView android:layout_height="wrap_content" 
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:text="2.	Raagam Nite Fest" android:id="@+id/textView1" android:layout_alignParentTop="true"
+    android:textSize="20dp"
+    
+     android:layout_marginTop="20dip"
+     android:background="#FFFFFF"
+		android:layout_marginLeft="22dp"
+    android:textColor="#0050EF"
+
+     android:layout_width="188dp">
+    </TextView>
+      
+  
+  <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" 
+      android:textColor="#ffffff"
+      android:layout_weight="0.36" android:layout_marginLeft="22dp"
+           android:layout_marginTop="15dip" android:textSize="18sp"
+       android:layout_width="wrap_content" 
+       android:text="	      The club was a part of the Raagam Nite, featuring band MOTHERJANE conducted as a part of AYKYA’13.">
+       </TextView>
+  
+<TextView android:layout_height="wrap_content" android:layout_marginLeft="22dp"
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:text="3.	Other Participations" android:id="@+id/textView1" android:layout_alignParentTop="true"
+    android:textSize="20dp"
+    
+     android:layout_marginTop="20dip"
+     android:background="#FFFFFF"
+		
+    android:textColor="#0050EF"
+
+     android:layout_weight="0.04" android:layout_width="274dp">
+    </TextView>
+       <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2"  android:textSize="18sp"
+      android:textColor="#ffffff"
+      android:layout_weight="0.36" android:layout_marginLeft="22dp"
+           android:layout_marginTop="15dip"
+       android:layout_width="wrap_content" 
+       android:text="	      The club is proud to have amongst them Midhun V Dev ,2nd place winner of National level cultural UNIFEST’12 fest who participated In 6TH SOUTH ASIAN UNIVERSITIES FESTIVAL 2013 (SAUFEST) conduct during Feb2013 at Patiala, Punjab for the event Light vocals-Indian.">
+       </TextView>
+  
+  
+  
+
+<TextView android:layout_height="wrap_content" 
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:text="Upcoming Events" android:id="@+id/textView1" android:layout_alignParentTop="true"
+    android:textSize="20dp"
+    
+     android:layout_marginTop="20dip"
+     android:background="#FFFFFF"
+		android:layout_marginLeft="22dp"
+    android:textColor="#0050EF" android:layout_weight="0.07" android:layout_width="276dp">
+    </TextView>
+      
+      
+        <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2"  android:textSize="18sp"
+      android:textColor="#ffffff"
+      android:layout_weight="0.36" android:layout_marginLeft="22dp"
+           android:layout_marginTop="15dip"
+       android:layout_width="wrap_content" 
+       android:text="Kalanjali	    "> 
+       </TextView>
+  
+  
+        
+        
+        
+        
+        <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" 
+      android:textColor="#ffffff"
+      android:layout_weight="0.36" android:layout_marginLeft="22dp"
+           android:layout_marginTop="15dip"
+       android:layout_width="wrap_content" 
+       android:text="	    ">
+       </TextView>
+        
+        
+        
+        
+</LinearLayout>
+
+
+</ScrollView>

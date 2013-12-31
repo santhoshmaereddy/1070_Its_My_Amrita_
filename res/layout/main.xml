@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="1">
+<TextView  
+    android:layout_width="fill_parent" 
+    android:text="HOME" android:layout_height="wrap_content" android:layout_weight="0.18"/>
+<Button android:background="@drawable/icon" android:id="@+id/b1" android:text="teachers's info" android:layout_width="match_parent" android:layout_height="wrap_content"></Button>
+<Button android:id="@+id/b2" android:text="courses" android:layout_width="match_parent" android:layout_height="wrap_content"></Button>
+<Button android:id="@+id/b3" android:text="AUMS" android:layout_height="wrap_content" android:layout_width="match_parent"></Button>
+<Button android:id="@+id/b4" android:text="OPAC" android:layout_height="wrap_content" android:layout_width="match_parent"></Button>
+<Button android:id="@+id/b5" android:text="Clubs AND Fourms" android:layout_height="wrap_content" android:layout_width="match_parent"></Button>
+</LinearLayout>

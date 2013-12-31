@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent" android:background="@drawable/backg1"
+  android:layout_height="match_parent" android:weightSum="1">
+  
+  
+  <Button android:id="@+id/b1" android:layout_marginTop="105dp" android:background="@android:color/transparent" android:textColor="#ffffFF"  android:textSize="22sp"  android:text="Campus" android:layout_gravity="center" android:layout_height="wrap_content" android:layout_width="190dp" android:layout_weight="0.06"></Button>
+  
+  
+  <Button android:id="@+id/b2" android:background="@android:color/transparent"   android:layout_marginTop="15dp" android:textColor="#ffffFF"  android:textSize="22sp"    android:text="Activities" android:layout_gravity="center" android:layout_height="wrap_content" android:layout_width="190dp" android:layout_weight="0.06"></Button>
+    <Button android:id="@+id/b3"  android:background="@android:color/transparent"   android:layout_marginTop="15dp"   android:textColor="#ffffFF"  android:textSize="22sp" android:text="Orientation cermony" android:layout_gravity="center" android:layout_height="wrap_content" android:layout_weight="0.05" android:layout_width="226dp"></Button>
+    
+    
+  	
+    <Button android:id="@+id/b4" android:background="@android:color/transparent"  android:textColor="#ffffFF"  android:textSize="22sp"  android:text="" android:layout_gravity="center" android:layout_height="wrap_content" android:layout_width="190dp" android:layout_weight="0.06"></Button>
+  	<Button android:id="@+id/b5" android:background="@android:color/transparent"  android:textColor="#ffffFF" android:textSize="22sp"  android:text="" android:layout_gravity="center" android:layout_height="wrap_content" android:layout_width="190dp" android:layout_weight="0.06"></Button>
+  <Button android:id="@+id/b6" android:background="@android:color/transparent"  android:textColor="#ffffFF"  android:textSize="22sp"  android:text=" " android:layout_gravity="center" android:layout_height="wrap_content" android:layout_width="190dp" android:layout_weight="0.06"></Button>
+  
+  </LinearLayout>

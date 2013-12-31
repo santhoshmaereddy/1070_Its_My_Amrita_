@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#3b3b3b"
+    
+>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:background="#3b3b3b"
+  android:weightSum="1" android:layout_height="426dp">
+
+        
+	    <TextView android:layout_height="wrap_content" 
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:text=" MAARDHANI " android:layout_width="wrap_content" 
+    android:id="@+id/textView1" android:layout_alignParentTop="true"
+    android:textSize="30dp"
+    
+     android:layout_marginTop="20dip"
+     android:background="#FFFFFF"
+		android:layout_gravity="center"
+		
+    
+    android:textColor="#0050EF"
+
+     >
+    </TextView>
+    
+
+<TextView android:text="	MAARDHANI works to discover and foster the literary talent of students, thus enhancing their potential. The main idea of the club is to motivate students and prepare them for real tasks outside the classroom,helping them with their communication skills, oratorical skills, attitude development skills and providing students the opportunity to showcase their talents." 
+    android:layout_height="wrap_content"
+     android:id="@+id/textView3" 
+     android:layout_marginLeft="22dp"
+     android:textSize="18sp"
+     android:textColor="#ffffff"
+     android:layout_width="wrap_content" 
+     android:layout_below="@+id/textView2" 
+     android:layout_alignLeft="@+id/textView2" 
+     android:layout_marginTop="18dp"></TextView>
+     
+     
+     <TextView android:text="	Events like open house debate, JAM, Block and Tackle etc. were conducted on a weekly basis giving students a platform to prove their mettle and hone their literary skills." 
+    android:layout_height="wrap_content"
+     android:id="@+id/textView3" 
+     android:layout_marginLeft="22dp" android:textSize="18sp"
+     android:textColor="#ffffff"
+     android:layout_width="wrap_content" 
+     android:layout_below="@+id/textView2" 
+     android:layout_alignLeft="@+id/textView2" 
+     android:layout_marginTop="18dp"></TextView>
+     
+     
+     <TextView android:text="	The club gives the best platform to harness their communication skills and sharpen their wit and communication skills." 
+    android:layout_height="wrap_content"
+     android:id="@+id/textView3" 
+     android:layout_marginLeft="22dp" android:textSize="18sp"
+     android:textColor="#ffffff"
+     android:layout_width="wrap_content" 
+     android:layout_below="@+id/textView2" 
+     android:layout_alignLeft="@+id/textView2" 
+     android:layout_marginTop="18dp"></TextView>
+     
+      <TextView android:text="	Maardhani bring out students who are self-assured and bold enough to face various obstacles and challenges with a positive frame of mind." 
+    android:layout_height="wrap_content"
+     android:id="@+id/textView3" 
+     android:layout_marginLeft="22dp" android:textSize="18sp"
+     android:textColor="#ffffff"
+     android:layout_width="wrap_content" 
+     android:layout_below="@+id/textView2" 
+     android:layout_alignLeft="@+id/textView2" 
+     android:layout_marginTop="18dp"></TextView>
+     
+     
+     
+    
+    
+
+<Button 
+     android:layout_weight="1.0" android:layout_width="150dp" 
+     android:layout_marginTop="20dip"
+     android:background="#FFFFFF"
+		android:layout_gravity="center"
+		android:textColor="#0A5BC4"
+     android:text=" Members " android:layout_height="wrap_content" 
+     android:id="@+id/literaryteambtn" android:textSize="25dp"></Button>
+    
+    
+    <Button 
+     android:layout_weight="1.0" android:layout_width="150dp" 
+     android:layout_marginTop="20dip"
+     android:background="#FFFFFF"
+		android:layout_gravity="center"
+		android:textColor="#0A5BC4"
+     android:text=" 2012 Events" android:layout_height="wrap_content" 
+     android:id="@+id/literary12btn" android:textSize="25dp"></Button>
+    
+    
+    
+    <Button 
+     android:layout_weight="1.0" android:layout_width="150dp" 
+     android:layout_marginTop="20dip"
+     android:background="#FFFFFF"
+		android:layout_gravity="center"
+		android:textColor="#0A5BC4"
+     android:text=" 2013 Events" android:layout_height="wrap_content" 
+     android:id="@+id/literary134btn" android:textSize="25dp"></Button>
+    
+      <TextView android:layout_height="wrap_content" 
+      android:id="@+id/textView2" android:layout_marginLeft="22dp"
+      android:textColor="#ffffff"
+      android:layout_weight="0.36"
+           android:layout_marginTop="18dip"  android:textSize="18dp"
+       android:layout_width="wrap_content" 
+       android:text="  	   		">
+       </TextView>
+    
+</LinearLayout>
+
+
+</ScrollView>
